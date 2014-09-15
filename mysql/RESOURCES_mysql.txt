@@ -1,0 +1,11 @@
+RESOURCES_mysql.txt
+
+Tested using Uniform Server 8.8.1
+http://www.uniformserver.com
+http://wiki.uniformserver.com/index.php/Main_Page
+http://sourceforge.net/projects/miniserver/files/
+http://sourceforge.net/projects/miniserver/files/Uniform%20Server/
+http://sourceforge.net/projects/miniserver/files/Uniform%20Server/8.8.1-Coral/
+
+MySQL Workbench
+http://dev.mysql.com/downloads/workbench/
