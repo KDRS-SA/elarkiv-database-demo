@@ -16,7 +16,7 @@ c) "test02_insert_small.sql" {small set of demo table content}
 1. Inserts content into database tables:
 arkivskaper, arkiv, serie, stykke, mappe
 
-The test02 database is exported to the SIARD format using SIARD SiardEdit 1.69 from the Swiss Federal Archives.
+The test02 database is exported to the SIARD format using the SiardEdit ver. 1.69 application from the Swiss Federal Archives.
 File: test02_mysql_elarkiv-database-demo_2014-09-15.siard
 File: test02-small_mysql_elarkiv-database-demo_2014-09-15.siard
 
@@ -27,3 +27,5 @@ File: test02_small_mysql_elarkiv-database-demo_2014-09-15_metadata.xml
 Unzipped SIARD-folder using PKZIP:
 Folder: test02_mysql_elarkiv-database-demo_2014-09-15
 Folder: test02-small_mysql_elarkiv-database-demo_2014-09-15
+
+Run (import) SQL-query "test02_create_user_&_database_only.sql" before importing the SIARD-file into a clean MySQL system.

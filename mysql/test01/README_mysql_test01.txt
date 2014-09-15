@@ -13,7 +13,7 @@ Run (import) SQL-query "test01_update.sql"
 1. Updates database "test01", table "testtabell", field "beskrivelse"
 - New value = "[tittel] [arkivkodefra]-[arkivkodetil]"
 
-The test01 database is exported to the SIARD format using SIARD SiardEdit 1.69 from the Swiss Federal Archives.
+The test01 database is exported to the SIARD format using the SiardEdit ver. 1.69 application from the Swiss Federal Archives.
 File: test01_mysql_elarkiv-database-demo_2014-09-15.siard
 
 Exported metadata from SiardEdit:
@@ -21,3 +21,5 @@ File: test01_mysql_elarkiv-database-demo_2014-09-15_metadata.xml
 
 Unzipped SIARD-folder using PKZIP:
 Folder: test01_mysql_elarkiv-database-demo_2014-09-15
+
+Run (import) SQL-query "test01_create_user_&_database_only.sql" before importing the SIARD-file into a clean MySQL system.
