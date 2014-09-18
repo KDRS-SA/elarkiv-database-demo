@@ -1,5 +1,8 @@
 README_mysql_test02.txt
 
+Creates demo database test02 & user test-02 with password test:
+- Demo of archive catalog with tables with content: arkivskaper, arkiv, stykke, serie, mappe & objekt.
+
 With user having full MySQL admin permissions:
 
 Run (import) SQL-query "test02_create.sql"

@@ -1,5 +1,8 @@
 README_mysql_test01.txt
 
+Creates demo database test01 & user test-01 with password test:
+- table "testtabell" containing 6 rows of data.
+
 With user having full MySQL admin permissions:
 
 Run (import) SQL-query "test01_create.sql"
