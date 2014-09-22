@@ -1,0 +1,348 @@
+<!--	XML-DTD for								-->
+<!--	ADDMML (Archives Data Description and Manipulation Markup Language):	-->
+<!--										-->
+<!--	Arkivverkets standard for strukturell beskrivelse og behandling		-->
+<!--	(sjekk, analyse og konvertering) av avlevert, digitalt arkivmateriale	-->
+<!--										-->
+<!--	Fil: addmml.dtd								-->
+<!--	Versjon 7.3  (27.06.2001)						-->
+<!--	Avdeling for elektronisk arkiv, Riksarkivet i Norge (v/Lars Nygaard)    -->
+
+
+<!--  Nivaa 0: ROTNIVAAET  -->
+
+<!ELEMENT addmml (reference, structure, processes?)>
+<!ATTLIST addmml
+		version CDATA #FIXED "7.3">		<!-- Versjonsnummeret av ADDMML skal vaere hardkodet i alle ADDMML-filer. -->
+
+
+
+
+<!--  Nivaa 1: REFERANSE, STRUKTUR, PROSESSER  -->
+
+<!ELEMENT reference (archives, system)>			<!-- Referanseinformasjon om arkiv, arkivskaper, det aktuelle datasystemet
+								og tidsrom for uttrekket: -->
+
+
+<!ELEMENT archives (ar_name)>				<!-- Informasjon om det aktuelle arkivet og arkivskaperen: -->
+<!ATTLIST archives
+		ar_id CDATA #REQUIRED>			<!-- Entydig identifikator for arkivet i Arkimedes, format f.eks. "NO/RA/S-7846" -->
+<!ELEMENT ar_name (#PCDATA)>				<!-- Betegnelse/tittel/navn paa arkivet og arkivskaperen, format: fri tekst,
+								f.eks. "Politiet, elektroniske arkiver" -->
+
+
+<!ELEMENT system (sy_name, startdate?, enddate?)>	<!-- Informasjon om det aktuelle datasystemet og tidsrom for datauttrekket: -->
+<!ATTLIST system
+		sy_id CDATA #REQUIRED>			<!-- Entydig identifikator for systemet i Arkimedes, format f.eks. "NO/RA/S-7846/S1" -->
+<!ELEMENT sy_name (#PCDATA)>				<!-- Betegnelse/tittel/navn paa systemet, format: fri tekst, f.eks.
+								"Straffesaksregisteret STRASAK"-->
+<!ELEMENT startdate (#PCDATA)>				<!-- Startdato (eller -aar) for uttrekket (datasettet), format: yyyymmdd eller yyyy -->
+<!ELEMENT enddate (#PCDATA)>				<!-- Sluttdato (eller -aar) for uttrekket (datasettet), format: yyyymmdd eller yyyy -->
+
+
+
+
+<!ELEMENT structure (dataset)>				<!-- Beskrivelse av ulike datastrukturer: Kun "dataset" er implementert pr. 26.06.2001.
+								"rdb", "noark4" m.fl. vi kanskje bli definert senere? -->
+
+
+<!--  Nivaa 2: DATASETT (mengden av datafiler (tekstfiler) tilhoerende et versjonssett av datauttrekket)  -->
+
+<!ELEMENT dataset (ds_descr?, charset, chardef*, format, recsep, string_null?, integer_null?, float_null?, date_null?, nu_files, sql*, file+)>
+<!ATTLIST dataset
+		ds_id CDATA #REQUIRED>			<!-- Entydig identifikator for uttrekket/versjonen, format f.eks.
+								"NO/RA/S-7846/S1/U8/V1" -->
+<!ELEMENT ds_descr (#PCDATA)>				<!-- Beskrivelse av versjons-/datasettets innhold, format: fri tekst -->
+<!ELEMENT charset (#PCDATA)>				<!-- Tegnsett (felles for det meste av datasettet); lovlige verdier i Arkade er
+								filnavn paa aktuelle tegnsettbeskrivelser, f.eks. "ebcdic-cp-no", pluss disse:
+								ISO-8859-1 = Standard 8-bits ASCII i Vest-Europa (Unix/Windows)
+								CP-850 = 8-bits (DOS)
+								ISO-646 = 7-bits ASCII (dansk/norsk variant)
+								EBCDIC = Et av mange 8-bits tegnsett fra IBM Main Frames -->
+<!ELEMENT chardef (local, iso)>				<!-- ISO 8859/1-oversettelse av enkelttegn i varianter av oppgitt tegnsett
+								(felles for det meste av datasettet). -->
+<!ELEMENT local (#PCDATA)>				<!-- Den hexadesimale (00-FF) representasjonen av tegnet i datafilene. -->
+<!ELEMENT iso (#PCDATA)>				<!-- Den hexadesimale (00-FF) representasjonen av tegnet i ISO 8859/1.
+								Eks: C6 = Aelig, D8 = Oslash, C5 = Aring,
+								     E6 = aelig, F8 = oslash, E5 = aring -->
+<!ELEMENT format (#PCDATA)>				<!-- Format (felles for det meste av datasettet); forhaandsdefinerte verdier:
+								FIXED = felt i faste posisjoner
+								DELIM = "kommaseparerte" felt
+								MARKUP = innholdet "tagget" i SGML, XML, HTML etc
+								PREF = prefiksede felt, f.eks. "Navn: Karl Olsen" (ennaa ikke impl.) -->
+<!ELEMENT recsep (#PCDATA)>				<!-- Postskille i filene (felles for det meste av datasettet); for-
+								haandsdefinerte verdier: "CRLF", "CR", "LF" og "NO" (=intet fysisk postskille) -->
+<!ELEMENT string_null (#PCDATA)>			<!-- Nullverdi benyttet i STRING-felter gjennom hele datasettet. En nullverdi
+								er en feltverdi som skal tolkes som null/missing. ' ' er default
+								nullverdi i format FIXED og spesifiseres ikke.  -->
+<!ELEMENT integer_null (#PCDATA)>			<!-- Nullverdi benyttet i INTEGER-felter gjennom hele datasettet -->
+<!ELEMENT float_null (#PCDATA)>				<!-- Nullverdi benyttet i FLOAT-felter gjennom hele datasettet -->
+<!ELEMENT date_null (#PCDATA)>				<!-- Nullverdi benyttet i DATE-felter gjennom hele datasettet -->
+<!ELEMENT nu_files (#PCDATA)>				<!-- Antall filer tilhoerende datasettet, format: heltall -->
+<!ELEMENT sql (#PCDATA)>				<!-- SQL92-setning som skal kunne kjoeres mot datasettet hvis det regenereres
+								i et databasesystem (f.eks. SAS). SQL-setningen parses ikke og kan
+								inneholde markuptegn. Format: <![CDATA[select .....]]>  -->
+<!ATTLIST sql
+		stnr CDATA #REQUIRED>			<!-- SQL-setningens unike loepenummer (S1, S2, S3, S4 osv) -->
+
+
+
+<!--  Nivaa 3: FIL  -->
+
+<!ELEMENT file (fi_descr?, external?, fi_charset?, fi_chardef*, fi_format?, fi_recsep?, reclength?, delimspec?, padchar?, nu_rectypes, rectypeid?, nu_records?, nu_bytes?, rectype+)>
+<!ATTLIST file
+		name CDATA #REQUIRED			
+		path CDATA #REQUIRED>			<!-- name: Entydig logisk navn paa filen, format: bokstaver, siffer og spesialtegn,
+							     path: Fysisk katalog- og filnavn ved test i RA, format: "d:\kat2\fil7.txt" etc. -->
+<!ELEMENT fi_descr (#PCDATA)>				<!-- Beskrivelse av filens innhold, format: fri tekst -->
+<!ELEMENT external EMPTY>				<!-- Angir at filen er en del av et annet uttrekk/versjonssett/datasett. Beskrives som regel
+								ikke fullstendig. Hoppes over i Arkade. Jf. <incomplete> under POSTTYPE. -->
+<!ELEMENT fi_charset (#PCDATA)>				<!-- Tegnsett (hvis ulikt tegnsettet spesifisert paa datasettnivaa); lovlige verdier i
+								Arkade er filnavn paa aktuelle tegnsettbeskrivelser, f.eks. "ebcdic-cp-no",
+								pluss disse:
+								ISO-8859-1 = Standard 8-bits ASCII i Vest-Europa (Unix/Windows)
+								CP-850 = 8-bits (DOS)
+								ISO-646 = 7-bits ASCII (dansk/norsk variant)
+								EBCDIC = Et av mange 8-bits tegnsett fra IBM Main Frames -->
+<!ELEMENT fi_chardef (fi_local, fi_iso)>		<!-- ISO 8859/1-oversettelse av enkelttegn i varianter av det tegnsettet som er
+								oppgitt paa datasett- eller filnivaa. -->
+<!ELEMENT fi_local (#PCDATA)>				<!-- Den hexadesimale (00-FF) representasjonen av tegnet i datafilen. -->
+<!ELEMENT fi_iso (#PCDATA)>				<!-- Den hexadesimale (00-FF) representasjonen av tegnet i ISO 8859/1.
+								Eks: C6 = Aelig, D8 = Oslash, C5 = Aring,
+								     E6 = aelig, F8 = oslash, E5 = aring -->
+<!ELEMENT fi_format (#PCDATA)>				<!-- Format (hvis ulikt formatet spesifisert paa datasettnivaa); forhaandsdefinerte verdier:
+								FIXED = felt i faste posisjoner
+								DELIM = "kommaseparerte" felt
+								MARKUP = innholdet "tagget" i SGML, XML, HTML etc
+								PREF = prefiksede felt, f.eks. "Navn: Karl Olsen" (ennaa ikke impl.) -->
+<!ELEMENT fi_recsep (#PCDATA)>				<!-- Postskille i filen (hvis ulikt postskillet spesifisert paa datasettnivaa); for-
+								haandsdefinerte verdier: "CRLF", "CR", "LF" og "NO" (=intet fysisk postskille) -->
+<!ELEMENT reclength (#PCDATA)>				<!-- Postlengde naar fast gjennom hele filen (antall tegn inkl padding ekskl CR/LF) -->
+<!ELEMENT delimspec (fieldsep, quote?)>			<!-- Feltskille og evt tekstmarkering naar formatet er DELIM -->
+<!ELEMENT fieldsep (#PCDATA)>				<!-- Feltskilletegn naar format=DELIM, dvs den hexadesimale (00-FF)
+								representasjonen av tegnet i datafilen -->
+<!ELEMENT quote (#PCDATA)>				<!-- Tegn som omslutter tekst- (og dato-?)verdier, dvs den hexadesimale (00-FF)
+								representasjonen av tegnet i datafilen. Tegnene " og ' behandles
+								automatisk i Arkade, og trenger ikke angis med <quote>. -->
+<!ELEMENT padchar (#PCDATA)>				<!-- Tegn brukt til "padding" av felt og poster inntil fast lengde (hvis ikke ' '),
+								dvs den hexadesimale (00-FF) representasjonen av tegnet i datafilen -->
+<!ELEMENT nu_rectypes (#PCDATA)>			<!-- Antall ulike posttyper i filen, format: heltall -->
+<!ELEMENT rectypeid (#PCDATA)>				<!-- Felt for posttypemerke (obligatorisk naar nu_rectypes > 1),
+								format: posisjoner (f.eks. '1-5') naar FIXED, feltnummer
+								(f.eks. '1') naar DELIM, prefiks (f.eks. 'ptype') naar PREF -->
+<!ELEMENT nu_records (#PCDATA)>				<!-- Totalt antall poster i filen, format: heltall -->
+<!ELEMENT nu_bytes (#PCDATA)>				<!-- Totalt antall bytes i filen (inkl padding og CR/LF), format: heltall -->
+
+
+
+<!--  Nivaa 4: POSTTYPE  -->
+
+<!ELEMENT rectype (rt_descr?, incomplete?, rt_id?, primkey?, altkey*, forkey*, rt_fixlength?, rt_minlength?, rt_maxlength?, nu_fields?, nu_recs?, fieldtype+)>
+<!ATTLIST rectype
+		name CDATA #REQUIRED>			<!-- Navn paa posttypen (entydig innenfor filen), format: bokstaver, siffer og spesialtegn -->
+<!ELEMENT rt_descr (#PCDATA)>				<!-- Beskrivelse av posttypen (fri tekst) -->
+<!ELEMENT incomplete EMPTY>				<!-- Angir at posttypen ikke er fullstendig beskrevet; kun noekkelfelter er tatt med.
+								Behandles ikke i Arkade. Jf. <external> under FIL. -->
+<!ELEMENT rt_id (#PCDATA)>				<!-- Verdi av posttypemerket for denne posttypen, format: den hexadesimale (00-FF)
+								representasjonen av tegnet/tegnene i datafilen -->
+<!ELEMENT primkey (#PCDATA)>				<!-- Primaernoekkel (entydig og ikke NULL), format: feltnavn+feltnavn -->
+<!ELEMENT altkey (#PCDATA)>				<!-- Sekundaernoekkel (entydig og ikke NULL), format: feltnavn+feltnavn -->
+<!ELEMENT forkey (fields, reffilerec, reffields, reltype?)>	<!-- Fremmednoekkel (NULL eller kandidatnoekkel i en annen posttype) -->
+<!ELEMENT fields (#PCDATA)>				<!-- Feltet/feltene som utgjoer fremmednoekkelen i denne posttypen,
+								format: feltnavn+feltnavn -->
+<!ELEMENT reffilerec (#PCDATA)>				<!-- Fil og posttype der denne fremmednoekkelen er kandidatnoekkel,
+								format: fil.posttype -->
+<!ELEMENT reffields (#PCDATA)>				<!-- Feltet/feltene som utgjoer kandidatnoekkelen i den refererte posttypen,
+								format: feltnavn+feltnavn -->
+<!ELEMENT reltype (#PCDATA)>			        <!-- Relasjonstype, sett fra denne posttypen i forhold til den refererte
+								posttypen. Typiske verdier "n:1" og "1:1" ("n:m" umulig). -->
+<!ELEMENT rt_fixlength (#PCDATA)>			<!-- Posttypens evt faste lengde hvis forskjellig fra andre posttyper i
+								filen (antall tegn inkl padding ekskl CR/LF) -->
+<!ELEMENT rt_minlength (#PCDATA)>			<!-- Posttypens minimumslengde (antall tegn ekskl padding og CR/LF) -->
+<!ELEMENT rt_maxlength (#PCDATA)>			<!-- Posttypens maksimumslengde (antall tegn ekskl padding og CR/LF) -->
+<!ELEMENT nu_fields (#PCDATA)>				<!-- Antall felt i posttypen, format: heltall -->
+<!ELEMENT nu_recs (#PCDATA)>				<!-- Antall poster av denne typen i filen, format: heltall -->
+
+
+
+<!--  Nivaa 5: FELT (eg. felttype)  -->
+
+<!ELEMENT fieldtype (ft_descr?, startpos?, endpos?, ft_fixlength?, ft_minlength?, ft_maxlength?, rep?, datatype, mask?, packed?, century?, ft_nullvalue?, nonull?, unique?, code*)>
+<!ATTLIST fieldtype
+		name CDATA #REQUIRED>			<!-- Navn paa feltet (entydig innenfor posttypen), format: bokstaver, siffer og spesialtegn -->
+<!ELEMENT ft_descr (#PCDATA)>				<!-- Beskrivelse av feltet, format: fri tekst -->
+<!ELEMENT startpos (#PCDATA)>				<!-- Feltets startposisjon (naar FIXED), format: heltall -->
+<!ELEMENT endpos (#PCDATA)>				<!-- Feltets sluttposisjon (naar FIXED), format: heltall -->
+<!ELEMENT ft_fixlength (#PCDATA)>			<!-- Fast antall tegn i feltet (inkl evt padding), format: heltall -->
+<!ELEMENT ft_minlength (#PCDATA)>			<!-- Minimalt antall tegn i feltet (ekskl padding), format: heltall -->
+<!ELEMENT ft_maxlength (#PCDATA)>			<!-- Maksimalt antall tegn i feltet (ekskl padding), format: heltall -->
+<!ELEMENT rep EMPTY>					<!-- Markerer at feltet er en del av en "repeterende gruppe" til slutt i posten -->
+<!ELEMENT datatype (#PCDATA)>				<!-- Grunndatatype for feltverdien; forhaandsdefinerte verdier:
+								STRING = tekststreng av vilkaarlig lengde >= 1 ,
+								INTEGER = heltall av vilkaarlig stoerrelse,
+								FLOAT = desimaltall av vilkaarklig stoerrelse,
+								DATE = dato og evt klokkeslett -->
+<!ELEMENT mask (#PCDATA)>				<!-- Format benyttet i det aktuelle feltet i datafilen; lovlige verdier er
+								alle definerte "innformater" i SAS-manualen, bortsett fra "innformatene"
+								for pakkede felter (se <packed> nedenfor). For pakkede felter angis i
+								<mask> formatet i utpakket tilstand. Formatene "$CHARw." for STRING-
+								felter og "w." for INTEGER-felter er "default", og spesifiseres ikke
+								i <mask>. I tillegg kommer for STRING: "$birthnum." og "$account.". -->
+<!ELEMENT packed (#PCDATA)>				<!-- Forteller at feltet er "packed". Forhaandsdefinerte verdier hentet fra
+								SAS-manualens "innformater":
+								PDw.d = standardvariant med fortegn
+								S370FPDw.d = IBM-variant med fortegn
+								PKw.d = standardvariant uten fortegn -->
+<!ELEMENT century (#PCDATA)>				<!-- Aktuelt intervall for aarstall oppgitt med to siffer i datafilen;
+								f.eks. "1881-1980" -->
+<!ELEMENT ft_nullvalue (#PCDATA)>			<!-- Feltverdi som skal tolkes som null/missing (hvis forskjellig
+								fra evt nullverdi spesifisert paa datasettnivaa.) -->
+<!ELEMENT nonull EMPTY>					<!-- Feltet maa ha en verdi. "Nullverdi" (kun blanke tegn etc) tillates ikke. -->
+<!ELEMENT unique EMPTY>					<!-- Dette feltet skal ha entydige (unike) verdier gjennom filen,
+								bortsett fra eventuelle nullverdier. -->
+
+
+
+<!--  Nivaa 6: KODE  -->
+
+<!ELEMENT code (value, explan)>				<!-- Fra kodeverdi til kodebeskrivelse (dekoding) -->
+<!ELEMENT value (#PCDATA)>				<!-- Kodeverdien (som staar i feltet i datafilen) -->
+<!ELEMENT explan (#PCDATA)>				<!-- Forklaring til koden (evt originalbetegnelse) -->
+
+
+<!-- SLUTT PA STRUKTURDEL -->
+
+
+
+<!-- PROSESSDEL -->
+
+
+<!--  DEKLARASJON AV PARAMETER-ENTITETER (makroer):  -->
+
+<!ENTITY % ref_file 'file CDATA #REQUIRED'>		<!-- Referanse til navngitt fil -->
+
+<!ENTITY % ref_rectype '%ref_file;
+		rectype CDATA #REQUIRED'>		<!-- Referanse til navngitt fil og posttype -->
+
+<!ENTITY % ref_fieldtype '%ref_rectype;
+		fieldtype CDATA #REQUIRED'>		<!-- Referanse til navngitt fil, posttype og felt -->
+
+
+<!-- Spesifikasjon av prosesser (analyser, sjekker, konverteringer osv.) tilhoerende ulike datastrukturer.	-->
+<!-- Kun "dataset" er definert pr. 26.06.2001. 									-->
+
+<!-- Strukturelementene (paa nivaa 2-6) for hver datastruktur vil, som det fremgaar av strukturdelen, vaere nestet. -->
+<!-- Prosesselementene tilhoerende de samme strukturnivaaene vil derimot, som det fremgaar nedenfor, vaere -->
+<!-- paa _samme_ nivaa i prosessdelen. Paa hvert nivaa spesifiseres sjekker (S),	-->
+<!-- analyser (A) og konverteringer (K); se markering foerst i kommentaren.		-->
+
+
+
+<!--  Nivaa 1: (REFERANSE, STRUKTUR,) PROSESSER  -->
+
+<!ELEMENT processes (p_dataset | p_file | p_rectype | p_fieldtype)+>
+							<!-- Prosesselementer knyttet til de 5 ulike strukturelementene
+								spesifisert i strukturdelen. -->
+
+
+
+<!--  Nivaa 2: DATASETT (mengden av datafiler (tekstfiler) tilhoerende et versjonssett av datauttrekket)  -->
+
+<!ELEMENT p_dataset (ds_analysis?, new_charset?, new_format?, new_recsep?)>
+<!ELEMENT ds_analysis (#PCDATA)>			<!-- A Utfoerer standard analyse av datasettet ned til angitt nivaa,
+								forhaandsdefinerte verdier: FILE, RECORD og FIELD -->
+<!ELEMENT new_charset (#PCDATA)>			<!-- K Konverterer hele datasettet til nytt tegnsett; mulige verdier er filnavn
+								paa aktuelle tegnsettbeskrivelser, f eks "ebcdic-cp-no", pluss disse:
+								    ISO-8859-1 = Standard 8-bits ASCII i Vest-Europa (Unix/Windows)
+								    CP-850 = 8-bits (DOS)
+								    ISO-646 = 7-bits ASCII (dansk/norsk variant)
+								    EBCDIC = Et av mange 8-bits tegnsett fra IBM "main frames"
+								Hvis elementverdien er "ISO-8859-1", konverteres ogsaa evt enkelttegn
+								spesifisert med <chardef> i strukturdelen. -->
+<!ELEMENT new_format (#PCDATA)>				<!-- K Konverterer hele datasettet til nytt format; mulige verdier:
+								FIXED = felt i faste posisjoner
+								DELIM = "kommaseparerte" felt
+								MARKUP = innholdet "tagget" i SGML, XML, HTML etc
+								PREF = prefiksede felt, f eks "Navn: Karl Olsen" (ennaa ikke impl.) -->
+<!ELEMENT new_recsep (#PCDATA)>				<!-- K Innfoerer felles postskille for hele datasettet; mulige verdier:
+								"CRLF", "CR", "LF" og "NO" -->
+
+
+
+<!--  Nivaa 3: FIL  -->
+
+<!ELEMENT p_file (fi_check*, fi_analysis?, fi_new_charset?, fi_new_format?, fi_new_recsep?, extract*, split_rectypes?)>
+<!ATTLIST p_file %ref_file;>				<!-- Referanse til navngitt fil -->
+<!ELEMENT fi_check (#PCDATA)>				<!-- S Sjekker all eller spesifiserte deler av oppgitt informasjon paa filnivaa;
+								forhaandsdefinerte verdier: ALL, RECLENGTH, NU_RECTYPES, NU_RECORDS,
+								NU_BYTES -->
+<!ELEMENT fi_analysis (#PCDATA)>			<!-- A Utfoerer standard analyse av filen ned til angitt nivaa,
+								forhaandsdefinerte verdier: FILE, RECORD og FIELD -->
+<!ELEMENT fi_new_charset (#PCDATA)>			<!-- K Konverterer filen til nytt tegnsett; mulige verdier er filnavn
+								paa aktuelle tegnsettbeskrivelser, f eks "ebcdic-cp-no", pluss disse:
+								    ISO-8859-1 = Standard 8-bits ASCII i Vest-Europa (Unix/Windows)
+								    CP-850 = 8-bits (DOS)
+								    ISO-646 = 7-bits ASCII (dansk/norsk variant)
+								    EBCDIC = Et av mange 8-bits tegnsett fra IBM "main frames"
+								Hvis elementverdien er "ISO-8859-1", konverteres ogsaa evt enkelttegn
+								spesifisert med <fi_chardef> i strukturdelen. -->
+<!ELEMENT fi_new_format (#PCDATA)>			<!-- K Konverterer filen til nytt format; mulige verdier:
+								FIXED = felt i faste posisjoner
+								DELIM = "kommaseparerte" felt
+								MARKUP = innholdet "tagget" i SGML, XML, HTML etc
+								PREF = prefiksede felt, f eks "Navn: Karl Olsen" (ennaa ikke impl.) -->
+<!ELEMENT fi_new_recsep (#PCDATA)>			<!-- K Innfoerer eller endrer postskille i filen; mulige verdier:
+								"CRLF", "CR", "LF" og "NO" -->
+<!ELEMENT extract (#PCDATA)>				<!-- K Skiller en spesifisert del av filen (f.o.m./t.o.m. oppgitte
+								postnummer) ut paa en ny fil. Format: f eks "2001-4000". -->
+<!ELEMENT split_rectypes EMPTY>				<!-- K Deler opp filen i separate filer for hver posttype.
+								Oppretter noekler om noedvendig (ikke ennaa). -->
+
+
+
+<!--  Nivaa 4: POSTTYPE  -->
+
+<!ELEMENT p_rectype (rt_check*, rt_analysis?, freq_allfields?, crosstab*, split_repgroups?)>
+<!ATTLIST p_rectype %ref_rectype;>			<!-- Referanse til navngitt fil og posttype -->
+<!ELEMENT rt_check (#PCDATA)>				<!-- S Sjekker all eller spesifiserte deler av oppgitt informasjon paa posttypenivaa,
+								forhaandsdefinerte verdier: ALL, PRIMKEY, ALTKEY, FORKEY, RT_FIXLENGTH,
+								RT_MINLENGTH, RT_MAXLENGTH, NU_FIELDS, NU_RECS -->
+<!ELEMENT rt_analysis (#PCDATA)>			<!-- A Utfoerer standard analyse av posttypen ned til angitt nivaa,
+								aktuelle verdier: RECORD og FIELD -->
+<!ELEMENT freq_allfields EMPTY>				<!-- A Produserer sortert frekvensliste for hvert felt i posttypen -->
+<!ELEMENT crosstab (#PCDATA)>				<!-- A Produserer krysstabell mellom to spesifiserte felt i posttypen,
+								format 'feltnavn|feltnavn' -->
+<!ELEMENT split_repgroups EMPTY>			<!-- K Splitter opp repeterte grupper av "rep"-definerte felt i posttypen
+								til egne poster i ny fil. Evt primaernoekkel i utgangsfilen blir
+								fremmednoekkel i den nye filen. Ellers genereres noekler. -->
+
+
+
+<!--  Nivaa 5: FELT (eg. felttype)  -->
+
+<!ELEMENT p_fieldtype (ft_check*, ft_analysis?, freq?, (unpack?, new_datatype, new_mask)?)>
+<!ATTLIST p_fieldtype %ref_fieldtype;>			<!-- Referanse til navngitt fil, posttype og felt -->
+<!ELEMENT ft_check (#PCDATA)>				<!-- S Sjekker all eller spesifiserte deler av oppgitt informasjon paa feltnivaa,
+								forhaandsdefinerte verdier: ALL, FT_FIXLENGTH, FT_MINLENGTH,
+								FT_MAXLENGTH, DATAFORMAT, NONULL, UNIQUE, CODES -->
+<!ELEMENT ft_analysis EMPTY>				<!-- A Utfoerer full analyse av dette feltet gjennom filen -->
+<!ELEMENT freq EMPTY>					<!-- A Produserer frekvensliste over verdiene i feltet -->
+<!ELEMENT unpack EMPTY>					<!-- K Ekspanderer PACKED-felter til nedenfor angitt datatype og format -->
+<!ELEMENT new_datatype (#PCDATA)>			<!-- K Konverterer feltverdien til ny grunndatatype; forhaandsdefinerte verdier:
+								STRING = tekststreng av vilkaarlig lengde >= 1 ,
+								INTEGER = heltall av vilkaarlig stoerrelse,
+								FLOAT = desimaltall av vilkaarklig stoerrelse,
+								DATE = dato og evt klokkeslett -->
+<!ELEMENT new_mask (#PCDATA)>				<!-- K Konverterer feltverdien til nytt format (avh. av datatype); lovlige verdier
+								er alle definerte "utformater" i SAS-manualen, bortsett fra evt pakkede
+								"utformater". Pakkede felter skal alltid skal pakkes ut ved konvertering,
+								ellers beholdes "innformatet" naar ikke annet er spesifisert. I tillegg
+								til SAS-formatene kommer for STRING: "$birthnum." og "$account.". -->
+
+
+
+<!--  Nivaa 6: KODE  					Ingen prosesser paa kodenivaa definert pr. 26.06.2001. -->
+
+
+
+

@@ -1,0 +1,3 @@
+RESOURCES_standards.txt
+
+http://arkivverket.no/arkivverket/Offentleg-forvalting/Noark

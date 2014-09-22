@@ -1,0 +1,1029 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<!DOCTYPE addmml SYSTEM 'addmml.dtd'>
+
+<addmml version="7.3">
+  <reference>
+    <archives ar_id="test.kommune.no">
+      <ar_name>Test kommune</ar_name>
+    </archives>
+    <system sy_id="TST2014-001">
+      <sy_name>Sak/-arkivsystem og elektroniske postjournaler</sy_name>
+      <startdate>1986</startdate>
+      <enddate>2000</enddate>
+    </system>
+  </reference>
+  <structure>
+    <dataset ds_id="test.kommune.no/TST2014-001">
+      <ds_descr>Datasettet inneholder komplett journal over inn- og utgående korrespondanse (saksjournal og dokumentjournal). Inneholder også tabell for møter knyttet til utvalgsbehandling av saker.</ds_descr>
+      <charset>ISO-8859-1</charset>
+      <format>XML</format>
+      <recsep>NO</recsep>
+      <nu_files>3</nu_files>
+      <file name="dgjmjo" path="dgjmjo.xml">
+        <fi_descr>DOKUMENTJOURNAL - JOURNAL OVER INN OG UTGÅENDE DOKUMENTER, INTERNE DOKUMENTER OG SAKSFREMLEGG</fi_descr>
+        <nu_rectypes>1</nu_rectypes>
+        <rectype name="DOKUMENT">
+          <primkey>REFAAR+REFNR</primkey>
+          <forkey>
+            <fields>JOURAAR+JOURNR</fields>
+            <reffilerec>dgsmsa:SAK</reffilerec>
+            <reffields>JOURAAR+JOURNR</reffields>
+            <reltype>n:1</reltype>
+          </forkey>
+          <nu_fields>111</nu_fields>
+          <fieldtype name="REFAAR">
+            <ft_descr>Referanse - år</ft_descr>
+            <datatype>INTEGER</datatype>
+          </fieldtype>
+          <fieldtype name="REFNR">
+            <ft_descr>Referanse - nummer</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="REFAARNR">
+            <ft_descr>Referanse - år og nummer</ft_descr>
+            <datatype>STRING</datatype>
+            <unique/>
+          </fieldtype>
+          <fieldtype name="REGAAR">
+            <ft_descr>Registrerings år</ft_descr>
+            <datatype>INTEGER</datatype>
+          </fieldtype>
+          <fieldtype name="REGNR">
+            <ft_descr>Registrerings nummer</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="FORRIGELNR">
+            <ft_descr>Forrigelnr</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="FORRIGELNRAAR">
+            <ft_descr>Forrigelnraar</ft_descr>
+            <datatype>INTEGER</datatype>
+          </fieldtype>
+          <fieldtype name="JOURAAR">
+            <ft_descr>Journalnummer - år</ft_descr>
+            <datatype>INTEGER</datatype>
+          </fieldtype>
+          <fieldtype name="JOURNR">
+            <ft_descr>Journalnummer - nummer</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="DOKNR">
+            <ft_descr>Dokumentnummer - dokumentnummer i sak</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="AVD">
+            <ft_descr>Avdelingskode - ansvarlig avdeling</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="SEK">
+            <ft_descr>Seksjonskode - ansvarlig seksjon</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="SAKB">
+            <ft_descr>Saksbehandlerkode - ansvarlig saksbehandler</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="GRUPPE">
+            <ft_descr>Gruppe</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="UNNTOFF">
+            <ft_descr>Untatt offentlighet - kode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="AVSKJERMING">
+            <ft_descr>Avskjerming</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="HJEMMEL">
+            <ft_descr>Untatt offentlighet - hjemmel</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="AVGRADER">
+            <ft_descr>Avgrader</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="INNH1">
+            <ft_descr>Innhold - linje 1</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="INNH2">
+            <ft_descr>Innhold -linje 2</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="MERKNAD">
+            <ft_descr>Merknad</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="NAVN">
+            <ft_descr>Navn</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="ADRESSE">
+            <ft_descr>Adresse</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="ADRESSE2">
+            <ft_descr>Adresse</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="POSTNR">
+            <ft_descr>Postnummer</ft_descr>
+            <datatype>INTEGER</datatype>
+          </fieldtype>
+          <fieldtype name="POSTSTED">
+            <ft_descr>Poststed</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="LAND">
+            <ft_descr>Landkode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="BESOKADR">
+            <ft_descr>Besøksadresse</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="KONTAKT">
+            <ft_descr>Kontakt</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="TELEFON">
+            <ft_descr>Telefonnummer</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="FAX">
+            <ft_descr>Faxnummer</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="EPOSTADR">
+            <ft_descr>E-post adresse</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="SENDTSOM">
+            <ft_descr>Sendtsom</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="NAVNTYPE">
+            <ft_descr>Navntype (F/N)</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="UNAVN">
+            <ft_descr>Unavn</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="NAVNKODE">
+            <ft_descr>Navnkode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="PLE">
+            <ft_descr>Emnekode - plass</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="EKODE1">
+            <ft_descr>Emnekode (felt 1)</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="EKODE2">
+            <ft_descr>Emnekode (felt 2)</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="EKODE3">
+            <ft_descr>Emnekode (felt 3)</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="FELLESK">
+            <ft_descr>Fellesklasse (K-koder)</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="FAGK">
+            <ft_descr>Fagklasse (K-koder)</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="TILLEGSK">
+            <ft_descr>Tillegsklasse (K-koder)</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="ETEXT1">
+            <ft_descr>Emnekodetekst (felt1)</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="ETEXT2">
+            <ft_descr>Emnekodetekst (felt 2)</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="ETEXT3">
+            <ft_descr>Emnekodetekst (felt 3)</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="ALT_EKOD">
+            <ft_descr>Alternativ emnekode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="AE_TXT">
+            <ft_descr>Alternativ emnekode - tekst</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="KASSASJON">
+            <ft_descr>Kassasjon</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="PLA">
+            <ft_descr>Alternativ kode - plass</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="AKODE1">
+            <ft_descr>Alternativ kode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="PLO">
+            <ft_descr>Objektkode - plass</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="OTYPE">
+            <ft_descr>Objektkode - type</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="OKODE1">
+            <ft_descr>Objektkode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="OREFTYPE">
+            <ft_descr>Oreftype</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="OBJREF">
+            <ft_descr>Objektreferanse</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="FYSARK">
+            <ft_descr>Fysisk arkiv</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="JOURENHET">
+            <ft_descr>Journalenhet</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="MIDARKIV">
+            <ft_descr>Dato for midlertidig arkivlagt</ft_descr>
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="JOURART">
+            <ft_descr>Journalart kode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="TYPE">
+            <ft_descr>Journaltype kode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="ENDRDATO">
+            <ft_descr>Dato for siste endring av record</ft_descr>
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="ENDRSBH">
+            <ft_descr>Saksbehandler som gjorde siste endring</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="REGDATO">
+            <ft_descr>Registrert dato</ft_descr>
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="DATERT">
+            <ft_descr>Datert dato</ft_descr>
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="SVARFRIST">
+            <ft_descr>Svarfrist dato</ft_descr>
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="VEDLEGG">
+            <ft_descr>Vedlegg</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="REFERANSE">
+            <ft_descr>Referanse</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="REFUTV">
+            <ft_descr>Refereres utvalgskode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="STATUS">
+            <ft_descr>Status</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="UTLN">
+            <ft_descr>Utlån - kode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="UTLNDATO">
+            <ft_descr>Utlån - dato</ft_descr>
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="UTLNAVD">
+            <ft_descr>Utlån - avdelingskode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="UTLNSEK">
+            <ft_descr>Utlån - seksjon</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="UTLNSAKB">
+            <ft_descr>Utlån - saksbehandler</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="UTLNRETUR">
+            <ft_descr>Utlån - returdato</ft_descr>
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="AVSKRMET">
+            <ft_descr>Avskriving - metode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="AVSKRDATO">
+            <ft_descr>Avskriving - dato</ft_descr>
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="AVSKRDOK">
+            <ft_descr>Avskriving - dokument</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="AVSKRIVER">
+            <ft_descr>Avskriving - person</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="AVSKREVET">
+            <ft_descr>Avskrinving - dokument</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="KATALOG">
+            <ft_descr>Dokument - katalog</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="DOKNAVN">
+            <ft_descr>Dokument - filnavn</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="DOKODE">
+            <ft_descr>Dokument - dokumentkode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="ANTKOM">
+            <ft_descr>Antkom</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="POSTFLAGG">
+            <ft_descr>Postflagg</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="PROFIL">
+            <ft_descr>Profil</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="RECNO">
+            <ft_descr>Record nummer</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="JOURAARNR">
+            <ft_descr>Journalnummer - år og nummer</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="UDATERT">
+            <ft_descr>Udatert</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="U1">
+            <ft_descr>U1</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="EKSPDATO">
+            <ft_descr>Ekspdato</ft_descr>
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="OVDATO">
+            <ft_descr>Ovdato</ft_descr>
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="AGDATO">
+            <ft_descr>Agdato</ft_descr>
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="U2">
+            <ft_descr>U2</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="PAPIR">
+            <ft_descr>Papir</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="AMU1">
+            <ft_descr>Amu1</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="KLU2">
+            <ft_descr>Klu2</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="MEU1">
+            <ft_descr>Meu1</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="ORGNR">
+            <ft_descr>Organisasjonsnummer</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="AVSKAV">
+            <ft_descr>Avskav</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="BESVAR">
+            <ft_descr>Besvar</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="LOKPAPIR">
+            <ft_descr>Lokpapir</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="DOKSTATUS">
+            <ft_descr>Dokumentstatus</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="SBHID">
+            <ft_descr>Sbhid</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="ADMID">
+            <ft_descr>Admid</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="DOKKAT">
+            <ft_descr>Dokkat</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="FYSART">
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="RESTYPE">
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="RESUTTAK">
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="DATATYPE">
+            <datatype>STRING</datatype>
+          </fieldtype>
+        </rectype>
+      </file>
+      <file name="dgsmsa" path="dgsmsa.xml">
+        <fi_descr>SAKSJOURNAL - JOURNAL OVER SAKER BEHANDLET</fi_descr>
+        <nu_rectypes>1</nu_rectypes>
+        <rectype name="SAK">
+          <primkey>JOURAAR+JOURNR</primkey>
+          <nu_fields>96</nu_fields>
+          <fieldtype name="JOURAAR">
+            <ft_descr>Journalnummer - år</ft_descr>
+            <datatype>INTEGER</datatype>
+          </fieldtype>
+          <fieldtype name="JOURNR">
+            <ft_descr>Journalnummer - nummer</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="JOURAARNR">
+            <ft_descr>Journalnummer - år og nummer</ft_descr>
+            <datatype>STRING</datatype>
+            <unique/>
+          </fieldtype>
+          <fieldtype name="AVD">
+            <ft_descr>Avdelingskode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="SEK">
+            <ft_descr>Seksjonskode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="SAKB">
+            <ft_descr>Saksbehandlerkode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="GRUPPE">
+            <ft_descr>Gruppe</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="UNNTOFF">
+            <ft_descr>Unntatt offentlighet - kode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="AVSKJERMING">
+            <ft_descr>Avskjerming</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="HJEMMEL">
+            <ft_descr>Unntatt offentlighet - hjemmel</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="AVGRADER">
+            <ft_descr>Avgradering</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="INNH1">
+            <ft_descr>Innhold - linje 1</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="INNH2">
+            <ft_descr>Innhold - linje 2</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="MERKNAD">
+            <ft_descr>Merknad</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="NAVN">
+            <ft_descr>Navn</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="ADRESSE">
+            <ft_descr>Adresse</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="ADRESSE2">
+            <ft_descr>Adresse 2</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="POSTNR">
+            <ft_descr>Postnummer</ft_descr>
+            <datatype>INTEGER</datatype>
+          </fieldtype>
+          <fieldtype name="POSTSTED">
+            <ft_descr>Poststed</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="LAND">
+            <ft_descr>Landkode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="BESOKADR">
+            <ft_descr>Besøksadresse</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="KONTAKT">
+            <ft_descr>Kontakt</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="TELEFON">
+            <ft_descr>Telefonnummer</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="FAX">
+            <ft_descr>Faxnummer</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="EPOSTADR">
+            <ft_descr>E-post adresse</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="NAVNTYPE">
+            <ft_descr>Navntype</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="UNAVN">
+            <ft_descr>Unavn</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="NAVNKODE">
+            <ft_descr>Navnkode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="PLE">
+            <ft_descr>Emnekode - plass</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="EKODE1">
+            <ft_descr>Emnekode 1</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="EKODE2">
+            <ft_descr>Emnekode 2</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="EKODE3">
+            <ft_descr>Emnekode 3</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="FELLESK">
+            <ft_descr>Fellesklasse (K-koder)</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="FAGK">
+            <ft_descr>Fagklasse (K-koder)</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="TILLEGSK">
+            <ft_descr>Tillegsklasse (K-koder)</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="ETEXT1">
+            <ft_descr>Emnekodetekst 1</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="ETEXT2">
+            <ft_descr>Emnekodetekst 2</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="ETEXT3">
+            <ft_descr>Emnekodetekst 3</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="ALT_EKOD">
+            <ft_descr>Alternativ emnekode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="AE_TXT">
+            <ft_descr>Alternativ emnekode - tekst</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="KASSASJON">
+            <ft_descr>Kassasjon</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="PLA">
+            <ft_descr>Alternativ kode - plass</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="AKODE1">
+            <ft_descr>Alternativ kode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="PLO">
+            <ft_descr>Objektkode - plass</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="OTYPE">
+            <ft_descr>Objektkode - type</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="OKODE1">
+            <ft_descr>Objektkode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="OREFTYPE">
+            <ft_descr>Objekt referanse type</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="OBJREF">
+            <ft_descr>Objekt referanse</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="FYSARK">
+            <ft_descr>Fysisk arkiv</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="JOURENHET">
+            <ft_descr>Journalenhet</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="OBSDATO">
+            <ft_descr>Obs dato</ft_descr>
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="SAKART">
+            <ft_descr>Sakart</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="SAKTYPE">
+            <ft_descr>Saktype</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="SAKMALID">
+            <ft_descr>Sakmal ID</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="BEHTYPE">
+            <ft_descr>Behandlingstype</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="KLAGE">
+            <ft_descr>Klage</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="ENDRDATO">
+            <ft_descr>Dato for siste endring av record</ft_descr>
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="ENDRSBH">
+            <ft_descr>Saksbehandler som gjorde siste endring</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="AAPNET">
+            <ft_descr>Åpnet dato</ft_descr>
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="AVSLUTTET">
+            <ft_descr>Avsluttet dato</ft_descr>
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="DATERT">
+            <ft_descr>Datert</ft_descr>
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="SVARFRIST">
+            <ft_descr>Svarfrist</ft_descr>
+            <datatype>STRING</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="REFUTV">
+            <ft_descr>Refereres utvalg</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="STATUS">
+            <ft_descr>Status</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="UTLN">
+            <ft_descr>Utlån - kode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="UTLNDATO">
+            <ft_descr>Utlån - dato</ft_descr>
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="UTLNAVD">
+            <ft_descr>Utlån - avdelingskode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="UTLNSEK">
+            <ft_descr>Utlån - seksjonskode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="UTLNSAKB">
+            <ft_descr>Utlån - saksbehanderkode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="UTLNRETUR">
+            <ft_descr>Utlån - returdato</ft_descr>
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="PRESEDENS">
+            <ft_descr>Presedens - kode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="PRESDATO">
+            <ft_descr>Presedens - dato</ft_descr>
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="PRESINFO">
+            <ft_descr>Presedens - info</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="ANTDOK">
+            <ft_descr>Antall dokumenter i sak</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="SISTEDOK">
+            <ft_descr>Dato siste dokument</ft_descr>
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="ANTKOM">
+            <ft_descr>Antkom</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="POSTFLAGG">
+            <ft_descr>Postflagg</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="PROFIL">
+            <ft_descr>Profil</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="RECNO">
+            <ft_descr>Record nummer</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="PAPIR">
+            <ft_descr>Papir</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="U1">
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="BEVTID">
+            <ft_descr>Bevaringstid</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="KASSDATO">
+            <ft_descr>Kassasjonsdato</ft_descr>
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="FRAARKDEL">
+            <ft_descr>Fra arkivdel</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="OVDATO">
+            <ft_descr>Ovdato</ft_descr>
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="AGDATO">
+            <ft_descr>Agdato</ft_descr>
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="ORGNR">
+            <ft_descr>Organisasjonsnummer</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="KLU1">
+            <ft_descr>Klu1</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="KLU2">
+            <ft_descr>Klu2</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="SPU1">
+            <ft_descr>Spu1</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="MEU1">
+            <ft_descr>Meu1</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="LUKKET">
+            <ft_descr>Lukket</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="LHJEMMEL">
+            <ft_descr>Lhjemmel</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="SBHID">
+            <ft_descr>Sbhid</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="ADMID">
+            <ft_descr>Admid</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="KRYSSREF">
+            <ft_descr>Kryssreferanse</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+        </rectype>
+      </file>
+      <file name="dgmabh" path="dgmabh.xml">
+        <fi_descr>UTVALGSBEHANDLING - REGISTER OVER MØTER KNYTTET TIL UTVALGSBEHANDLING</fi_descr>
+        <nu_rectypes>1</nu_rectypes>
+        <rectype name="MØTE">
+          <primkey>REFAAR+REFNR</primkey>
+          <forkey>
+            <fields>JOURAARNR</fields>
+            <reffilerec>dgsmsa:SAK</reffilerec>
+            <reffields>JOURAARNR</reffields>
+            <reltype>1:1</reltype>
+          </forkey>
+          <nu_fields>32</nu_fields>
+          <fieldtype name="REFAAR">
+            <ft_descr>Referansenummer - år</ft_descr>
+            <datatype>INTEGER</datatype>
+          </fieldtype>
+          <fieldtype name="REFNR">
+            <ft_descr>Referansenummer - nummer</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="UTV">
+            <ft_descr>Utvalg kode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="MOTEDATO">
+            <ft_descr>Møtedato</ft_descr>
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="SAKSTYPE">
+            <ft_descr>Sakstype</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="VEDTAK">
+            <ft_descr>Vedtak</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="SAKSNR">
+            <ft_descr>Saksnummer - nummer</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="SAKSAAR">
+            <ft_descr>Saksnummer - år</ft_descr>
+            <datatype>INTEGER</datatype>
+          </fieldtype>
+          <fieldtype name="RESULTAT">
+            <ft_descr>Resultat</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="BHJEMMEL">
+            <ft_descr>Hjemmel</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="NUMMER">
+            <ft_descr>Nummer på saksliste</ft_descr>
+            <datatype>FLOAT</datatype>
+          </fieldtype>
+          <fieldtype name="BSTATUS">
+            <ft_descr>Behandlings-status</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="STATUS">
+            <ft_descr>Status</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="AVD">
+            <ft_descr>Avdeling - kode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="SEK">
+            <ft_descr>Seksjon - kode</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="JOURAARNR">
+            <ft_descr>Journalnummer - nummer</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="LUKKET">
+            <ft_descr>Lukket</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="DOKNR">
+            <ft_descr>Dokumentnummer - i sak</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="BEHNR">
+            <ft_descr>Behandlings nummer</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="BEHID">
+            <ft_descr>Behid</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="PROTOKOLL">
+            <ft_descr>Protokoll</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="FULLFORT">
+            <ft_descr>Fullført</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="RSR_REFAARNR">
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="REFDATO">
+            <datatype>DATE</datatype>
+            <mask>YYYY-MM-DD</mask>
+          </fieldtype>
+          <fieldtype name="IVERKSATT">
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="VEDTAKSTYPE">
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="INIT_REFAARNR">
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="REFAARNR">
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="INNH1">
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="U1">
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="ADMID">
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="S_REFAARNR">
+            <datatype>STRING</datatype>
+          </fieldtype>
+        </rectype>
+      </file>
+    </dataset>
+  </structure>
+</addmml>
