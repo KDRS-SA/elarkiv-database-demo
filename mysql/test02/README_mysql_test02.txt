@@ -14,8 +14,8 @@ Run (import) SQL-query "test02_create.sql"
 
 Run (import) one of the following SQL-queries:
 a) "test02_insert.sql" {full set of demo table content}
-b) "test02_insert_medium.sql" {medium set of demo table content}
-c) "test02_insert_small.sql" {small set of demo table content}
+b) "test02-medium_insert.sql" {medium set of demo table content}
+c) "test02-small_insert.sql" {small set of demo table content}
 1. Inserts content into database tables:
 arkivskaper, arkiv, serie, stykke, mappe
 
@@ -25,7 +25,7 @@ File: test02-small_mysql_elarkiv-database-demo_2014-09-15.siard
 
 Exported metadata from SiardEdit:
 File: test02_mysql_elarkiv-database-demo_2014-09-15_metadata.xml
-File: test02_small_mysql_elarkiv-database-demo_2014-09-15_metadata.xml
+File: test02-small_mysql_elarkiv-database-demo_2014-09-15_metadata.xml
 
 Unzipped SIARD-folder using PKZIP:
 Folder: test02_mysql_elarkiv-database-demo_2014-09-15
