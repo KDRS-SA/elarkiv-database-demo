@@ -67,3 +67,14 @@ VALUES
 	,('308','16','0001','Vegar - vedlikehald diverse papir',null,'1966','1967','563','563',null)
 	,('328','16','0002','Nye vegar med kommunalt sommarvedlikehald',null,'1966','1967','563','563',null)
 ;
+
+INSERT INTO objekt (
+	objektID, mappeID, navn, innhold, merknad
+	filKatalog, filNavn, filtypeExtention, tiltypeNavn)
+VALUES
+	('1','1','Dokument 1','Rådet for trygg trafikk','Merknad dokument 1','objekt','1.pdf','PDF','PDF-dokument')
+	,('2','2','Dokument 2',,'Merknad dokument 1','objekt','2.pdf','PDF','PDF-dokument')
+	,('3','5','Dokument 3','Brannstyret','Merknad dokument 1','objekt','3.pdf','PDF','PDF-dokument')
+	,('4','6','Dokument 4','Teknisk utval','Merknad dokument 1','objekt','4.pdf','PDF','PDF-dokument')
+	,('5','6','Dokument 5','Møter i vassforyningsnemnda','Merknad dokument 5','objekt','1.pdf','PDF','PDF-dokument')
+;
