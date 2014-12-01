@@ -3,10 +3,10 @@
 # MySQL query for inserting content into existing database tables
 # 
 
-# Insert data into database test02
+# Insert data into database testdb02
 # Data inserted into tables: arkivskaper, arkiv, serie, stykke, mappe
 
-USE test02;
+USE testdb02;
 
 INSERT INTO arkivskaper (
 	arkivskaperID, identifikator, navn, innhold, merknad)

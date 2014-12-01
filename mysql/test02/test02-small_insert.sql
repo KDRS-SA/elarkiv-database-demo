@@ -3,13 +3,13 @@
 # MySQL query for inserting content into existing database tables
 # 
 
-# Insert data into database test02
+# Insert data into database testdb02
 # Data inserted into tables: arkivskaper, arkiv, serie, stykke, mappe
 
 # Using a small (limited) dataset (number of rows in tables stykke & mappe)
 # Table rows: arkivskaper 2, arkiv 2, serie, 6, stykke 9, mappe 9, objekt 0
 
-USE test02;
+USE testdb02;
 
 INSERT INTO arkivskaper (
 	arkivskaperID, identifikator, navn, innhold, merknad)

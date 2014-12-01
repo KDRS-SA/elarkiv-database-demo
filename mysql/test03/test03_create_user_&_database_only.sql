@@ -3,7 +3,7 @@
 # MySQL query for creating demo user, database and tables
 # 
 
-# Create database test03 (removes any existing database named test03)
+# Create database testdb03 (removes any existing database named testdb03)
 
 ##### 1 User section #####
 #
