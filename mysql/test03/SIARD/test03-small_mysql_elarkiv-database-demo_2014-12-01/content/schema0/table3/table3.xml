@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://www.admin.ch/xmlns/siard/1.0/schema0/table3.xsd"
+  xsi:schemaLocation="http://www.admin.ch/xmlns/siard/1.0/schema0/table3.xsd table3.xsd">
+  <row><c1>1</c1><c2>1</c2><c3>Dokument 1</c3><c4>Rådet for trygg trafikk</c4><c5>Merknad dokument 1</c5><c6>objekt</c6><c7>1.pdf</c7><c8>PDF</c8><c9>PDF-dokument</c9></row>
+  <row><c1>2</c1><c2>2</c2><c3>Dokument 2</c3><c5>Merknad dokument 2</c5><c6>objekt</c6><c7>2.pdf</c7><c8>PDF</c8><c9>PDF-dokument</c9></row>
+  <row><c1>3</c1><c2>3</c2><c3>Dokument 3</c3><c4>Brannstyret</c4><c5>Merknad dokument 3</c5><c6>objekt</c6><c7>3.pdf</c7><c8>PDF</c8><c9>PDF-dokument</c9></row>
+  <row><c1>4</c1><c2>5</c2><c3>Dokument 4</c3><c4>Teknisk utval</c4><c5>Merknad dokument 4</c5><c6>objekt</c6><c7>4.pdf</c7><c8>PDF</c8><c9>PDF-dokument</c9></row>
+  <row><c1>5</c1><c2>5</c2><c3>Dokument 5</c3><c4>Møter i vassforyningsnemnda</c4><c5>Merknad dokument 5</c5><c6>objekt</c6><c7>1.pdf</c7><c8>PDF</c8><c9>PDF-dokument</c9></row>
+</table>

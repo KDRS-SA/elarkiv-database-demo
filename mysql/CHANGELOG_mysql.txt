@@ -1,4 +1,6 @@
 CHANGELOG_mysql.txt
 
-2014-09-17
-
+2014-12-01 Completed testdb03 small dataset
+- added content to table "objekt" (file reference).
+- added files in folder "objekt".
+- Restructured (testdbnn, usernn, SIARD content moved to subfolder.

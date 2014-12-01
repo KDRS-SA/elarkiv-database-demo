@@ -1,5 +1,9 @@
 RESOURCES_mysql.txt
 
+Tested using Uniform Server 11.5.2 ZeroXI
+http://sourceforge.net/projects/miniserver/files/Uniform%20Server%20ZeroXI/
+http://sourceforge.net/projects/miniserver/files/Uniform%20Server%20ZeroXI/11_5_2_ZeroXI/
+
 Tested using Uniform Server 8.8.1
 http://www.uniformserver.com
 http://wiki.uniformserver.com/index.php/Main_Page
