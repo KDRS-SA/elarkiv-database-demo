@@ -1,3 +1,229 @@
 RESOURCES_standards.txt
 
+Elarkiv Database Demo (this git-project)
+https://github.com/KDRS-SA/elarkiv-database-demo
+
+Arkivverket Noark
 http://arkivverket.no/arkivverket/Offentleg-forvalting/Noark
+
+Arkivverket Testverktøy
+http://www.arkivverket.no/arkivverket/Arkivbevaring/Elektronisk-arkivmateriale/Testverktoey
+
+Arkivverket skjema
+http://schema.arkivverket.no/
+
+ADDML
+http://schema.arkivverket.no/ADDML/
+
+Gjeldende ADDML 8.2 xml-skjema
+http://schema.arkivverket.no/ADDML/v8.2/addml.xsd
+http://schema.arkivverket.no/ADDML/v8.2.1/addml.xsd
+
+Tidligere ADDML-lenke fra Arkivverket er ugyldig
+http://www.arkivverket.no/standarder/addml.xsd
+
+METS - PREMIS
+http://schema.arkivverket.no/METS/
+http://schema.arkivverket.no/METS/info.xsd
+http://schema.arkivverket.no/METS/mets.xsd
+http://schema.arkivverket.no/METS/v1.9/DIAS_METS.xsd
+
+http://schema.arkivverket.no/PREMIS/
+http://schema.arkivverket.no/PREMIS/v2.0/DIAS_PREMIS.xsd
+
+
+***** LOVDATA *****
+Forskrift om utfyllende tekniske og arkivfaglige bestemmelser om behandling av offentlige arkiver.
+
+IV. Bevarings- og kassasjonsbestemmelser for fylkeskommunale og kommunale arkiv skapt etter 1950
+0) Hele kapittel IV endret ved forskrift 20 des 2013 nr. 1739 (i kraft 1 feb 2014).
+
+https://lovdata.no/dokument/SF/forskrift/1999-12-01-1566/KAPITTEL_4#KAPITTEL_4
+
+
+***** KRAV TIL FILSTRUKTUR OG INNHOLD AV INNLEVERING (DEPONERING & AVLEVERING *****
+http://lovdata.no/forskrift/1999-12-01-1566/§8-28
+http://lovdata.no/forskrift/1999-12-01-1566/§8-29
+http://lovdata.no/forskrift/1999-12-01-1566/§8-30
+http://lovdata.no/forskrift/1999-12-01-1566/§8-31
+http://lovdata.no/forskrift/1999-12-01-1566/§8-32
+http://lovdata.no/forskrift/1999-12-01-1566/§8-33
+http://lovdata.no/forskrift/1999-12-01-1566/§8-34
+
+Innholdet i rotkatalog med underkataloger for et innleverings-medie iht. gjeldende forskrift:
+
+Definisjon av en innlevering: Et medie som inneholder et uttrekk i form av en deponering eller avlevering og som innleveres til mottagende digitale depot.
+
+§ 8-32
+Rotkatalog:
+INFO.TXT   - Fil med opplysninger om innleveringen (avlevering eller deponering) som fastsatt i § 8-30.
+
+Lagringsenhet-katalog:
+Et uttrekk med bare én lagringsenhet vil bruke rotkatalogen som lagringsenhet-katalog. Ved flere lagringsenheter på samme innleverings-medie lages det en undermappe på rotnivå pr. lagringsenhet (eks. kataloger med navn Arkiv1, Arkiv2 osv.).
+
+INNHOLD.TXT   -  Fil med oversikt over katalog- og filstrukturen på lagringsenheten.
+
+Dersom en datafil har en referanse til en annen datafil, skal den være navngitt og plassert i en katalogstruktur på en slik måte at de relative referansene blir bevart. Bestemmelsene i § 8-33 bokstav b-c og § 8-34 bokstav b kan fravikes dersom dette er nødvendig for bevare de relative referansene til elektroniske dokumenter.
+
+§ 8-33
+Filene som utgjør datauttrekket, skal være organisert på følgende måte:
+
+§ 8-33 bokstav a:
+Tabelluttrekk, datafiler i en lagringsenhets-katalog med entydige filnavn:
+<datafil_n_navn.DAT/.XML>... osv for n-antall flate filer .DAT eller xml-filer .XML
+eks.: datatabell1.xml, datatabell2.xml, datatabell3.xml
+
+§ 8-33 bokstav b:
+DOKUMENT   - Katalog for elektroniske dokumenter.
+- Med ev. underkataloger
+- Hvis et dokument består av flere filer, skal disse samles i én katalog med et entydig navn.
+- Filformat for elektroniske dokumenter angis ved filendelse, f.eks. XML, PDF eller TIF.
+
+§ 8-33 bokstav c:
+RAPPORT   - Katalog for elektroniske utskrifter fra datasystemet på første nivå under rotkatalogen på vedkommende lagringsenhet. Rapportfilene skal samles på andre nivå under rotkatalogen.
+
+§ 8-34
+Filer med dokumentasjon skal plasseres på første nivå under rotkatalogen på første  lagringsenhet.
+
+§ 8-34 bokstav a:
+metadata.addml   - Struktur og innholdsbeskrivelse når denne bygger på ADDML.
+addml.dtd eller addml.xsd   - Definiasjonsfil på henholdsvis ADDML 7.3 og 8.2
+
+eller
+*.xsd   -  XML skjema for struktur og innholdsbeskrivelse når tabelluttrekket omfatter filer i XML-format, jf. § 8-27 tredje ledd.
+
+Nøyaktig HVA menes her?
+EN *.xsd XML-skjema for hver enkel xml-tabell i tabelluttrekket?
+I så fall kan her bli meget mange *.xsd XML-skjema for taballuttrekk med mange medfølgende xml-tabeller!
+
+§ 8-34 bokstav b:
+SYSDOK   - Katalog for system- og bruksdokumentasjon, jf. § 8-29 og § 8-30.
+
+
+***** LOVDATA formater i tabelluttrekk *****
+http://lovdata.no/forskrift/1999-12-01-1566/§8-13
+http://lovdata.no/forskrift/1999-12-01-1566/§8-14
+http://lovdata.no/forskrift/1999-12-01-1566/§8-19
+http://lovdata.no/forskrift/1999-12-01-1566/§8-25
+http://lovdata.no/forskrift/1999-12-01-1566/§8-26
+http://lovdata.no/forskrift/1999-12-01-1566/§8-27
+
+§ 8-13.Tekstfilformater i tabelluttrekk
+
+Tekstfiler med tabelluttrekk skal ha ett av følgende formater:
+a)	Fast format: Alle felt kommer i faste posisjoner innen postene. Lengde og/eller startposisjon for hvert felt skal spesifiseres i struktur- og innholdsbeskrivelsen, som skal følge med uttrekket slik det fremgår av § 8-26. Alle lengder og posisjoner angis utifra antall tegn.
+b)	Tegnseparert format (kommaseparert format): Poster og felt har variabel lengde og er atskilt med faste, entydige skilletegn. Postskille skal være [CR][LF]. Uttrekket skal ikke inneholde noen post med feltnavn (heading). Feltskilletegnet og feltnavn skal spesifiseres i den medfølgende struktur- og innholdsbeskrivelsen, jf. § 8-26.
+c)	XML-format: Formatet skal følge versjon 1.0 av XML-standarden.
+
+
+§ 8-14.Eksport av ulike datatyper i tabelluttrekk
+
+Ved eksport til tekstfiler etter bestemmelsene i § 8-13 skal datatyper i den opprinnelige databasen legges ut slik:
+a)	Ved bruk av fast format legges tekststrenger ut venstrejustert i feltene. Etterfølgende posisjoner fylles opp med blanke tegn. Heltall og desimaltall legges ut høyrejustert uten ledende nuller, og posisjonene foran fylles opp med blanke tegn.
+b)	Negative heltall og desimaltall legges ut med et minustegn før første siffer. Positive tall skal ikke representeres med plusstegn.
+c)	Desimaltall legges ut med komma som desimalskilletegn. Skilletegn for hver tusen skal ikke benyttes.
+d)	Dato legges ut som ÅÅÅÅMMDD (ISO 8601).
+
+
+§ 8-19.Spesifiserte krav til elektroniske dokumenter i XML-format
+
+Tegnsett i XML-dokumenter skal være UTF-8 eller ISO 8859-1/8859-4.
+
+Når XML-dokumenter har DTD (Document Type Definition), alternativt XML Schema, og malfiler, for eksempel for stiloppsett, skal disse ligge ved som egne filer. Tilhørende XML Schema skal også ligge ved i de tilfeller XML-dokumenter bygger på fastsatte standarder som ISO/IEC 26300:2006 - Open Document Format (ODF), Microsofts og Ecmas Office Open XML-standard (OOXML) eller Microsofts eldre WML-standard.
+
+DTD-er, XML Schemas og malfiler som deles av flere dokumenter, kan lagres én gang på overordnet nivå i en hierarkisk filstruktur på vedkommende lagringsenhet, forutsatt at det brukes bestandige filreferanser. Alle øvrige filer eller objekter som det enkelte XML-dokument refererer til, skal være samlet i en underkatalog, jf. § 8-33 bokstav b.
+
+Annet og tredje ledd gjelder ikke for tabelluttrekk i XML-format, jf. § 8-13.
+
+§ 8-25.Uttrekk fra journal- og arkivsystemer som ikke følger Noark
+
+Journal- og arkivsystemer som ikke er godkjent som Noark-systemer, skal produsere uttrekk som i størst mulig grad følger spesifikasjonene i Noark-standarden.
+
+Uttrekk som avviker fra Noark-standarden, skal dokumenteres med en fullstendig struktur- og innholdsbeskrivelse slik det fremgår av kravene i § 8-26, og med opplysninger om det opprinnelige systemet og bruken av dette slik det fremgår av kravene i § 8-28 og § 8-29, med mindre Riksarkivaren har fastsatt noe annet for det enkelte system.
+
+§ 8-26.Teknisk dokumentasjon av tabelluttrekk
+
+For alle tabelluttrekk skal det medfølge en fullstendig struktur- og innholdsbeskrivelse i elektronisk form. Beskrivelsen skal omfatte tabellene og feltene i uttrekket som avleveres eller deponeres og ikke tabellstrukturen i databasen som uttrekket er eksportert fra. Følgende krav stilles til denne dokumentasjonen:
+a)	Hver enkelt tabell, fil og posttype skal spesifiseres. Det skal gis en kort beskrivelse av innholdet. Relasjoner mellom tabeller skal angis og primærnøkler, fremmednøkler og kardinalitet skal defineres.
+b)	Feltnavn i samtlige tabeller, filer og posttyper skal beskrives. Feltenes datatype skal oppgis. Ved bruk av fast format, jf. § 8-13, oppgis hvert felts startposisjon og lengde. En utfyllende forklaring av feltinnhold skal gis i de tilfeller dette ikke fremgår av feltnavnet.
+c)	Fullstendige kodeforklaringer skal gis for felt med kodede verdier. Dersom systemet lagrer kodene i egne hjelpetabeller, skal uttrekk fra disse inngå i arkivversjonen.
+
+Struktur- og innholdsbeskrivelsen skal følge de formatkrav m.m. som fremgår av § 8-27.
+
+Struktur- og innholdsbeskrivelse kreves ikke for uttrekk fra Noark-systemer, jf. § 8-25.
+
+
+§ 8-27.Formatkrav m.m. til den tekniske dokumentasjonen
+
+Struktur- og innholdsbeskrivelsen som skal følge med tabelluttrekk, skal være i ren tekst i godkjent tegnsett, jf § 8-11. Beskrivelsen skal benytte XML-syntaks.
+
+Når XML benyttes i beskrivelsen av tabelluttrekk med tekstfiler i fast eller tegnseparert format, jf. § 8-13 bokstav a og b, skal beskrivelsen følge reglene i Riksarkivarens beskrivelsesstandard ADDML (Archival Data Description Markup Language).
+
+For tabelluttrekk med tekstfiler i XML-format, jf. § 8-13 bokstav c, skal tilhørende XML Schema følge med. Riksarkivaren kan i det enkelte tilfelle kreve innordning av denne typen tabelluttrekk i ADDML.
+
+Dokumentasjonsfilene skal være organisert og navngitt slik det fremgår av § 8-34 bokstav b.
+
+§ 8-28.Dokumentasjon av systemet som datauttrekket er eksportert fra
+
+Det skal gis en oversikt over det opprinnelige systemets overordnede struktur, herunder relasjoner mellom tabeller og primær- og sekundærnøkler i de enkelte tabellene i systemets database. Denne oversikten kan ha form av et ER-diagram. Riksarkivaren kan kreve at utvalgte skjermbilder og utskrifter fra systemet blir dokumentert.
+
+For å beskrive søk, datakombinasjoner og uttrekksmetoder som ble anvendt i det opprinnelige systemet, kan Riksarkivaren kreve at et antall SQL-spørringer fra systemet skal følge med som dokumentasjon. SQL-spørringer skal følge standarden SQL-92 (ISO/IEC 9075:1992), og være tilpasset tabelluttrekket. SQL-setningene skal inngå i struktur- og innholdsbeskrivelsen dersom denne er utformet i XML, jf. § 8-27.
+
+Noark-arkivuttrekk krever ikke dokumentasjon av det opprinnelige systemet, jf. § 8-24.
+
+§ 8-29.Opplysninger om opprinnelig systems funksjon og brukssammenheng
+
+Følgende opplysninger skal gis om bruken av systemet som har produsert datauttrekket:
+a)	systemets formål og administrative brukssammenheng
+b)	systemets hovedfunksjoner
+c)	navn på arkivskaperen, eventuelt på de organer som har hatt roller som arkivskapere ved å oppdatere systemet. Når et system har hatt flere arkivskapere, skal også de ulike rolletypene som arkivskaper beskrives
+d)	systemets inn- og utdata, herunder datautveksling med andre systemer
+e)	eventuell hjemmel i lov eller forskrift for å opprette systemet
+f)	håndbok som beskriver bruken av systemet, skal følge som vedlegg når den finnes.
+
+Uttrekk fra Noark-systemer krever bare opplysningene etter bokstav c, jf. § 8-24.
+
+Dokumentasjonen skal være i elektronisk form, i ett av formatene som er fastsatt i § 8-17. Filnavn og filplassering på lagringsmediet skal følge bestemmelsene i § 8-34 bokstav b.
+§ 8-30.Opplysninger om avleveringen eller deponeringen
+
+Følgende opplysninger om avleveringen eller deponeringen skal ligge ved arkivmaterialet:
+a)	navn på organet som er ansvarlig for avleveringen eller deponeringen
+b)	navn og eventuelt versjonsnummer på systemet som datauttrekket kommer fra
+c)	tidsrommet som datauttrekket omfatter
+d)	navn på arkivskaper. Dersom datauttrekket omfatter flere arkivskapere, skal start- og sluttdato oppgis for hver arkivskaper. Dersom uttrekket kommer fra et Noark-system som har vært delt av flere organer, skal det beskrives hvordan hver arkivskaper identifiseres
+e)	antall poster i datauttrekkets viktigste tabeller og annen tallfesting av omfang
+f)	antall lagringsenheter som medfølger
+g)	navn på den ansvarlige for overføringen hos det avleverende eller deponerende organet.
+
+Dersom deler av materialet er gradert, konsesjonsbelagt, underlagt taushetsplikt eller av andre grunner unntatt for offentlighet, skal det informeres særskilt om dette.
+
+Informasjonen skal være i elektronisk form, i ren tekst i godkjent tegnsett, jf. § 8-11. Filnavn og filplassering på lagringsmediet skal følge bestemmelsene i § 8-34 bokstav b.
+§ 8-31.Krav til lagringsmedium med tilhørende filsystem
+
+Ved avlevering og deponering skal det benyttes en type lagringsmedium som er godkjent av Riksarkivaren. På alle lagringsmedier skal det benyttes et godkjent filsystem som bevarer arkivversjonens opprinnelige filnavn. Med mindre andre typer medier er avtalt med Arkivverket, skal følgende lagringsmedier og filsystemer nyttes:
+a)	CD-R, med filsystem ISO 9660:1988, Level 1 eller Microsoft Joliet. Maksimal kapasitet skal være 700 MB. Utnyttelse av mulig ekstra lagringskapasitet på mediet («overburn») tillates ikke. CD-R-plater skal ikke pålimes etikett, men merkes med CD-penn. Hver plate skal oppbevares i lukket plastkassett som skal ha pålimt, merket etikett.
+b)	DVD-R eller DVD+R, med filsystem UDF - Universal Disk Format, versjon 1.02 eller senere. Data skal bare være lagret i ett lag på én side. Versjonsnummer av UDF skal oppgis. Kravene til merking og oppbevaring er som for CD-R-plater, jf. bokstav a.
+c)	Harddisk med USB 2.0-tilkobling. Filsystemet skal være FAT32, NTFS eller UDF, versjon 1.02 eller senere. Versjonsnummer skal oppgis når UDF brukes.
+d)	Minnepinne med USB 2.0-tilkobling. Filsystemet skal være FAT32 eller NTFS.
+
+§ 8-32.Filorganisering og navngiving generelt
+
+Dersom en arkivversjon består av mer enn én lagringsenhet, skal det opprettes en rotkatalog med et entydig navn på hver enhet, f.eks. ARKIV1, ARKIV2 osv.
+
+På rotnivå på første lagringsenhet skal det finnes en fil med navn INFO.TXT. Den skal inneholde opplysninger om avleveringen eller deponeringen som fastsatt i § 8-30.
+
+En fil med navn INNHOLD.TXT skal finnes på første nivå under rotkatalogen på hver lagringsenhet. Den skal gi oversikt over katalog- og filstrukturen på vedkommende enhet.
+
+Dersom en datafil har en referanse til en annen datafil, skal den være navngitt og plassert i en katalogstruktur på en slik måte at de relative referansene blir bevart. Bestemmelsene i § 8-33 bokstav b-c og § 8-34 bokstav b kan fravikes dersom dette er nødvendig for bevare de relative referansene til elektroniske dokumenter.
+§ 8-33.Organisering av datafiler
+
+Filene som utgjør datauttrekket, skal være organisert på følgende måte:
+a)	Tabelluttrekk skal ligge på første nivå under rotkatalogen på vedkommende lagringsenhet. Filnavn skal være entydige, og ha filendelsen DAT når formatet er fast eller tegnseparert, og XML når formatet er XML. Det skal brukes et lagringsmedium hvor tabellfiler ikke må deles.
+b)	For elektroniske dokumenter skal det opprettes en katalog med navnet DOKUMENT på første nivå under rotkatalogen på vedkommende lagringsenhet. Dokumentfilene skal samles på andre nivå under rotkatalogen og eventuelt struktureres i underkataloger. Dersom et enkelt dokument består av flere filer, skal disse samles i én katalog med et entydig navn. Filformat for elektroniske dokumenter angis ved filendelse, f.eks. XML, PDF eller TIF.
+c)	Elektroniske utskrifter fra datasystemet skal lagres under en katalog med navnet RAPPORT på første nivå under rotkatalogen på vedkommende lagringsenhet. Rapportfilene skal samles på andre nivå under rotkatalogen.
+§ 8-34.Organisering av medfølgende dokumentasjonsfiler
+
+Følgende filer med dokumentasjon skal plasseres på første nivå under rotkatalogen på første lagringsenhet:
+a)	Struktur- og innholdsbeskrivelsen som følger datauttrekket, jf. § 8-26. Når beskrivelsen bygger på ADDML, skal filen ha navnet metadata.aml. Dessuten skal filen addml.dtd eller addml.xsd finnes i samme katalog. Når tabelluttrekket omfatter filer i XML-format, jf. § 8-27 tredje ledd, skal medfølgende XML Schema ha filendelsen xsd.
+b)	System- og bruksdokumentasjon, jf. § 8-29 og § 8-30. Det skal opprettes en katalog med navnet SYSDOK på første nivå under rotkatalogen, og filene med dokumentasjon skal ligge på andre nivå under rotkatalogen. 
+0	Hele kapitlet endret ved forskrift 24 april 2007 nr. 442.
