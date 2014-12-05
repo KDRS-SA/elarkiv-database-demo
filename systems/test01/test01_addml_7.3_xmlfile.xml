@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<!DOCTYPE addmml SYSTEM 'addmml.dtd'>
+
+<addmml version="7.3">
+  <reference>
+    <archives ar_id="test.kommune.no">
+      <ar_name>Test kommune</ar_name>
+    </archives>
+    <system sy_id="TST2014-001">
+      <sy_name>Testsystem test01</sy_name>
+      <startdate>1999</startdate>
+      <enddate>2001</enddate>
+    </system>
+  </reference>
+  <structure>
+    <dataset ds_id="test.kommune.no/TST2014-001">
+      <ds_descr>Datasettet test01 inneholder en tabell med 5 kolonner.</ds_descr>
+      <charset>ISO-8859-1</charset>
+      <format>XML</format>
+      <recsep>NO</recsep>
+      <nu_files>1</nu_files>
+      <file name="testtabell" path="testtabell.xml">
+        <fi_descr>Testtabell med id, tittel, beskrivelse, arkivkodefra, arkivkodetil.</fi_descr>
+        <nu_rectypes>1</nu_rectypes>
+        <rectype name="testtabell">
+          <primkey>id</primkey>
+          <nu_fields>5</nu_fields>
+          <fieldtype name="id">
+            <ft_descr>identifikator</ft_descr>
+            <datatype>INTEGER</datatype>
+          </fieldtype>
+          <fieldtype name="tittel">
+            <ft_descr>Tittel</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="beskrivelse">
+            <ft_descr>Beskrivelse</ft_descr>
+            <datatype>STRING</datatype>
+            <unique/>
+          </fieldtype>
+          <fieldtype name="arkivkodefra">
+            <ft_descr>Arkivkode fra</ft_descr>
+              <datatype>STRING</datatype>
+          </fieldtype>
+          <fieldtype name="arkivkodetil">
+            <ft_descr>Arkivkode til</ft_descr>
+            <datatype>STRING</datatype>
+          </fieldtype>
+        </rectype>
+      </file>
+    </dataset>
+  </structure>
+</addmml>

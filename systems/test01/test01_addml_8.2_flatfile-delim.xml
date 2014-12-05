@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns="http://www.arkivverket.no/standarder/addml"
+    xsi:schemaLocation="http://www.arkivverket.no/standarder/addml addml.xsd">
+    <dataset name="test01">
+        <description>Datasettet test01 inneholder en tabell med 5 kolonner.</description>
+        <reference name="test01">
+            <context>
+                <description>Informasjon av kontekstuell art om innleveringen, se info.txt</description>
+            </context>
+            <content>
+                <description>Testdata eksempel på uttrekk av Test-system basert på metadata beskrivelse versjon 01. Tekst-datafiler med feltseparator skille.</description>
+            </content>
+        </reference>
+        
+        <flatFiles>
+            <flatFile name="testtabell" definitionReference="testtabell.dat"/>
+            
+            <flatFileDefinitions>
+                <flatFileDefinition name="testtabell" typeReference="testtabell.dat">        
+                    <recordDefinitions>
+                        <recordDefinition name="testtabell">
+                            <fieldDefinitions>
+                                <fieldDefinition name="id" typeReference="integer"/>
+                                <fieldDefinition name="tittel" typeReference="string"/>
+                                <fieldDefinition name="beskrivelse" typeReference="string"/>
+                                <fieldDefinition name="arkivkodefra" typeReference="string"/>
+                                <fieldDefinition name="arkivkodetil" typeReference="string"/>
+                            </fieldDefinitions>
+                        </recordDefinition>
+                    </recordDefinitions>
+                </flatFileDefinition>
+            </flatFileDefinitions>
+            
+            <structureTypes>
+                <flatFileTypes>
+                    <flatFileType name="testtabell">
+                        <charset>UTF-8</charset>
+                        <fixedFileFormat/>
+                    </flatFileType>
+                </flatFileTypes>
+                
+                <fieldTypes>
+                    <fieldType name="integer">
+                        <dataType>integer</dataType>  
+                    </fieldType>
+                    <fieldType name="string">
+                        <dataType>string</dataType>  
+                    </fieldType>
+                    <fieldType name="date">
+                        <dataType>date</dataType>  
+                    </fieldType>
+                </fieldTypes>
+            </structureTypes>
+            
+        </flatFiles>
+    </dataset>
+</addml>
