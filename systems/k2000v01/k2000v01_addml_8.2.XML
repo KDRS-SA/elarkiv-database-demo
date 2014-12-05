@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns="http://www.arkivverket.no/standarder/addml"
+  xsi:schemaLocation="http://www.arkivverket.no/standarder/addml addml.xsd">
+  <dataset name="k2000v01">
+    <description>Kontor 2000, metadata beskrivelse versjon 01</description>
+    <reference name="k2000v01">
+      <context>
+        <description>Informasjon av kontekstuell art om innleveringen, se info.txt</description>
+      </context>
+      <content>
+        <description>Testdata eksempel på uttrekk av Kontor 2000 basert på metadata beskrivelse versjon 01</description>
+      </content>
+    </reference>
+
+    <flatFiles>
+      <flatFile name="dgjmjo" definitionReference="dgjmjo.xml"/>
+
+      <flatFileDefinitions>
+        <flatFileDefinition name="dgjmjo" typeReference="dgjmjo.xml">        
+          <recordDefinitions>
+            <recordDefinition name="dgjmjo">
+              <fieldDefinitions>
+                <fieldDefinition name="REFAAR" typeReference="integer"/>
+              </fieldDefinitions>
+            </recordDefinition>
+          </recordDefinitions>
+        </flatFileDefinition>
+      </flatFileDefinitions>
+
+      <structureTypes>
+        <flatFileTypes>
+          <flatFileType name="dgjmjo">
+            <charset>UTF-8</charset>
+            <fixedFileFormat/>
+          </flatFileType>
+        </flatFileTypes>
+
+        <fieldTypes>
+          <fieldType name="integer">
+            <dataType>integer</dataType>  
+          </fieldType>
+          <fieldType name="string">
+            <dataType>string</dataType>  
+          </fieldType>
+          <fieldType name="date">
+            <dataType>date</dataType>  
+          </fieldType>
+        </fieldTypes>
+      </structureTypes>
+
+    </flatFiles>
+  </dataset>
+</addml>
