@@ -9,6 +9,26 @@ http://arkivverket.no/arkivverket/Offentleg-forvalting/Noark
 Arkivverket Testverktøy
 http://www.arkivverket.no/arkivverket/Arkivbevaring/Elektronisk-arkivmateriale/Testverktoey
 
+Arkivverket Standarder/ADDML/ADDML-versjon-8
+http://arkivverket.no/arkivverket/Arkivbevaring/Elektronisk-arkivmateriale/Standarder
+
+ADDML 8.2
+http://schema.arkivverket.no/ADDML/v8.2/addml.xsd
+
+http://arkivverket.no/arkivverket/Arkivbevaring/Elektronisk-arkivmateriale/Standarder/ADDML/ADDML-versjon-8.2
+
+http://arkivverket.no/arkivverket/content/download/7936/80298/version/4/file/ADDML_8_2+Generelt.pdf
+
+http://arkivverket.no/arkivverket/content/download/16854/152269/version/4/file/ADDML+8-2+English+Version+1.0.pdf
+
+ADDML 8.3
+http://arkivverket.no/arkivverket/Arkivbevaring/Elektronisk-arkivmateriale/Standarder/ADDML/ADDML-versjon-8.3
+
+
+DIAS
+http://arkivverket.no/arkivverket/Arkivbevaring/Elektronisk-arkivmateriale/DIAS-prosjektet
+
+
 Arkivverket skjema
 http://schema.arkivverket.no/
 

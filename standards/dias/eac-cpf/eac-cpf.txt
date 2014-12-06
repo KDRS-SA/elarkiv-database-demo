@@ -1,0 +1,11 @@
+EAC-CPF
+
+http://arkivverket.no/arkivverket/Arkivbevaring/Elektronisk-arkivmateriale/Standarder/EAC-CPF
+
+EAC-CPF er en ny standard for å beskrive arkivskapere og andre aktører i OAIS-baserte arkivpakker. DIAS-prosjektet bruker EAC-CPF for dette formålet i denne standardens fullstendige form, uten egne norske tilpasninger. DIAS forutsetter også at EAC-CPF-informasjon utveksles med Asta eller et tilsvarende arkivinformasjonssystem.
+
+Link til EAC-CPF: http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd
+
+For EAD og EAC-CPF arbeider DIAS-prosjektet med å spesifisere en fullstendig mapping av elementer mot Asta-systemet. Dokumentet nedenfor viser foreløpig status for dette arbeidet for EAC-CPF, som planlegges ferdig høsten 2011:
+
+Mapping til Asta av EAC_CPF

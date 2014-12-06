@@ -1,0 +1,11 @@
+DIAS-PREMIS
+
+http://arkivverket.no/arkivverket/Arkivbevaring/Elektronisk-arkivmateriale/Standarder/DIAS-PREMIS
+
+PREMIS-standarden implementerer kategorien bevaringsmetadata i OAIS-modellen.
+
+Den spesifiserer operasjoner som utføres gjennom en arkivpakkes livssyklus, og gjør det dermed mulig å dokumentere håndteringshistorikken i et arkivdepot. DIAS-PREMIS er DIAS-prosjektets tilpasning av PREMIS for bruk i en felles arkivpakkestruktur for norske statlige og kommunale arkivdepoter. Dette nettstedet er den offisielle web-siden for DIAS-PREMIS. Oppdaterte versjoner publiseres på denne siden etter hvert som de foreligger.
+
+Arkivpakker i Arkivverkets nye digitale magasin som planlegges tatt i bruk fra 2012, vil være basert på  strukturen i DIAS-modellen, og bruke DIAS-PREMIS for å beskrive bevaringsmetadata.
+
+DIAS-PREMIS.xsd

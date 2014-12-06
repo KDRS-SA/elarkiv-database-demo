@@ -1,0 +1,58 @@
+DIAS-prosjektet
+
+http://arkivverket.no/arkivverket/Arkivbevaring/Elektronisk-arkivmateriale/DIAS-prosjektet
+
+DIAS – Digital arkivpakkestruktur – er gjennomført som et toårig samarbeidsprosjekt mellom Riksarkivaren og 5 sentrale kommunale aktører: Bergen byarkiv, Oslo byarkiv, IKA (Interkommunalt arkiv) Møre og Romsdal, IKA Trøndelag og Kommunearkivinstitusjonenes digitale ressurssenter (KDRS). Prosjektet, som er gjennomført med økonomisk støtte fra ABM-utvikling (nå Norsk kulturråd), ble sluttført primo juni 2012. Dette er den offisielle nettsiden for DIAS-prosjektets xml-skjemaer og andre produkter.
+
+1. Mål for DIAS-prosjektet
+Prosjektets hovedmål har vært å definere en felles og omforent pakkestruktur for bevaring av digitalt arkivmateriale med utgangspunkt i OAIS-standarden (ISO 14721: 2003). Denne strukturen skal kunne anvendes fleksibelt for alle typer av digitale leveranser til statlige og kommunale arkivdepoter.
+
+Underveis i prosjektet ble det også satt som mål å utvikle et forvaltningssystem for å generere arkivpakker i henhold til DIAS-strukturen og administrere dem i et digitalt depot. Prosjektet har utviklet et slikt forvaltningssystem som en tilpasning av av det svenske systemet ESSArch. Systemet er basert på åpen kildekode.
+
+2. Prosjekt-rapport
+Sluttrapport 08.06.2012 fra DIAS-prosjektet:
+DIAS Sluttrapport Del 1
+
+Rapportens del 2 (vedlegg 3-7):
+DIAS Sluttrapport Del 2
+
+3. Implementeringsstandarder og xml-skjemaer
+DIAS-prosjektet har spesifisert en generell norsk arkivpakkemodell som en definert bruksmåte av OAIS. DIAS-modellen angir hvordan foreliggende standarder skal anvendes i en arkivpakke. DIAS kan dermed betegnes som en standard for bruk av standarder. Følgende standarder er valgt for implementering av DIAS-prosjektets arkivpakkemodell:
+
+METS (Metadata Encoding & Transmission Standard) for pakkeinformasjon (”container-beskrivelse”)
+
+PREMIS (Preservation Metadata: Implementation Strategies) for bevaringsmetadata 
+
+EAD (Encoded Archival Description) for arkivbeskrivelse
+
+EAC-CPF (Encoded Archival Context – Corporate bodies, Persons, and Families) for aktørbeskrivelse 
+
+Det norske riksarkivets egen standard ADDML (Archival Data Description Markup Language) for struktur- og postbeskrivelse av tabelluttrekk mm.
+
+Illustrasjon av implementeringsmodellen
+ 
+Xml-skjemaer
+Prosjektet har spesifisert egne xml-skjemaer for tilpasningen av METS og PREMIS til bruk i DIAS arkivpakker. Xml-skjemaer for EAD, EAC-CPF og ADDML brukes i sin fullstendige form, uten spesielle tilpasninger for DIAS:
+
+DIAS_METS.xsd 136,88 kB
+DIAS_PREMIS.xsd 47,50 kB
+EAD.xsd (lenke til ekstern fil)
+EAC-CPF.xsd (lenke til ekstern fil)
+addml.xsd 18,29 kB
+For EAD og EAC-CPF har prosjektet spesifisert en fullstendig mapping av elementer mot Asta-systemet:
+EAD i DIAS
+EAC-CPF i DIAS 
+
+4. Forvaltningssystem for arkivpakker
+Prosjektet har spesifisert krav til et forvaltningssystem for DIAS-baserte arkivpakker som både forutsettes å kunne brukes av Arkivverket og kommunale depotinstitusjoner, jf. egen kravspesifikasjon.
+
+Forvaltningssystem - Kravspesifikasjon
+
+Siste fase av DIAS har bestått i å utvikle et forvaltningssystem på grunnlag av prosjektets kravspesifikasjonen. DIAS-forvaltningssystemet er utviklet som en tilpasset versjon av det svenske systemet ESSArch. Implementeringen har skjedd i Riksarkivet, og systemet ble klargjort for ordinær drift i Riksarkivet fra primo juni 2012. Systeminnføringen i Riksarkivet er samtidig DIAS-prosjektets pilotinstallasjon.
+
+ESSArch er et ”OpenRepository”-system basert på fri programvare (åpen kildekode/GPLv3), og DIAS-versjonen av ESSArch vil følgelig være fritt tilgjengelig for ”alt og alle”. Systemet, som brukes av det svenske riksarkivet, ble valgt etter en runde med åpen tilbudsinnhenting innenfor hele EU/EØS-området. ESSArch håndterer også lagringsadministrasjon (skriving til alternativt valgte medier, migrering mellom medier og verifisering ved kopiering), og kan dermed brukes som et samlet depotstyringssystem både for enkle og avanserte lagringsløsninger.
+
+5. Om organiseringen og gjennomføringen av DIAS-prosjektet
+En kortfattet orientering om organiseringen av DIAS, planutviklingen i prosjektet og prosjektets resultater gis i vedlagte presentasjon fra:
+
+LLPs jubileumskonferanse i Trondheim 24.04.2012

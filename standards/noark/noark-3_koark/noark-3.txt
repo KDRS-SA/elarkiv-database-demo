@@ -1,0 +1,7 @@
+Noark 3
+
+http://arkivverket.no/arkivverket/Offentleg-forvalting/Noark/Tidligere-versjoner/Noark-3
+
+Noark-3 kom i trykt utgave i 1994, og ble avløst av Noark-4 i 1999 og deretter av Noark-4.1 i 2002. Noark-3 er altså ikke lenger gjeldende Noark-standard. Men avleveringsformatet som ble spesifisert i Noark-3, kapittel 15, er fortsatt gyldig format for avleveringsuttrekk som produseres fra eldre, Noark-3-baserte systemer. Den trykte utgaven av Noark-3 fra 1994 legges her ut i en nettversjon.
+
+Forordet til internettversjonen har presiseringer av avleveringsbestemmelsene når det gjelder uttrekk fra Noark-3-systemer.

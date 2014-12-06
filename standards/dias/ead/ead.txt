@@ -1,0 +1,13 @@
+EAD
+
+http://arkivverket.no/arkivverket/Arkivbevaring/Elektronisk-arkivmateriale/Standarder/EAD
+
+EAD er den mest brukte standarden for å beskrive objekter logisk som arkivmateriale I OAIS-baserte arkivpakker. DIAS-prosjektet bruker EAD for dette formålet i denne standardens fullstendige form, uten egne norske tilpasninger. DIAS forutsetter også at EAD-informasjon utveksles med Asta eller et tilsvarende arkivinformasjonssystem.
+
+Arkivpakker i Arkivverkets nye digitale magasin som planlegges tatt i bruk fra 2012, vil være basert på  strukturen i DIAS-modellen, og bruke EAD for logisk arkivbeskrivelse.
+
+Link til EAD: http://www.loc.gov/ead/ead.xsd
+
+For EAD og EAC-CPF arbeider DIAS-prosjektet med å spesifisere en fullstendig mapping av elementer mot Asta-systemet. Dokumentet nedenfor viser foreløpig status for dette arbeidet for EAD, som planlegges ferdig høsten 2011:
+
+Mapping til ASTA av EAD

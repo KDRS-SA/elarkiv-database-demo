@@ -1,0 +1,30 @@
+Godkjente Noark-3-løsninger
+
+http://arkivverket.no/arkivverket/Offentleg-forvalting/Noark/Tidligere-versjoner/Noark-3/Godkjente-loesninger
+
+Riksarkivaren foretok godkjenning av Noark-3-systemer inntil lanseringen av Noark-4 i 1999.
+
+Godkjenningsvurderingen ble imidlertid foretatt skjønnsmessig på grunnlag av en gjennomgang av systemenes hovedfunksjoner. Vurderingen omfattet ikke en test av prøver på avleveringsuttrekk fra systemene. Den ble avløst av en mer formalisert godkjenningsordning for Noark-4-systemer fra 2000.
+
+Oversikt over tidligere godkjente Noark-3-systemer inntil 1999:
+
+Systemnavn
+Leverandør (nåværende og tidligere)
+
+DocuLive / DocuLive Noark-Plus	Software Innovation AS (tidl: Siemens Business Services, oppr.: Norsk Data/ND Statspartner)
+
+Kontor 2000	Edb Business Partner AS (tidl.: IBM A/S, oppr.: NIT - Norsk Informasjonsteknologi AS)
+
+ModuLink saksarkiv	ErgoGroup (tidl.: SDS - Statens Datasentral)
+
+Offsak	ErgoGroup (tidl.: SDS - Statens Datasentral)
+
+JASS (tidl.: On-File/Noark)	ErgoGroup (tidl.: Telenor Allianse AS)
+
+Forum Winsak	ErgoGroup (tidl.: Telenor Allianse AS)
+
+Symfoni Sak/Arkiv (tidl.: Cinet Noark)	Ementor ASA (tidl.: Cinet A/S)
+
+UiO Noark	AmeriData Global (tidl.: Control Data AS)
+
+De tidligste Noark-systemene ND-Noark (Norsk Data) og Fics-Noark (Multi Software), som var basert på Noark versjon 1 (1984) og Noark versjon 2 (1987), ble aldri gjenstand for en godkjenningsvurdering. Informasjon fra disse systemene er i de fleste tilfeller senere konvertert til Noark-3-systemer som DocuLive og ModuLink.
