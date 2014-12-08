@@ -4,13 +4,58 @@
     xsi:schemaLocation="http://www.arkivverket.no/standarder/addml addml.xsd">
     <dataset name="test01">
         <description>Datasettet test01 inneholder en tabell med 5 kolonner.</description>
+ 
         <reference name="test01">
             <context>
                 <description>Informasjon av kontekstuell art om innleveringen, se info.txt</description>
+                <additionalElements>
+                    <description>Informasjon om konteksten</description>
+                    <additionalElement name="opprinnelig system" dataType="string" format="string">
+                        <value>Elarkiv Database Demo</value>
+                        <properties>
+                            <property name="uttrekksansvarlig" dataType="string" format="string">
+                                <value>Torbjørn Aasen, IKAMR</value>
+                            </property>
+                            <property name="uttrekksmetode" dataType="string" format="string">
+                                <value>Universal Server (WAMP) med målretta skript.</value>
+                            </property>
+                        </properties>
+                    </additionalElement>
+                    <additionalElement name="merknad" dataType="string" format="string">
+                        <value>ToDo: Tilpasse context additionalElements til InfoOmInnlevering.doc og info.txt/info.xml.</value>
+                    </additionalElement>
+                </additionalElements>
             </context>
+ 
             <content>
                 <description>Testdata eksempel på uttrekk av Test-system basert på metadata beskrivelse versjon 01. Tekst-datafiler med feltseparator skille.</description>
+                <additionalElements>
+                    <description>Innholdsinformasjon</description>
+                    <additionalElement name="arkivskaper" dataType="string" format="string">
+                        <value>Test kommune</value>
+                        <properties>
+                            <property name="arkivskaperId" dataType="string" format="string">
+                                <value>test.kommune.no</value>
+                            </property>
+                        </properties>
+                    </additionalElement>
+                    <additionalElement name="system" dataType="string" format="string">
+                        <value>Elarkiv Database Demo</value>
+                    </additionalElement>
+                    <additionalElement name="system" dataType="string" format="string">
+                        <value>Elarkiv Database Demo</value>
+                        <properties>
+                            <property name="startDato" dataType="string" format="date">
+                                <value>1999</value>
+                            </property>
+                            <property name="sluttDato" dataType="string" format="date">
+                                <value>2001</value>
+                            </property>
+                        </properties>
+                    </additionalElement>                    
+                </additionalElements>
             </content>
+            
         </reference>
         
         <flatFiles>
