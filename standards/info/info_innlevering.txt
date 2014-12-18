@@ -1,0 +1,7 @@
+info
+
+http://arkivverket.no/arkivverket/Arkivbevaring/Elektronisk-arkivmateriale/Standarder/info
+
+Avleveringsbestemmelsene (Riksarkivarens forskrift, kap. VIII) krever at det skal følge med en fil med overordnet informasjon ved avlevering/deponering. Denne filen har hittil hatt navnet INFO.TXT, men vil ved neste revisjon av bestemmelsene bli en xml-fil med betegnelsen info.xml. Strukturen i denne filen er foreløpig bare spesifisert i et utkast.Last ned xsd-filen med utkast til ny info.xml.
+
+info.xsd

@@ -1,0 +1,28 @@
+Noark
+
+http://arkivverket.no/arkivverket/Offentleg-forvalting/Noark
+
+Hva er Noark?
+
+Noark er en forkortelse for Norsk arkivstandard. Noark ble utarbeidet som en kravspesifikasjon for elektroniske journalsystemer i statsforvaltningen i 1984 av Statens rasjonaliseringsdirektorat (Statskonsult) i samarbeid med Riksarkivaren, og den etablerte seg raskt som de facto standard.
+
+Også den andre versjonen av Noark, som kom ut i 1987, ble utformet av som ledd i et prosjektsamarbeid med Riksarkivaren. I 1990 ble ansvaret for å forvalte og videreføre standarden overført fra Statskonsult til Riksarkivaren
+
+I 1994 kom Noark-3 på trykk og ble avløst av Noark-4 i 1999. Noark-4 viderefører også spesifikasjonene i Koark, som er den tilsvarende standard for kommunal og fylkeskommunal forvaltning. I 1995 ble det utgitt en versjon med tillegg for kommunal saksbehandling: Koark (gjerne kalt kommuneNoark ). Denne ble utviklet i samarbeid med Kommunenes sentralforbund og følger i alt vesentlig prinsippene i Noark-standarden, men har en del tilleggsfunksjoner som er spesielt tilpasset saksgangen i kommuner og fylkeskommuner.
+
+Mens de første versjonene av NOARK-standarden bare omfattet selve journalføringen, la Noark-4 grunnlaget for en fullelektronisk saksbehandling og arkivering i offentlig forvaltning
+
+Noark 5 er gjeldende standard i dag. Videreutviklingen har omfattet dels modernisering i tråd med den teknologiske utviklingen, dels utvidelser i systemenes informasjonsinnhold og funksjonalitet.
+
+Hvorfor bruke Noark?
+
+Noark er både en felles standard for offentlig forvaltning og et hjelpemiddel for å øke samhandlingen mellom systemer og organer. Et avleveringsuttrekk laget etter Noark5 er egnet til langtidslagring. Private virksomheter vil også ha nytte av Noark.
+
+Hvordan ta i bruk Noark?
+For å ta i bruk et Noark-godkjent system kan det anskaffes et av de godkjente systemene som er listet på våre nettsider. Det er også mulig å utvikle sitt eget system og søke om å få det godkjent av Riksarkivaren.
+
+Kjekt å vite
+Ingen er pålagt å bruke den siste Noark-versjonen, men det er en risiko at leverandørene vil slutte å levere tjenester knyttet til eldre versjoner.
+
+Lovhjemmel
+Arkivforskriften §2-9 sier at offentlige organer normalt skal benytte et Noark-godkjent system ved elektronisk journalføring og arkivering.

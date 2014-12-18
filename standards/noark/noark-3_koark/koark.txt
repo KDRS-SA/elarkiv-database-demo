@@ -1,0 +1,10 @@
+Koark
+
+http://arkivverket.no/arkivverket/Offentleg-forvalting/Noark/Tidligere-versjoner/Koark
+
+Hva er Koark?
+Koark var en standard for sak-/arkivsystemer i fylkeskommunal og kommunal forvaltning som kom i 1995. Det formelle navnet var ”Kommunal standard for EDB baserte sak-/arkivsystemer” og standarden ble utviklet av Kommunenes Sentralforbund.
+
+Navnet Koark var en avledning av Noark (Norsk arkivsystem) som siden 1984 hadde vært standard for de statlige journal- og arkivsystemer. Koark ble betraktet som en kommunal variant av Noark-standarden på områdene edb-journal og elektronisk saksarkiv, men med justeringer og tillegg som skal dekke kommunale behov. Koark inneholdt såkalt "utvalgsbehandling" som dekket behandling av saker i folkevalgte organer, komitéer og andre utvalg. Standarden bygde på prinsippet om at systemet skal være integrert. I dette ligger at alle delene (komponentene) i systemet inngår i et samspill som er tilpasset virksomhetens behov. Opplysninger som legges til rette i en del av systemet, skal kunne henges inn i andre deler når dette er hensiktsmessig. Sak/arkivsystemet utgjorde bare en del av de edb-baserte informasjonssystemer (eksterne fagsystemer) som kunne være til nytte i saksbehandlingen. Det skulle derfor være mulig å få til en integrasjon mellom Koark-systemet og andre informasjonssystemer. Ved å tilpasse seg grensesnittet i Koark, ville andre informasjonssystemer være åpne for integrasjon med den dokumentadministrative kjernen (edb-journalen) i Koark.
+
+Bakgrunnen for Koark-standarden var blant annet innføring av ny kommunelov og arkivloven, som påla kommuner og fylkeskommuner større forpliktelser når det gjelder dokumentforvaltning. Ved innføringen av Noark-4 i 1999 avløste den nye Noark-standarden den kommunale Koark-standarden.

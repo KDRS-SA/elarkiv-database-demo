@@ -1,0 +1,9 @@
+ADDML
+
+http://arkivverket.no/arkivverket/Arkivbevaring/Elektronisk-arkivmateriale/Standarder/ADDML
+
+ADDML - Archival Data Description Markup Language.
+
+ADDML er det norske Arkivverkets egenutviklede standard for teknisk beskrivelse av poststrukturerte datafiler (tabelluttrekk). ADDML brukes også for slik teknisk strukturbeskrivelse i DIAS.
+
+Standarden brukes i dag i versjonene 7.3 hos noen arkivskapere og andre arkiv, og 8.2 internt i Arkivverket. Mens versjon 7.3 var en strikt detaljbeskrivelse av strukturen fortrinnsvis for flate filer, er dette mer rendyrket i versjon 8.2. I denne versjonen kan kun flate filer detaljbeskrives. Til gjengjeld er det lagt til muligheter for overordnede beskrivelser av andre typer filer og også for kontekstuell informasjon.

@@ -1,0 +1,13 @@
+Noark 2
+
+http://arkivverket.no/arkivverket/Offentleg-forvalting/Noark/Tidligere-versjoner/Noark-2
+
+Hva er Noark 2?
+En utvidet kravspesifikasjon til NOARK-standarden – NOARK-2 – ble utgitt som et samarbeidsprosjekt mellom Statens rasjonaliseringsdirektorat (Statskonsult) og Riksarkivaren i 1987. Den nye utgaven av standarden var først og fremst rettet mot systemutviklere og leverandører, men standarden innholdt også nye krav til journalføring av intern korrespondanse, tilgangsbegrensning av journalopplysninger og muligheter for avdelingsdelt journalføring.
+
+På bakgrunn av de to første versjonene av NOARK-standarden utarbeidet Statskonsult en veiledning til bruk for virksomheter som skulle innføre et NOARK-basert system. Målgruppene var både ledere, saksbehandlere og arkivpersonalet.
+
+Last ned standarden her
+
+Noark-2 standarden - hoveddokument
+Vedlegg til Noark-2 standarden
