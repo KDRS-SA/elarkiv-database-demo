@@ -3,6 +3,14 @@ RESOURCES_standards.txt
 Elarkiv Database Demo (this git-project)
 https://github.com/KDRS-SA/elarkiv-database-demo
 
+Arkivplan.no - Test kommune - Elektroniske system
+http://www.arkivplan.no
+http://kommune.arkivplan.no
+http://kommune.arkivplan.no/content/view/full/256753
+
+Prosesser og rutiner for digitalt skapt materiale
+http://www.kdrs.no/prosjekt/ProsessDigitaltDepot.htm
+
 Arkivverket Noark
 http://arkivverket.no/arkivverket/Offentleg-forvalting/Noark
 
