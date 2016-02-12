@@ -1,6 +1,14 @@
 CHANGELOG_mysql.txt
 
+2016-02-11 Added testdb04 and bugfix testdb01/02/03 
+- testdb01/02/03 bugfix missing {@'%'} in global user syntax.
+-> object 4 bugfix reference (double reference to 5 corrected to 4 & 5).
+-> added and rearranged objects of different sizes (3 PDF, 1 DOC, 2 DOCX, 1 XLSX, 1 TXT, 1 XML).
+
+- testdb04 copied from testdb03 with documents as blobs
+-> table object added blob field and added documents in the blok (imported from SQL-query).
+
 2014-12-01 Completed testdb03 small dataset
-- added content to table "objekt" (file reference).
-- added files in folder "objekt".
+- Added content to table "objekt" (file reference).
+- Added files in folder "objekt".
 - Restructured (testdbnn, usernn, SIARD content moved to subfolder.

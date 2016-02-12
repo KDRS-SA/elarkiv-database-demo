@@ -1,0 +1,10 @@
+Noark 5
+
+http://arkivverket.no/arkivverket/Offentleg-forvalting/Noark/Noark-5
+
+Hva er Noark 5?
+
+Noark 5 er en standard for arkivdanning som stiller krav til arkivstruktur, metadata og funksjonalitet. Noark5 skal kunne brukes for alle typer arkivdanning, uavhengig av teknologisk løsning og type organ. Alle former for aktiviteter som skaper dokumenter som det er viktig å sørge for at oppbevares og gjenfinnes i autentisk form, skal i prinsippet inngå i en løsning for arkivdanning. Dette er helt uavhengig av offentlig eller privat sektor, om dokumentene inngår i tradisjonell saksbehandling, hvor mange år de skal oppbevares eller om de skal avleveres til depotarkiv. Noark 5 er den siste utgaven av Noark-standarden, og ble publisert sommeren 2008. Fra og med 15. mars 2013 er Noark 5 versjon 3.1 gjeldende versjon.
+
+Kjekt å vite
+Det er ikke krav om periodisering ved skifte av Noark-versjon eller leverandør, men det anbefales allikevel at denne typen større endringer foretas i forbindelse med et periodeskille.Før anskaffelse av et Noark5-system må det lages en kravspesifikasjon. Siden Noark5 ikke spesifiserer et fullstendig system gir det ingen mening å be om at alle obligatoriske krav oppfylles. Det stilles dermed større krav til den som skal bestille et system, men samtidig gis det større frihet enn ved Noark-4.

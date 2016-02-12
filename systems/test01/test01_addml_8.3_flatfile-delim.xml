@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addml name="test01"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns="http://www.arkivverket.no/standarder/addml"
+    xsi:schemaLocation="http://www.arkivverket.no/standarder/addml addml.xsd">
+    <dataset name="test01">
+        <description>Datasettet test01 inneholder en tabell med 5 kolonner.</description>
+ 
+        <reference name="test01">
+            <context>
+                <description>Informasjon av kontekstuell art om innleveringen, se info.txt/info.xml</description>
+                <additionalElements>
+                    <description>Informasjon om konteksten.</description>
+                    
+                    <!-- ARCHIVIST_ORGANIZATION = Organisasjon som er arkivskaper av materialet som innleveres. 
+                        METS: <agent: ROLE="ARCHIVIST" TYPE="ORGANIZATION"><name> [Arkivskapers navn] -->
+                    <additionalElement name="ARCHIVIST_ORGANIZATION" dataType="string" format="string">
+                        <properties>
+                            <property name="name" dataType="string" format="string">
+                                <value>Test kommune</value>
+                            </property>
+                        </properties>
+                    </additionalElement>
+                    <!-- ARCHIVIST_INDIVIDUAL = Kontaktperson arkivskaper 
+                        METS: <agent: ROLE="ARCHIVIST" TYPE="INDIVIDUAL"><name> [Arkivskaper kontaktperson] -->
+                    <additionalElement name="ARCHIVIST_INDIVIDUAL" dataType="string" format="string">
+                        <properties>
+                            <property name="name" dataType="string" format="string">
+                                <value>Per Person</value>
+                            </property>
+                            <!-- METS: <agent: ROLE="ARCHIVIST" TYPE="INDIVIDUAL"><note> [Arkivskaper kontaktperson tlf/epost] -->
+                            <property name="note_phone" dataType="string" format="string">
+                                <value>71 23 45 67</value>                            
+                            </property>
+                            <property name="note_email" dataType="string" format="string">
+                                <value>per.person@test.kommune.no</value>
+                            </property>
+                        </properties>
+                    </additionalElement>
+                    
+                    <!-- CREATOR_ORGANIZATION = Organisasjon som er skaper av denne addml-filen. 
+                        METS: <agent: ROLE="CREATOR" TYPE="ORGANIZATION"><name> [Addml-skaper navn] -->
+                    <additionalElement name="ARCHIVIST_ORGANIZATION" dataType="string" format="string">
+                        <properties>
+                            <property name="name" dataType="string" format="string">
+                                <value>Test kommune</value>
+                            </property>
+                        </properties>
+                    </additionalElement>
+                    <!-- CREATOR_INDIVIDUAL = Kontaktperson addml-skaper 
+                        METS: <agent: ROLE="CREATOR" TYPE="INDIVIDUAL"><name> [ADDML-skaper kontaktperson] -->
+                    <additionalElement name="CREATOR_INDIVIDUAL" dataType="string" format="string">
+                        <properties>
+                            <property name="name" dataType="string" format="string">
+                                <value>Per Person</value>
+                            </property>
+                            <!-- METS: <agent: ROLE="CREATOR" TYPE="INDIVIDUAL"><note> [ADDML-skaper kontaktperson tlf/epost] -->
+                            <property name="note_phone" dataType="string" format="string">
+                                <value>71 23 45 67</value>                            
+                            </property>
+                            <property name="note_email" dataType="string" format="string">
+                                <value>per.person@test.kommune.no</value>
+                            </property>
+                        </properties>
+                    </additionalElement> 
+                    
+                    <!-- SUBMITTER_ORGANIZATION = Organisasjon ansvarlig for innlevering av materialet som innleveres.
+                        METS: <agent: ROLE="OTHER" OTHERROLE="SUBMITTER" TYPE="ORGANIZATION"><name> [Avleverende organisasjon navn] -->
+                    <additionalElement name="SUBMITTER_ORGANIZATION" dataType="string" format="string">
+                        <properties>
+                            <property name="name" dataType="string" format="string">
+                                <value>Test kommuner IKT</value>
+                            </property>
+                        </properties>
+                    </additionalElement>
+                    <!-- SUBMITTER_INDIVIDUAL = Kontaktperson avleverende organisasjon 
+                        METS: <agent: ROLE="OTHER" OTHERROLE="SUBMITTER" TYPE="INDIVIDUAL"><name> [Avleverende organisasjon kontaktperson] -->
+                    <additionalElement name="ARCHIVIST_INDIVIDUAL" dataType="string" format="string">
+                        <properties>
+                            <property name="name" dataType="string" format="string">
+                                <value>Terje Person</value>
+                            </property>                        
+                            <!-- METS: <agent: ROLE="OTHER" OTHERROLE="SUBMITTER" TYPE="INDIVIDUAL"><note> [Arkivskaper kontaktperson tlf/epost] -->
+                            <property name="note_phone" dataType="string" format="string">
+                                <value>72 34 56 78</value>                            
+                            </property>
+                            <property name="note_email" dataType="string" format="string">
+                                <value>terje.person@test.kommuner-ikt.no</value>
+                            </property>
+                        </properties>
+                    </additionalElement> 
+                    
+                    <!-- PRODUCER_ORGANIZATION = Organisasjon ansvarlig for arkivuttrekket (SIP)
+                        METS: <agent: ROLE="OTHER" OTHERROLE="PRODUCER" TYPE="ORGANIZATION"><name> [Uttrekks-organisasjon navn] -->
+                    <additionalElement name="PRODUCER_ORGANIZATION" dataType="string" format="string">
+                        <properties>
+                            <property name="name" dataType="string" format="string">
+                                <value>Test kommuner uttrekk</value>
+                            </property>
+                        </properties>
+                    </additionalElement>
+                    <!-- PRODUCER_INDIVIDUAL = Kontaktperson avleverende organisasjon 
+                        METS: <agent: ROLE="OTHER" OTHERROLE="PRODUCER" TYPE="INDIVIDUAL"><name> [Uttrekks-organisasjon kontaktperson] -->
+                    <additionalElement name="PRODUCER_INDIVIDUAL" dataType="string" format="string">
+                        <properties>
+                            <property name="name" dataType="string" format="string">
+                                <value>Hilde Person</value>
+                            </property>                        
+                            <!-- METS: <agent: ROLE="OTHER" OTHERROLE="PRODUCER" TYPE="INDIVIDUAL"><note> [Uttrekks-org. kontaktperson tlf/epost] -->
+                            <property name="note_phone" dataType="string" format="string">
+                                <value>73 45 67 89</value>                            
+                            </property>
+                            <property name="note_email" dataType="string" format="string">
+                                <value>hilde.person@test.kommuner-uttrekk.no</value>
+                            </property>
+                        </properties>
+                    </additionalElement>
+                    
+                    <!-- IPOWNER_ORGANIZATION = Organisasjon som er eier av materialet som innleveres. 
+                        METS: <agent: ROLE="IPOWNER" TYPE="ORGANIZATION"><name> [Arkiveiers navn] -->
+                    <additionalElement name="IPOWNER_ORGANIZATION" dataType="string" format="string">
+                        <properties>
+                            <property name="name" dataType="string" format="string">
+                                <value>Testeier kommune</value>
+                            </property>
+                        </properties>
+                    </additionalElement>
+                    <!-- IPOWNER_INDIVIDUAL = Kontaktperson arkivseier 
+                        METS: <agent: ROLE="IPOWNER" TYPE="INDIVIDUAL"><name> [Arkiveier kontaktperson] -->
+                    <additionalElement name="IPOWNER_INDIVIDUAL" dataType="string" format="string">
+                        <properties>
+                            <property name="name" dataType="string" format="string">
+                                <value>Eva Person</value>
+                            </property>
+                            <!-- METS: <agent: ROLE="IPOWNER" TYPE="INDIVIDUAL"><note> [Arkiveier kontaktperson tlf/epost] -->
+                            <property name="note_phone" dataType="string" format="string">
+                                <value>71 01 23 45</value>                            
+                            </property>
+                            <property name="note_email" dataType="string" format="string">
+                                <value>eva.person@testeier.kommune.no</value>
+                            </property>
+                        </properties>
+                    </additionalElement>
+                    
+                    <!-- ARCHIVIST_SOFTWARE = Angivelse av navn på det systemet som materialet ble trukket ut av 
+                        METS: <agent: ROLE="ARCHIVIST" TYPE="OTHER" OTHERTYPE="SOFTWARE"><name> [Systemnavn] -->
+                    <additionalElement name="ARCHIVIST_SOFTWARE" dataType="string" format="string">
+                        <properties>
+                            <property name="name" dataType="string" format="string">
+                                <value>Test01-systemet</value>
+                            </property>
+                            <!-- METS: <agent: ROLE="ARCHIVIST" TYPE="OTHER" OTHERTYPE="SOFTWARE"><note> [System versjon] -->
+                            <property name="note_system_version" dataType="string" format="string">
+                                <value>1.0.0</value>                            
+                            </property>
+                            <!-- METS: <agent: ROLE="ARCHIVIST" TYPE="OTHER" OTHERTYPE="SOFTWARE"><note> [System type] -->
+                            <!-- "Noark 3", "Noark 4", "Noark 5", "Fagsystem" -->
+                            <property name="note_system_type" dataType="string" format="string">
+                                <value>Fagsystem</value>                            
+                            </property>
+                            <!-- METS: <agent: ROLE="ARCHIVIST" TYPE="OTHER" OTHERTYPE="SOFTWARE"><note> [System typeversjon] -->
+                            <!-- Brukes kun når System type="Noark 5". Angir versjon som typen til opprinnelig system følger -->
+                            <!-- "Noark 3", "Noark 4", "Noark 5", "Fagsystem" -->
+                            <!-- 
+                            <property name="note_system_type" dataType="string" format="string">
+                                <value>Fagsystem</value>                            
+                            </property>
+                            -->
+                                                        
+                            <!-- Merknad om systemet: framework, database platform etc. -->
+                            <property name="note_system_framework" dataType="string" format="string">
+                                <value>Universal Server (WAMP)</value>                            
+                            </property>
+                            <property name="note_system_framework_version" dataType="string" format="string">
+                                <value>11.5.2</value>                            
+                            </property>
+                            <property name="note_system_framework_info" dataType="string" format="string">
+                                <value>Database server; Server: Uniform Server (127.0.0.1 via TCP/IP). Server type: MySQL. 
+                                    Server version: 5.5.38 - MySQL Community Server (GPL). Protocol version: 10. 
+                                    User: root@localhost. Server charset: UTF-8 Unicode (utf8).
+                                    Web server; Apache. Database client version: libmysql - mysqlnd 5.0.10 - 20111026 - 
+                                    $Id: c85105d7c6f7d70d609bb4c000257868a40840ab $
+                                    PHP extension: mysqli.
+                                </value>                            
+                            </property>
+                            <property name="note_database_platform" dataType="string" format="string">
+                                <value>MySQL</value>                            
+                            </property>
+                            <property name="note_database_platform_version" dataType="string" format="string">
+                                <value>5.5.38</value>                            
+                            </property>
+                            <property name="note_database_platform_charset" dataType="string" format="string">
+                                <value>UTF-8</value>                            
+                            </property>
+                        </properties>
+                    </additionalElement>
+                    
+                    <!-- PRODUCER_SOFTWARE = Angivelse av navn på uttrekk-systemet 
+                        METS: <agent: ROLE="OTHER" OTHERROLE="PRODUCER" TYPE="OTHER" OTHERTYPE="SOFTWARE"><name> [Uttrekk-system navn] -->
+                    <additionalElement name="PRODUCER_SOFTWARE" dataType="string" format="string">
+                        <properties>
+                            <property name="name" dataType="string" format="string">
+                                <value>Test01-systemet</value>
+                            </property>
+                            <!-- METS: <agent: ROLE="OTHER" OTHERROLE="PRODUCER" TYPE="OTHER" OTHERTYPE="SOFTWARE"><note> [Uttrekk-system versjon] -->
+                            <property name="note_system_version" dataType="string" format="string">
+                                <value>1.0.0</value>                            
+                            </property>
+                            <!-- METS: <agent: ROLE="OTHER" OTHERROLE="PRODUCER" TYPE="OTHER" OTHERTYPE="SOFTWARE"><note> [Uttrekk-system type] -->
+                            <!-- "Noark 3", "Noark 4", "Noark 5", "Fagsystem" -->
+                            <property name="note_system_type" dataType="string" format="string">
+                                <value>Fagsystem</value>                            
+                            </property>
+                            <!-- METS: <agent: ROLE="OTHER" OTHERROLE="PRODUCER" TYPE="OTHER" OTHERTYPE="SOFTWARE"><note> [Yttrekk-system typeversjon] -->
+                            <!-- Brukes kun når Uttrekk-system="Noark 5". Angir versjon som typen til opprinnelig system følger -->
+                            <!-- "Noark 3", "Noark 4", "Noark 5", "Fagsystem" -->
+                            <!-- 
+                            <property name="note_system_type" dataType="string" format="string">
+                                <value>Fagsystem</value>                            
+                            </property>
+                            -->
+                            
+                            <!-- Merknad om uttrekk-systemet: framework, database platform etc. -->
+                            <property name="note_system_framework" dataType="string" format="string">
+                                <value>Universal Server (WAMP) med målretta skript.</value>                            
+                            </property>                            
+                            <property name="note_system_framework_version" dataType="string" format="string">
+                                <value>11.5.2</value>                            
+                            </property>
+                            <property name="note_system_framework_info" dataType="string" format="string">
+                                <value>Database server; Server: Uniform Server (127.0.0.1 via TCP/IP). Server type: MySQL. 
+                                    Server version: 5.5.38 - MySQL Community Server (GPL). Protocol version: 10. 
+                                    User: root@localhost. Server charset: UTF-8 Unicode (utf8).
+                                    Web server; Apache. Database client version: libmysql - mysqlnd 5.0.10 - 20111026 - 
+                                    $Id: c85105d7c6f7d70d609bb4c000257868a40840ab $
+                                    PHP extension: mysqli.
+                                </value>                            
+                            </property>
+                            <property name="note_database_platform" dataType="string" format="string">
+                                <value>MySQL</value>                            
+                            </property>
+                            <property name="note_database_platform_version" dataType="string" format="string">
+                                <value>5.5.38</value>                            
+                            </property>
+                            <property name="note_database_platform_charset" dataType="string" format="string">
+                                <value>UTF-8</value>                            
+                            </property>
+                        </properties>
+                    </additionalElement>
+                </additionalElements>
+            </context>
+ 
+            <content>
+                <description>Testdata eksempel på uttrekk av Test-system basert på metadata beskrivelse versjon 01. Tekst-datafiler med feltseparator skille.</description>
+                <additionalElements>
+                    <description>Innholdsinformasjon</description>
+                    <additionalElement name="arkivskaper" dataType="string" format="string">
+                        <value>Test kommune</value>
+                        <properties>
+                            <property name="arkivskaperId" dataType="string" format="string">
+                                <value>test.kommune.no</value>
+                            </property>
+                        </properties>
+                    </additionalElement>
+                    
+                    <additionalElement name="system" dataType="string" format="string">
+                        <value>Elarkiv Database Demo</value>
+                        <properties>
+                            <property name="startDato" dataType="string" format="date">
+                                <value>1999</value>
+                            </property>
+                            <property name="sluttDato" dataType="string" format="date">
+                                <value>2001</value>
+                            </property>
+                        </properties>
+                    </additionalElement>
+                    <additionalElement name="merknad" dataType="string" format="string">
+                        <value>ToDo: Tilpasse content additionalElements til elektronisk skjema arkivplan.no, InfoOmInnlevering.doc, info.txt/info.xml samt resterende DIAS-skjemaer.</value>
+                    </additionalElement>
+                </additionalElements>
+            </content>            
+        </reference>
+        
+        <flatFiles>
+            <flatFile name="testtabell" definitionReference="testtabell.dat"/>
+            
+            <flatFileDefinitions>
+                <flatFileDefinition name="testtabell" typeReference="testtabell.dat">        
+                    <recordDefinitions>
+                        <recordDefinition name="testtabell"> 
+                            <fieldDefinitions>
+                                <fieldDefinition name="id" typeReference="integer"/>
+                                <fieldDefinition name="tittel" typeReference="string"/>
+                                <fieldDefinition name="beskrivelse" typeReference="string"/>
+                                <fieldDefinition name="arkivkodefra" typeReference="string"/>
+                                <fieldDefinition name="arkivkodetil" typeReference="string"/>
+                            </fieldDefinitions>
+                        </recordDefinition>
+                    </recordDefinitions>
+                </flatFileDefinition>
+            </flatFileDefinitions>
+            
+            <structureTypes>
+                <flatFileTypes>
+                    <flatFileType name="testtabell">
+                        <charset>UTF-8</charset>
+                        <fixedFileFormat/>
+                    </flatFileType>
+                </flatFileTypes>
+                
+                <fieldTypes>
+                    <fieldType name="integer">
+                        <dataType>integer</dataType>  
+                    </fieldType>
+                    <fieldType name="string">
+                        <dataType>string</dataType>  
+                    </fieldType>
+                    <fieldType name="date">
+                        <dataType>date</dataType>  
+                    </fieldType>
+                </fieldTypes>
+            </structureTypes>
+            
+        </flatFiles>
+    </dataset>
+</addml>

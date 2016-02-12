@@ -1,0 +1,13 @@
+Noark 1
+
+http://arkivverket.no/arkivverket/Offentleg-forvalting/Noark/Tidligere-versjoner/Noark-1
+
+Hva er Noark 1
+Statens rasjonaliseringsdirektorat (Statskonsult), i samarbeid med Riksarkivaren, utarbeidet i 1984 en kravspesifikasjon for elektroniske journalsystemer i statsforvaltningen. Formålet var å få laget et maskinuavhengig standardisert system for å kunne håndtere dokumenter som inngikk saksbehandlingen til statlige forvaltningsorgan. Systemet som ble kalt NOARK (Norsk arkivsystem), etablerte seg raskt som de facto standard.
+
+NOARK var bl.a. basert på ”Retningslinjer for innføring av edb-baserte journalsystemer i statsforvaltningen” utarbeidet av Riksarkivaren og erfaringer fra et forsøk med elektronisk journalføring (EKSARD – EKSperimentelt Arkivsystem i R-Direktoratet) som var blitt drevet i regi av Statens rasjonaliseringsdirektorat mellom 1979 og 1984.
+
+Kravspesifikasjonen omfattet bare systemets eksterne brukerfunksjoner og satte ikke krav til teknologisk løsning utover krav til utforming av skjermbilder og rapporter.
+
+Last ned standarden her
+Noark-1 standarden

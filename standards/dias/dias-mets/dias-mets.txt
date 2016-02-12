@@ -1,0 +1,14 @@
+DIAS-METS
+
+http://arkivverket.no/arkivverket/Arkivbevaring/Elektronisk-arkivmateriale/Standarder/DIAS-METS
+
+METS-standarden implementerer OAIS-modellen ved å spesifisere den overordnede organiseringen av OAIS-baserte arkivpakker.
+
+DIAS-METS er DIAS-prosjektets tilpasning av METS for bruk i en felles arkivpakkestruktur for norske statlige og kommunale arkivdepoter. Dette nettstedet er den offisielle web-siden for DIAS-METS. Oppdaterte versjoner av DIAS-METS publiseres på denne siden etter hvert som de foreligger.
+
+DIAS-METS definererer det ytre laget (”containeren”) og strukturen i DIAS-baserte arkivpakker. Innbygd i arkivpakkestrukturen, og følgelig i DIAS-METS, bruker DIAS følgende andre standarder: EAD og EAC-CPF for arkiv- og aktørbeskrivelse, DIAS-PREMIS for bevaringsmetadata og  ADDML for teknisk strukturbeskrivelse. Hver av disse standardene i arkivpakkestrukturen har et eget xml-skjema.
+
+Arkivpakker i Arkivverkets nye digitale magasin som planlegges tatt i bruk fra 2012, vil være basert på  strukturen i DIAS-modellen, og være organisert med utgangspunkt i DIAS-METS.
+
+DIAS-METS.xsd
+Norsk DIAS_METS implementeringsmodell.pdf 59,46 kB

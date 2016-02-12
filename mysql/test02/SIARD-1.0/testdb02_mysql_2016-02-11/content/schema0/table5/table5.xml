@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table
+  xmlns="http://www.admin.ch/xmlns/siard/1.0/schema0/table5.xsd"
+  xsi:schemaLocation="http://www.admin.ch/xmlns/siard/1.0/schema0/table5.xsd table5.xsd"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row><c1>1</c1><c2>1</c2><c3>0001</c3><c4>Rådet for trygg trafikk</c4><c6>1963</c6><c7>1965</c7><c8>2</c8><c9>2</c9></row>
+  <row><c1>2</c1><c2>1</c2><c3>0002</c3><c4>Bygningsrådet</c4><c6>1963</c6><c7>1965</c7><c8>21</c8><c9>21</c9></row>
+  <row><c1>3</c1><c2>1</c2><c3>0003</c3><c4>Brannstyret</c4><c6>1963</c6><c7>1965</c7><c8>22</c8><c9>22</c9></row>
+  <row><c1>4</c1><c2>1</c2><c3>0004</c3><c4>Teknisk utval</c4><c6>1963</c6><c7>1965</c7><c8>23</c8><c9>23</c9></row>
+  <row><c1>5</c1><c2>1</c2><c3>0005</c3><c4>Møter i vassforyningsnemnda</c4><c6>1963</c6><c7>1965</c7><c8>24</c8><c9>24</c9></row>
+  <row><c1>6</c1><c2>1</c2><c3>0006</c3><c4>Vegnemnda</c4><c6>1963</c6><c7>1965</c7><c8>26</c8><c9>26</c9></row>
+  <row><c1>7</c1><c2>1</c2><c3>0014</c3><c4>Tenestemenn</c4><c6>1963</c6><c7>1965</c7><c8>46</c8><c9>46</c9></row>
+  <row><c1>8</c1><c2>1</c2><c3>0008</c3><c4>Rundskriv</c4><c6>1963</c6><c7>1965</c7><c8>40</c8><c9>40</c9></row>
+  <row><c1>9</c1><c2>1</c2><c3>0009</c3><c4>Instruksar og reglement</c4><c6>1963</c6><c7>1965</c7><c8>41</c8><c9>41</c9></row>
+  <row><c1>10</c1><c2>1</c2><c3>0010</c3><c4>Løner og avtalar</c4><c6>1963</c6><c7>1965</c7><c8>42</c8><c9>42</c9></row>
+  <row><c1>11</c1><c2>1</c2><c3>0011</c3><c4>Løner, avtalar og instruksar med kontraketer for vegvaktar</c4><c6>1963</c6><c7>1965</c7><c8>42</c8><c9>42</c9></row>
+  <row><c1>12</c1><c2>1</c2><c3>0012</c3><c4>Pensjon og trygd</c4><c6>1963</c6><c7>1965</c7><c8>43</c8><c9>43</c9></row>
+  <row><c1>13</c1><c2>1</c2><c3>0013</c3><c4>Velferdsarbeid</c4><c6>1963</c6><c7>1965</c7><c8>45</c8><c9>45</c9></row>
+  <row><c1>14</c1><c2>1</c2><c3>0007</c3><c4>Adm. Ordninga</c4><c6>1963</c6><c7>1965</c7><c8>31</c8><c9>31</c9></row>
+  <row><c1>15</c1><c2>2</c2><c3>0001</c3><c4>Dalsfjord sokneråd</c4><c6>1963</c6><c7>1965</c7><c8>210</c8><c9>210</c9></row>
+  <row><c1>16</c1><c2>2</c2><c3>0002</c3><c4>Mork skule leikeplass</c4><c6>1963</c6><c7>1965</c7><c8>210</c8><c9>210</c9></row>
+  <row><c1>17</c1><c2>2</c2><c3>0003</c3><c4>Mork skule, fullføring av kjellaretasje</c4><c6>1963</c6><c7>1965</c7><c8>210</c8><c9>210</c9></row>
+  <row><c1>18</c1><c2>2</c2><c3>0004</c3><c4>Hjartå skule</c4><c6>1963</c6><c7>1965</c7><c8>210</c8><c9>210</c9></row>
+  <row><c1>19</c1><c2>2</c2><c3>0005</c3><c4>Dravlaus skule</c4><c6>1963</c6><c7>1965</c7><c8>210</c8><c9>210</c9></row>
+  <row><c1>20</c1><c2>2</c2><c3>0012</c3><c4>Leikeplass Bjørkedal skule</c4><c6>1963</c6><c7>1965</c7><c8>210</c8><c9>210</c9></row>
+  <row><c1>21</c1><c2>2</c2><c3>0007</c3><c4>Fullføring av Mork skule</c4><c6>1963</c6><c7>1965</c7><c8>210</c8><c9>210</c9></row>
+  <row><c1>22</c1><c2>2</c2><c3>0008</c3><c4>Lid skule</c4><c6>1963</c6><c7>1965</c7><c8>210</c8><c9>210</c9></row>
+  <row><c1>23</c1><c2>2</c2><c3>0009</c3><c4>Folkestad\u0020</c4><c6>1963</c6><c7>1965</c7><c8>210</c8><c9>210</c9></row>
+  <row><c1>24</c1><c2>2</c2><c3>0010</c3><c4>Høydal nye skule, leikeplass</c4><c6>1963</c6><c7>1965</c7><c8>210</c8><c9>210</c9></row>
+  <row><c1>25</c1><c2>2</c2><c3>0011</c3><c4>Leikeplass, Øyrra nye skule</c4><c6>1963</c6><c7>1965</c7><c8>210</c8><c9>210</c9></row>
+  <row><c1>26</c1><c2>2</c2><c3>0006</c3><c4>Øyra nye skule</c4><c6>1963</c6><c7>1965</c7><c8>210</c8><c9>210</c9></row>
+  <row><c1>27</c1><c2>3</c2><c3>0001</c3><c4>Statistikk</c4><c6>1963</c6><c7>1965</c7><c8>302</c8><c9>302</c9></row>
+  <row><c1>28</c1><c2>3</c2><c3>0002</c3><c4>Vinterarbeid, sysselsetting</c4><c6>1963</c6><c7>1965</c7><c8>303</c8><c9>303</c9></row>
+  <row><c1>29</c1><c2>3</c2><c3>0003</c3><c4>Skadedyr, rottekrig</c4><c6>1963</c6><c7>1965</c7><c8>417</c8><c9>417</c9></row>
+  <row><c1>30</c1><c2>3</c2><c3>0004</c3><c4>Bustadareal. Tenestemenn v/Fylkessjukehuset</c4><c6>1963</c6><c7>1965</c7><c8>421</c8><c9>421</c9></row>
+  <row><c1>31</c1><c2>3</c2><c3>0005</c3><c4>Reising av heim til senil demente</c4><c6>1963</c6><c7>1965</c7><c8>422</c8><c9>422</c9></row>
+  <row><c1>32</c1><c2>3</c2><c3>0011</c3><c4>Autorisasjon ansvarshavande</c4><c6>1963</c6><c7>1965</c7><c8>503.1</c8><c9>503.1</c9></row>
+  <row><c1>33</c1><c2>3</c2><c3>0007</c3><c4>Rundskriv</c4><c6>1963</c6><c7>1965</c7><c8>500</c8><c9>500</c9></row>
+  <row><c1>34</c1><c2>3</c2><c3>0008</c3><c4>Verkeområde for bygningslova</c4><c6>1963</c6><c7>1965</c7><c8>501</c8><c9>501</c9></row>
+  <row><c1>35</c1><c2>3</c2><c3>0009</c3><c4>Vedtekter</c4><c6>1963</c6><c7>1965</c7><c8>502</c8><c9>502</c9></row>
+  <row><c1>36</c1><c2>3</c2><c3>0010</c3><c4>Bygningsaker</c4><c6>1963</c6><c7>1965</c7><c8>503</c8><c9>503</c9></row>
+  <row><c1>37</c1><c2>3</c2><c3>0006</c3><c4>Midlertiig forbod mot bygging i strandområder ved sjøen</c4><c6>1963</c6><c7>1965</c7><c8>451</c8><c9>451</c9></row>
+  <row><c1>38</c1><c2>4</c2><c3>0001</c3><c4>Reguleringssaker</c4><c6>1963</c6><c7>1965</c7><c8>504</c8><c9>504</c9></row>
+  <row><c1>39</c1><c2>4</c2><c3>0017</c3><c4>Mannskap</c4><c6>1963</c6><c7>1965</c7><c8>512</c8><c9>512</c9></row>
+  <row><c1>40</c1><c2>4</c2><c3>0003</c3><c4>Reguleringsendring på Røysbakken</c4><c6>1963</c6><c7>1965</c7><c8>504.1</c8><c9>504.1</c9></row>
+  <row><c1>41</c1><c2>4</c2><c3>0004</c3><c4>Reguleringsplanar</c4><c6>1963</c6><c7>1965</c7><c8>504.1</c8><c9>504.1</c9></row>
+  <row><c1>42</c1><c2>4</c2><c3>0005</c3><c4>Approberte reguleringsplanar</c4><c6>1963</c6><c7>1965</c7><c8>504.2</c8><c9>504.2</c9></row>
+  <row><c1>43</c1><c2>4</c2><c3>0006</c3><c4>Detaljregulering, utparsellering av tomter</c4><c6>1963</c6><c7>1965</c7><c8>504.3</c8><c9>504.3</c9></row>
+  <row><c1>44</c1><c2>4</c2><c3>0007</c3><c4>Utpareselleringsplan for eit kvartal på gbr 18/1 Engeset</c4><c6>1963</c6><c7>1965</c7><c8>504.3</c8><c9>504.3</c9></row>
+  <row><c1>45</c1><c2>4</c2><c3>0008</c3><c4>Oppmålingssaker</c4><c6>1963</c6><c7>1965</c7><c8>505</c8><c9>505</c9></row>
+  <row><c1>46</c1><c2>4</c2><c3>0009</c3><c4>Kart, oppmåling og skylddelingsforretningar</c4><c6>1963</c6><c7>1965</c7><c8>505.0</c8><c9>505.0</c9></row>
+  <row><c1>47</c1><c2>4</c2><c3>0010</c3><c4>Kartleggingsarbeid</c4><c6>1963</c6><c7>1965</c7><c8>505.1</c8><c9>505.1</c9></row>
+  <row><c1>48</c1><c2>4</c2><c3>0011</c3><c4>Kartverk (ferdige kart)</c4><c6>1963</c6><c7>1965</c7><c8>505.2</c8><c9>505.2</c9></row>
+  <row><c1>49</c1><c2>4</c2><c3>0012</c3><c4>Rundskriv</c4><c6>1963</c6><c7>1965</c7><c8>510</c8><c9>510</c9></row>
+  <row><c1>50</c1><c2>4</c2><c3>0013</c3><c4>Nybygg og utvidingar</c4><c6>1963</c6><c7>1965</c7><c8>511.0</c8><c9>511.0</c9></row>
+  <row><c1>51</c1><c2>4</c2><c3>0014</c3><c4>Brannmannskap</c4><c6>1963</c6><c7>1965</c7><c8>512.1</c8><c9>512.1</c9></row>
+  <row><c1>52</c1><c2>4</c2><c3>0015</c3><c4>Norsk brannvernforening, ambulerande utstilling i Volda mai 1962</c4><c6>1963</c6><c7>1965</c7><c8>510.1</c8><c9>510.1</c9></row>
+  <row><c1>53</c1><c2>4</c2><c3>0016</c3><c4>Varslingssystem</c4><c6>1963</c6><c7>1965</c7><c8>511.4</c8><c9>511.4</c9></row>
+  <row><c1>54</c1><c2>4</c2><c3>0002</c3><c4>Reguleringsføresegner for eigedom</c4><c6>1963</c6><c7>1965</c7><c8>504.0</c8><c9>504.0</c9></row>
+  <row><c1>55</c1><c2>5</c2><c3>0001</c3><c4>Brannbil</c4><c6>1963</c6><c7>1965</c7><c8>513.1</c8><c9>513.1</c9></row>
+  <row><c1>56</c1><c2>5</c2><c3>0002</c3><c4>Feiarstell</c4><c6>1963</c6><c7>1965</c7><c8>514.0</c8><c9>514.0</c9></row>
+  <row><c1>57</c1><c2>5</c2><c3>0003</c3><c4>Brannvarsling</c4><c6>1963</c6><c7>1965</c7><c8>511.4</c8><c9>511.4</c9></row>
+  <row><c1>58</c1><c2>5</c2><c3>0007</c3><c4>Eldsfarlege verksemder og stoff</c4><c6>1963</c6><c7>1965</c7><c8>515</c8><c9>515</c9></row>
+  <row><c1>59</c1><c2>5</c2><c3>0005</c3><c4>Gerhard Myklebust, avtale om leige av garasje</c4><c6>1963</c6><c7>1965</c7><c8>513</c8><c9>513</c9></row>
+  <row><c1>60</c1><c2>5</c2><c3>0006</c3><c4>Feiarstell og brannsyn</c4><c6>1963</c6><c7>1965</c7><c8>514</c8><c9>514</c9></row>
+  <row><c1>61</c1><c2>5</c2><c3>0004</c3><c4>Brannsløkkingsapparat skular</c4><c6>1963</c6><c7>1965</c7><c8>513</c8><c9>513</c9></row>
+  <row><c1>62</c1><c2>6</c2><c3>0004</c3><c4>Private kaier</c4><c6>1963</c6><c7>1965</c7><c8>521.4</c8><c9>521.4</c9></row>
+  <row><c1>63</c1><c2>6</c2><c3>0005</c3><c4>Kaier og spor</c4><c6>1963</c6><c7>1965</c7><c8>521</c8><c9>521</c9></row>
+  <row><c1>64</c1><c2>6</c2><c3>0006</c3><c4>Planar og anlegg</c4><c6>1963</c6><c7>1965</c7><c8>521.1</c8><c9>521.1</c9></row>
+  <row><c1>65</c1><c2>6</c2><c3>0007</c3><c4>Brannrapport + statistikk</c4><c6>1963</c6><c7>1965</c7><c8>517</c8><c9>517</c9></row>
+  <row><c1>66</c1><c2>6</c2><c3>0008</c3><c4>Leike og akebakkar</c4><c6>1963</c6><c7>1965</c7><c8>533.2</c8><c9>533.2</c9></row>
+  <row><c1>67</c1><c2>6</c2><c3>0009</c3><c4>Vassforsyningsanlegg, Vikebygda</c4><c6>1963</c6><c7>1965</c7><c8>541</c8><c9>541</c9></row>
+  <row><c1>68</c1><c2>6</c2><c3>0003</c3><c4>Årsmelding 1962</c4><c6>1963</c6><c7>1965</c7><c8>517</c8><c9>517</c9></row>
+  <row><c1>69</c1><c2>6</c2><c3>0011</c3><c4>Tilknyting til kloakk, Ytre Engest og Strand</c4><c6>1963</c6><c7>1965</c7><c8>541.1</c8><c9>541.1</c9></row>
+  <row><c1>70</c1><c2>6</c2><c3>0012</c3><c4>Planar og anlegg</c4><c6>1963</c6><c7>1965</c7><c8>541</c8><c9>541</c9></row>
+  <row><c1>71</c1><c2>6</c2><c3>0013</c3><c4>Planar og anlegg</c4><c6>1963</c6><c7>1965</c7><c8>541.1</c8><c9>541.1</c9></row>
+  <row><c1>72</c1><c2>6</c2><c3>0001</c3><c4>Brannsyn</c4><c6>1963</c6><c7>1965</c7><c8>514.1</c8><c9>514.1</c9></row>
+  <row><c1>73</c1><c2>6</c2><c3>0002</c3><c4>Eldsfarlege bedrifter</c4><c6>1963</c6><c7>1965</c7><c8>515.2</c8><c9>515.2</c9></row>
+  <row><c1>74</c1><c2>6</c2><c3>0010</c3><c4>Rundskriv</c4><c6>1963</c6><c7>1965</c7><c8>540</c8><c9>540</c9></row>
+  <row><c1>75</c1><c2>7</c2><c3>0001</c3><c4>Framføring av kloakk til senil dementheim</c4><c6>1963</c6><c7>1965</c7><c8>541.1</c8><c9>541.1</c9></row>
+  <row><c1>76</c1><c2>7</c2><c3>0002</c3><c4>Materiale</c4><c6>1963</c6><c7>1965</c7><c8>542.1</c8><c9>542.1</c9></row>
+  <row><c1>77</c1><c2>7</c2><c3>0003</c3><c4>Drift og vedlikehald av vassverk og kloakkar</c4><c6>1963</c6><c7>1965</c7><c8>543</c8><c9>543</c9></row>
+  <row><c1>78</c1><c2>7</c2><c3>0004</c3><c4>Avgifter</c4><c6>1963</c6><c7>1965</c7><c8>544</c8><c9>544</c9></row>
+  <row><c1>79</c1><c2>7</c2><c3>0005</c3><c4>Private vassverk og kloakkar</c4><c6>1963</c6><c7>1965</c7><c8>545</c8><c9>545</c9></row>
+  <row><c1>80</c1><c2>7</c2><c3>0006</c3><c4>Vatn til byggearbeid</c4><c6>1963</c6><c7>1965</c7><c8>545</c8><c9>545</c9></row>
+  <row><c1>81</c1><c2>7</c2><c3>0007</c3><c4>Vassdragsreguleringar</c4><c6>1963</c6><c7>1965</c7><c8>551</c8><c9>551</c9></row>
+  <row><c1>82</c1><c2>7</c2><c3>0008</c3><c4>Elveforbyggingar</c4><c6>1963</c6><c7>1965</c7><c8>552</c8><c9>552</c9></row>
+  <row><c1>83</c1><c2>7</c2><c3>0009</c3><c4>Elektrisitet</c4><c6>1963</c6><c7>1965</c7><c8>553</c8><c9>553</c9></row>
+  <row><c1>84</c1><c2>7</c2><c3>0010</c3><c4>Rundskriv</c4><c6>1963</c6><c7>1965</c7><c8>560</c8><c9>560</c9></row>
+  <row><c1>85</c1><c2>7</c2><c3>0011</c3><c4>Reglar for overtaking av kommunale vegar</c4><c6>1963</c6><c7>1965</c7><c8>560</c8><c9>560</c9></row>
+  <row><c1>86</c1><c2>7</c2><c3>0012</c3><c4>Byggeavstander</c4><c6>1963</c6><c7>1965</c7><c8>560</c8><c9>560</c9></row>
+  <row><c1>87</c1><c2>7</c2><c3>0013</c3><c4>Planar og anlegg</c4><c6>1963</c6><c7>1965</c7><c8>561</c8><c9>561</c9></row>
+  <row><c1>88</c1><c2>7</c2><c3>0014</c3><c4>Flytting av naust på Lauvstad</c4><c6>1963</c6><c7>1965</c7><c8>561</c8><c9>561</c9></row>
+  <row><c1>89</c1><c2>7</c2><c3>0015</c3><c4>Haldeplassen ved A.E.Håvik, opparbeiding 1962</c4><c6>1963</c6><c7>1965</c7><c8>561</c8><c9>561</c9></row>
+  <row><c1>90</c1><c2>7</c2><c3>0016</c3><c4>Private vegar - planlegging</c4><c6>1963</c6><c7>1965</c7><c8/><c9/></row>
+  <row><c1>91</c1><c2>7</c2><c3>0017</c3><c4>Fylkesvegen Egset-Berknes</c4><c6>1963</c6><c7>1665</c7><c8>561</c8><c9>561</c9></row>
+  <row><c1>92</c1><c2>7</c2><c3>0018</c3><c4>Innfartsveg sentrum</c4><c6>1963</c6><c7>1965</c7><c8>561</c8><c9>561</c9></row>
+  <row><c1>93</c1><c2>7</c2><c3>0019</c3><c4>Planar og anlegg</c4><c6>1963</c6><c7>1965</c7><c8>561.1</c8><c9>561.1</c9></row>
+  <row><c1>94</c1><c2>7</c2><c3>0020</c3><c4>Maskinar</c4><c6>1963</c6><c7>1965</c7><c8>562.1</c8><c9>562.1</c9></row>
+  <row><c1>95</c1><c2>7</c2><c3>0021</c3><c4>Bilar</c4><c6>1963</c6><c7>1965</c7><c8>562.0</c8><c9>562.0</c9></row>
+  <row><c1>96</c1><c2>7</c2><c3>0022</c3><c4>Bilar, maskinar og reiskap</c4><c6>1963</c6><c7>1965</c7><c8>562</c8><c9>562</c9></row>
+  <row><c1>97</c1><c2>8</c2><c3>0012</c3><c4>Avtale om grus</c4><c6>1963</c6><c7>1965</c7><c8>563.2</c8><c9>563.2</c9></row>
+  <row><c1>98</c1><c2>8</c2><c3>0009</c3><c4>Grustak på N. Bjørkedalen</c4><c6>1963</c6><c7>1965</c7><c8>563.2</c8><c9>563.2</c9></row>
+  <row><c1>99</c1><c2>8</c2><c3>0010</c3><c4>Grustak</c4><c6>1963</c6><c7>1965</c7><c8>563.2</c8><c9>563.2</c9></row>
+  <row><c1>100</c1><c2>8</c2><c3>0020</c3><c4>Ferjeleier</c4><c6>1963</c6><c7>1965</c7><c8>567</c8><c9>567</c9></row>
+  <row><c1>101</c1><c2>8</c2><c3>0019</c3><c4>Generelt</c4><c6>1963</c6><c7>1965</c7><c8>565.0</c8><c9>565.0</c9></row>
+  <row><c1>102</c1><c2>8</c2><c3>0018</c3><c4>Skogsvegen Helset-Flatdalssetra. Omlegging av Brauta</c4><c6>1963</c6><c7>1965</c7><c8>565.1</c8><c9>565.1</c9></row>
+  <row><c1>103</c1><c2>8</c2><c3>0017</c3><c4>Reglar for brøyting - private vegar</c4><c6>1963</c6><c7>1965</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>104</c1><c2>8</c2><c3>0016</c3><c4>Private vegar\u0020</c4><c6>1963</c6><c7>1965</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>105</c1><c2>8</c2><c3>0015</c3><c4>Asfalt</c4><c6>1963</c6><c7>1965</c7><c8>563.3</c8><c9>563.3</c9></row>
+  <row><c1>106</c1><c2>8</c2><c3>0014</c3><c4>Avtale om grus i Sundalen</c4><c6>1963</c6><c7>1965</c7><c8>563.2</c8><c9>563.2</c9></row>
+  <row><c1>107</c1><c2>8</c2><c3>0013</c3><c4>Grustaket på Folkestad</c4><c6>1963</c6><c7>1965</c7><c8>563.2</c8><c9>563.2</c9></row>
+  <row><c1>108</c1><c2>8</c2><c3>0001</c3><c4>Reidskap</c4><c6>1963</c6><c7>1965</c7><c8>562.2</c8><c9>562.2</c9></row>
+  <row><c1>109</c1><c2>8</c2><c3>0002</c3><c4>Vedlikehald</c4><c6>1963</c6><c7>1965</c7><c8>563</c8><c9>563</c9></row>
+  <row><c1>110</c1><c2>8</c2><c3>0003</c3><c4>Elektrisk pumpe for saltvatn</c4><c6>1963</c6><c7>1965</c7><c8>563</c8><c9>563</c9></row>
+  <row><c1>111</c1><c2>8</c2><c3>0004</c3><c4>Ålment vedlikehald</c4><c6>1963</c6><c7>1965</c7><c8>563.0</c8><c9>563.0</c9></row>
+  <row><c1>112</c1><c2>8</c2><c3>0005</c3><c4>Vassføring Vikebygdvegen</c4><c6>1963</c6><c7>1965</c7><c8>563</c8><c9>563</c9></row>
+  <row><c1>113</c1><c2>8</c2><c3>0006</c3><c4>Kjøp av ny lastebil</c4><c6>1963</c6><c7>1965</c7><c8>562.0</c8><c9>562.0</c9></row>
+  <row><c1>114</c1><c2>8</c2><c3>0007</c3><c4>Brøytekontrakter instruks og kontraktformular</c4><c6>1963</c6><c7>1965</c7><c8>563</c8><c9>563</c9></row>
+  <row><c1>115</c1><c2>8</c2><c3>0008</c3><c4>Grustaket på Rotset - rekvisisjoner</c4><c6>1963</c6><c7>1965</c7><c8>563.2</c8><c9>563.2</c9></row>
+  <row><c1>116</c1><c2>8</c2><c3>0011</c3><c4>Grustak Eide i Austefjorden</c4><c6>1963</c6><c7>1965</c7><c8>563.2</c8><c9>563.2</c9></row>
+  <row><c1>117</c1><c2>9</c2><c3>0015</c3><c4>Utlån</c4><c6>1963</c6><c7>1965</c7><c8>846</c8><c9>846</c9></row>
+  <row><c1>118</c1><c2>9</c2><c3>0012</c3><c4>Rekneskap, revisjon og desisjon</c4><c6>1963</c6><c7>1965</c7><c8>803</c8><c9>803</c9></row>
+  <row><c1>119</c1><c2>9</c2><c3>0013</c3><c4>Eigedom</c4><c6>1963</c6><c7>1965</c7><c8>831</c8><c9>831</c9></row>
+  <row><c1>120</c1><c2>9</c2><c3>0014</c3><c4>Assuranse</c4><c6>1963</c6><c7>1965</c7><c8>832</c8><c9>832</c9></row>
+  <row><c1>121</c1><c2>9</c2><c3>0011</c3><c4>Busdsjettendringar</c4><c6>1963</c6><c7>1965</c7><c8>802</c8><c9>802</c9></row>
+  <row><c1>122</c1><c2>9</c2><c3>0010</c3><c4>Budsjettframlegg og førehaving</c4><c6>1963</c6><c7>1965</c7><c8>801</c8><c9>801</c9></row>
+  <row><c1>123</c1><c2>9</c2><c3>0009</c3><c4>Rundskriv</c4><c6>1963</c6><c7>1965</c7><c8>800</c8><c9>800</c9></row>
+  <row><c1>124</c1><c2>9</c2><c3>0008</c3><c4>Ferjer</c4><c6>1963</c6><c7>1965</c7><c8>711</c8><c9>711</c9></row>
+  <row><c1>125</c1><c2>9</c2><c3>0007</c3><c4>Haldeplassar og stasjonar</c4><c6>1963</c6><c7>1965</c7><c8>702</c8><c9>702</c9></row>
+  <row><c1>126</c1><c2>9</c2><c3>0006</c3><c4>Olivin på Bjørkedalen</c4><c6>1963</c6><c7>1965</c7><c8>566.0</c8><c9>566.0</c9></row>
+  <row><c1>127</c1><c2>9</c2><c3>0005</c3><c4>Kontaktmøte, industriverksemdene</c4><c6>1963</c6><c7>1965</c7><c8>620</c8><c9>620</c9></row>
+  <row><c1>128</c1><c2>9</c2><c3>0001</c3><c4>Rundskriv</c4><c6>1963</c6><c7>1965</c7><c8>570</c8><c9>570</c9></row>
+  <row><c1>129</c1><c2>9</c2><c3>0002</c3><c4>Søppel</c4><c6>1963</c6><c7>1965</c7><c8>573</c8><c9>573</c9></row>
+  <row><c1>130</c1><c2>9</c2><c3>0003</c3><c4>Renovasjon</c4><c6>1963</c6><c7>1965</c7><c8>573.1</c8><c9>573.1</c9></row>
+  <row><c1>131</c1><c2>9</c2><c3>0004</c3><c4>Årsrapporter</c4><c6>1963</c6><c7>1965</c7><c8>590</c8><c9>590</c9></row>
+  <row><c1>132</c1><c2>10</c2><c3>0001</c3><c4>Øyra og Rotset</c4><c6>1963</c6><c7>1965</c7><c8>ingen kode</c8><c9/></row>
+  <row><c1>133</c1><c2>10</c2><c3>0002</c3><c4>Sentrum</c4><c6>1963</c6><c7>1965</c7><c8>ingen kode</c8><c9/></row>
+  <row><c1>134</c1><c2>10</c2><c3>0003</c3><c4>Myrane&amp;sjukehusområdet</c4><c6>1963</c6><c7>1965</c7><c8>ingen kode</c8><c9/></row>
+  <row><c1>135</c1><c2>10</c2><c3>0004</c3><c4>Myrane Øvre - Håmyra</c4><c6>1963</c6><c7>1965</c7><c8>ingen kode</c8><c9/></row>
+  <row><c1>136</c1><c2>10</c2><c3>0005</c3><c4>Sjukehusområdet</c4><c6>1963</c6><c7>1965</c7><c8>ingen kode</c8><c9/></row>
+  <row><c1>137</c1><c2>10</c2><c3>0006</c3><c4>Hamnekvarteret</c4><c6>1963</c6><c7>1965</c7><c8>ingen kode</c8><c9/></row>
+  <row><c1>138</c1><c2>10</c2><c3>0007</c3><c4>Vatn og kloakkplan sentrum</c4><c6>1963</c6><c7>1965</c7><c8>ingen kode</c8><c9/></row>
+  <row><c1>139</c1><c2>10</c2><c3>0008</c3><c4>Ytre strok</c4><c6>1963</c6><c7>1965</c7><c8>ingen kode</c8><c9/></row>
+  <row><c1>140</c1><c2>11</c2><c3>0003</c3><c4>Brannstyret</c4><c6>1966</c6><c7>1967</c7><c8>22</c8><c9>22</c9></row>
+  <row><c1>141</c1><c2>11</c2><c3>0004</c3><c4>Vegnemnda</c4><c6>1966</c6><c7>1967</c7><c8>23</c8><c9>23</c9></row>
+  <row><c1>142</c1><c2>11</c2><c3>0001</c3><c4>Brannstyret m.m. 1967</c4><c6>1966</c6><c7>1967</c7><c8>22</c8><c9>22</c9></row>
+  <row><c1>143</c1><c2>11</c2><c3>0020</c3><c4>Bjørkedal skule leikeplassen</c4><c6>1966</c6><c7>1967</c7><c8>221</c8><c9>221</c9></row>
+  <row><c1>144</c1><c2>11</c2><c3>0019</c3><c4>Høydal nye skule vassverk og kloakk</c4><c6>1966</c6><c7>1967</c7><c8>221</c8><c9>221</c9></row>
+  <row><c1>145</c1><c2>11</c2><c3>0018</c3><c4>Skulepsykolog v/Øyra skule</c4><c6>1966</c6><c7>1967</c7><c8>212</c8><c9>212</c9></row>
+  <row><c1>146</c1><c2>11</c2><c3>0017</c3><c4>Vassanlegg Hjartå skule</c4><c6>1966</c6><c7>1967</c7><c8>201</c8><c9>201</c9></row>
+  <row><c1>147</c1><c2>11</c2><c3>0016</c3><c4>Utviding av Kilsfjord gravplass</c4><c6>1966</c6><c7>1967</c7><c8>200</c8><c9>200</c9></row>
+  <row><c1>148</c1><c2>11</c2><c3>0015</c3><c4>Utviding av Leirshaugen gravplass</c4><c6>1966</c6><c7>1967</c7><c8>200</c8><c9>200</c9></row>
+  <row><c1>149</c1><c2>11</c2><c3>0014</c3><c4>Sivilforsvar</c4><c6>1966</c6><c7>1967</c7><c8>142</c8><c9>142</c9></row>
+  <row><c1>150</c1><c2>11</c2><c3>0013</c3><c4>Skytebas</c4><c6>1966</c6><c7>1967</c7><c8>113</c8><c9>113</c9></row>
+  <row><c1>151</c1><c2>11</c2><c3>0012</c3><c4>Attest</c4><c6>1966</c6><c7>1967</c7><c8>047.1</c8><c9>047.1</c9></row>
+  <row><c1>152</c1><c2>11</c2><c3>0011</c3><c4>Ledige stillingar</c4><c6>1966</c6><c7>1967</c7><c8>47</c8><c9>47</c9></row>
+  <row><c1>153</c1><c2>11</c2><c3>0010</c3><c4>Tenestemenn</c4><c6>1966</c6><c7>1967</c7><c8>46</c8><c9>46</c9></row>
+  <row><c1>154</c1><c2>11</c2><c3>0009</c3><c4>Anleggs- og vedlikehaldsarbeidar</c4><c6>1966</c6><c7>1967</c7><c8>042.1</c8><c9>042.1</c9></row>
+  <row><c1>155</c1><c2>11</c2><c3>0008</c3><c4>Lønsavtalar som går ut 1968</c4><c6>1966</c6><c7>1967</c7><c8>42</c8><c9>42</c9></row>
+  <row><c1>156</c1><c2>11</c2><c3>0007</c3><c4>Kunngjering-trykksaker</c4><c6>1966</c6><c7>1967</c7><c8>36</c8><c9>36</c9></row>
+  <row><c1>157</c1><c2>11</c2><c3>0006</c3><c4>NKF</c4><c6>1966</c6><c7>1967</c7><c8>33</c8><c9>33</c9></row>
+  <row><c1>158</c1><c2>11</c2><c3>0005</c3><c4>Uttaking av betongprøver</c4><c6>1966</c6><c7>1967</c7><c8>33</c8><c9>33</c9></row>
+  <row><c1>159</c1><c2>11</c2><c3>0002</c3><c4>Bygningsrådet</c4><c6>1966</c6><c7>1967</c7><c8>22</c8><c9>22</c9></row>
+  <row><c1>160</c1><c2>12</c2><c3>0021</c3><c4>Bygningssaker</c4><c6>1966</c6><c7>1967</c7><c8>503</c8><c9>503</c9></row>
+  <row><c1>161</c1><c2>12</c2><c3>0022</c3><c4>Regulering</c4><c6>1966</c6><c7>1967</c7><c8>504</c8><c9>504</c9></row>
+  <row><c1>162</c1><c2>12</c2><c3>0023</c3><c4>Badeplass i Klokkarvika</c4><c6>1966</c6><c7>1967</c7><c8>533</c8><c9>533</c9></row>
+  <row><c1>163</c1><c2>12</c2><c3>0020</c3><c4>Reguleringsarbeid Ørsta</c4><c6>1966</c6><c7>1967</c7><c8>500</c8><c9>500</c9></row>
+  <row><c1>164</c1><c2>12</c2><c3>0019</c3><c4>Årsmelding 1966</c4><c6>1966</c6><c7>1967</c7><c8>500</c8><c9>500</c9></row>
+  <row><c1>165</c1><c2>12</c2><c3>0018</c3><c4>Bygging-regulering-oppmåling r.skriv</c4><c6>1966</c6><c7>1967</c7><c8>500</c8><c9>500</c9></row>
+  <row><c1>166</c1><c2>12</c2><c3>0017</c3><c4>Friluftsliv</c4><c6>1966</c6><c7>1967</c7><c8>450</c8><c9>450</c9></row>
+  <row><c1>167</c1><c2>12</c2><c3>0016</c3><c4>Mork idrottslag</c4><c6>1966</c6><c7>1967</c7><c8>441.1</c8><c9>441.1</c9></row>
+  <row><c1>168</c1><c2>12</c2><c3>0015</c3><c4>Omregulering av gangveg v/Smaleelva-Mørebil</c4><c6>1966</c6><c7>1967</c7><c8>405.23</c8><c9>405.23</c9></row>
+  <row><c1>169</c1><c2>12</c2><c3>0014</c3><c4>Kommunale bustadbyggingsplan-bustadfelt</c4><c6>1966</c6><c7>1967</c7><c8>311</c8><c9>311</c9></row>
+  <row><c1>170</c1><c2>12</c2><c3>0013</c3><c4>Sysselsetting utgjamningstilskot 1966/67</c4><c6>1966</c6><c7>1967</c7><c8>303</c8><c9>303</c9></row>
+  <row><c1>171</c1><c2>12</c2><c3>0012</c3><c4>Bygge og anleggsverksemd 1965/66 utjaminingstilskot</c4><c6>1966</c6><c7>1967</c7><c8>303</c8><c9>303</c9></row>
+  <row><c1>172</c1><c2>12</c2><c3>0011</c3><c4>Sysselsettingsplan for 1965/1966</c4><c6>1966</c6><c7>1967</c7><c8>303</c8><c9>303</c9></row>
+  <row><c1>173</c1><c2>12</c2><c3>0010</c3><c4>Sysselsettingsplan for 1966</c4><c6>1966</c6><c7>1967</c7><c8>300</c8><c9>300</c9></row>
+  <row><c1>174</c1><c2>12</c2><c3>0009</c3><c4>Div vølingsarbeid ved skulane</c4><c6>1966</c6><c7>1967</c7><c8>221</c8><c9>221</c9></row>
+  <row><c1>175</c1><c2>12</c2><c3>0008</c3><c4>Dale skule</c4><c6>1966</c6><c7>1967</c7><c8>221</c8><c9>221</c9></row>
+  <row><c1>176</c1><c2>12</c2><c3>0007</c3><c4>Ulvestad skule</c4><c6>1966</c6><c7>1967</c7><c8>221</c8><c9>221</c9></row>
+  <row><c1>177</c1><c2>12</c2><c3>0006</c3><c4>Øyra skule</c4><c6>1966</c6><c7>1967</c7><c8>221</c8><c9>221</c9></row>
+  <row><c1>178</c1><c2>12</c2><c3>0005</c3><c4>Velsvik skule, skuleveg og leikeplass grus</c4><c6>1966</c6><c7>1967</c7><c8>210</c8><c9>210</c9></row>
+  <row><c1>179</c1><c2>12</c2><c3>0004</c3><c4>Kalvatn skule</c4><c6>1966</c6><c7>1967</c7><c8>210</c8><c9>210</c9></row>
+  <row><c1>180</c1><c2>12</c2><c3>0003</c3><c4>Høydal skule</c4><c6>1966</c6><c7>1967</c7><c8>210</c8><c9>210</c9></row>
+  <row><c1>181</c1><c2>12</c2><c3>0024</c3><c4>Badeplass i Årneset</c4><c6>1966</c6><c7>1967</c7><c8>533</c8><c9>533</c9></row>
+  <row><c1>182</c1><c2>12</c2><c3>0001</c3><c4>Lid skule</c4><c6>1966</c6><c7>1967</c7><c8>210</c8><c9>210</c9></row>
+  <row><c1>183</c1><c2>12</c2><c3>0002</c3><c4>Fylsvik skule</c4><c6>1966</c6><c7>1967</c7><c8>210</c8><c9>210</c9></row>
+  <row><c1>184</c1><c2>13</c2><c3>0001</c3><c4>Reguleringssaker</c4><c6>1966</c6><c7>1967</c7><c8>504</c8><c9>504</c9></row>
+  <row><c1>185</c1><c2>13</c2><c3>0002</c3><c4>Regulering - regionplan</c4><c6>1966</c6><c7>1967</c7><c8>504.21</c8><c9>504.21</c9></row>
+  <row><c1>186</c1><c2>13</c2><c3>0003</c3><c4>Generalplanarbeid - konsulentar</c4><c6>1966</c6><c7>1967</c7><c8>504.22</c8><c9>504.22</c9></row>
+  <row><c1>187</c1><c2>13</c2><c3>0004</c3><c4>Generalplan for Folkestad</c4><c6>1966</c6><c7>1967</c7><c8>504.22</c8><c9>504.22</c9></row>
+  <row><c1>188</c1><c2>13</c2><c3>0005</c3><c4>Innregulering av bustadtomt ved Aldersheimen</c4><c6>1966</c6><c7>1967</c7><c8>504.23</c8><c9>504.23</c9></row>
+  <row><c1>189</c1><c2>13</c2><c3>0006</c3><c4>Reguelring av byggefelt I og II på Klepp</c4><c6>1966</c6><c7>1967</c7><c8>504.23</c8><c9>504.23</c9></row>
+  <row><c1>190</c1><c2>13</c2><c3>0007</c3><c4>Regulering plassering av servicestasjon - shell</c4><c6>1966</c6><c7>1967</c7><c8>504.23</c8><c9>504.23</c9></row>
+  <row><c1>191</c1><c2>13</c2><c3>0008</c3><c4>Regulering av helikopterterminal</c4><c6>1966</c6><c7>1967</c7><c8>504.23</c8><c9>504.23</c9></row>
+  <row><c1>192</c1><c2>13</c2><c3>0009</c3><c4>Regulering av tilkomst til fjellet instruksjonsareal til lærarskulen</c4><c6>1966</c6><c7>1967</c7><c8>504.23</c8><c9>504.23</c9></row>
+  <row><c1>193</c1><c2>13</c2><c3>0010</c3><c4>Detaljregulering på Klippa</c4><c6>1966</c6><c7>1967</c7><c8>504.23</c8><c9>504.23</c9></row>
+  <row><c1>194</c1><c2>13</c2><c3>0011</c3><c4>Volda stadion</c4><c6>1966</c6><c7>1967</c7><c8>504.23</c8><c9>504.23</c9></row>
+  <row><c1>195</c1><c2>13</c2><c3>0012</c3><c4>Regulering på Heltne</c4><c6>1966</c6><c7>1967</c7><c8>504.23</c8><c9>504.23</c9></row>
+  <row><c1>196</c1><c2>13</c2><c3>0013</c3><c4>Regulering Øvre Rotset</c4><c6>1966</c6><c7>1967</c7><c8>504.23</c8><c9>504.23</c9></row>
+  <row><c1>197</c1><c2>13</c2><c3>0014</c3><c4>Telebygget</c4><c6>1966</c6><c7>1967</c7><c8>504.23</c8><c9>504.23</c9></row>
+  <row><c1>198</c1><c2>13</c2><c3>0015</c3><c4>RV651 Volda-Fyrde: trase ved Øyra bru</c4><c6>1966</c6><c7>1967</c7><c8>504.23</c8><c9>504.23</c9></row>
+  <row><c1>199</c1><c2>13</c2><c3>0016</c3><c4>Regulering av fellesgarasje på Klokkargarden</c4><c6>1966</c6><c7>1967</c7><c8>504.23</c8><c9>504.23</c9></row>
+  <row><c1>200</c1><c2>13</c2><c3>0017</c3><c4>Omregulering Porsemyrvegen v/</c4><c6>1966</c6><c7>1967</c7><c8>504.23</c8><c9>504.23</c9></row>
+  <row><c1>201</c1><c2>13</c2><c3>0018</c3><c4>Leikeplass på Prestemarka</c4><c6>1966</c6><c7>1967</c7><c8>504.23</c8><c9>504.23</c9></row>
+  <row><c1>202</c1><c2>13</c2><c3>0019</c3><c4>Omregulering av Skjellebreia</c4><c6>1966</c6><c7>1967</c7><c8>504.23</c8><c9>504.23</c9></row>
+  <row><c1>203</c1><c2>13</c2><c3>0020</c3><c4>Reguleringsendring på gbr 20/6 og 20/7</c4><c6>1966</c6><c7>1967</c7><c8>504.23</c8><c9>504.23</c9></row>
+  <row><c1>204</c1><c2>13</c2><c3>0021</c3><c4>Omregulering tilkomstveg</c4><c6>1966</c6><c7>1967</c7><c8>504.23</c8><c9>504.23</c9></row>
+  <row><c1>205</c1><c2>13</c2><c3>0022</c3><c4>Omregulering av gata</c4><c6>1966</c6><c7>1967</c7><c8>504.23</c8><c9>504.23</c9></row>
+  <row><c1>206</c1><c2>13</c2><c3>0023</c3><c4>Regulering Øvre Rotset</c4><c6>1966</c6><c7>1967</c7><c8>5041</c8><c9>5041</c9></row>
+  <row><c1>207</c1><c2>13</c2><c3>0024</c3><c4>Regulering i og ved sjukehusområdet</c4><c6>1966</c6><c7>1967</c7><c8>5041</c8><c9>5041</c9></row>
+  <row><c1>208</c1><c2>13</c2><c3>0025</c3><c4>Omregulering av skrågata i Røyslida</c4><c6>1966</c6><c7>1967</c7><c8>5041</c8><c9>5041</c9></row>
+  <row><c1>209</c1><c2>13</c2><c3>0026</c3><c4>H.H.</c4><c6>1966</c6><c7>1967</c7><c8>505.0</c8><c9>505.0</c9></row>
+  <row><c1>210</c1><c2>13</c2><c3>0027</c3><c4>Oppmålingssaker</c4><c6>1966</c6><c7>1967</c7><c8>505</c8><c9>505</c9></row>
+  <row><c1>211</c1><c2>13</c2><c3>0028</c3><c4>Kartleggingsarbeid</c4><c6>1966</c6><c7>1967</c7><c8>505.1</c8><c9>505.1</c9></row>
+  <row><c1>212</c1><c2>13</c2><c3>0029</c3><c4>Oversiktskart</c4><c6>1966</c6><c7>1967</c7><c8>505.11</c8><c9>505.11</c9></row>
+  <row><c1>213</c1><c2>13</c2><c3>0030</c3><c4>Rådgivande ingeniørar Ose&amp;Mulvik Ørsta</c4><c6>1966</c6><c7>1967</c7><c8>505.1</c8><c9>505.1</c9></row>
+  <row><c1>214</c1><c2>14</c2><c3>0001</c3><c4>Oppføring av braanngarasje på Fyrde Austefjorden</c4><c6>1966</c6><c7>1967</c7><c8>510</c8><c9>510</c9></row>
+  <row><c1>215</c1><c2>14</c2><c3>0046</c3><c4>Brann - diverse</c4><c6>1966</c6><c7>1967</c7><c8>519</c8><c9>519</c9></row>
+  <row><c1>216</c1><c2>14</c2><c3>0003</c3><c4>Tilskot til brannvern på bygdene</c4><c6>1966</c6><c7>1967</c7><c8>510</c8><c9>510</c9></row>
+  <row><c1>217</c1><c2>14</c2><c3>0004</c3><c4>Vedtekt til brannlova §19-brannsyn</c4><c6>1966</c6><c7>1967</c7><c8>510</c8><c9>510</c9></row>
+  <row><c1>218</c1><c2>14</c2><c3>0005</c3><c4>Brann og feiing</c4><c6>1966</c6><c7>167</c7><c8>510</c8><c9>510</c9></row>
+  <row><c1>219</c1><c2>14</c2><c3>0006</c3><c4>Brannmannskap løn 1966</c4><c6>1966</c6><c7>1967</c7><c8>511</c8><c9>511</c9></row>
+  <row><c1>220</c1><c2>14</c2><c3>0007</c3><c4>Brannmannskapa sentrum løn</c4><c6>1966</c6><c7>1967</c7><c8>511.0</c8><c9>511.0</c9></row>
+  <row><c1>221</c1><c2>14</c2><c3>0008</c3><c4>Brannmannskap Fyrde</c4><c6>1966</c6><c7>1967</c7><c8>511</c8><c9>511</c9></row>
+  <row><c1>222</c1><c2>14</c2><c3>0009</c3><c4>Brannmannskap Dravlaus</c4><c6>1966</c6><c7>1967</c7><c8>511</c8><c9>511</c9></row>
+  <row><c1>223</c1><c2>14</c2><c3>0010</c3><c4>Brannmannskap Straumshamn</c4><c6>1966</c6><c7>1967</c7><c8>511</c8><c9>511</c9></row>
+  <row><c1>224</c1><c2>14</c2><c3>0011</c3><c4>Mannskapsøving</c4><c6>1966</c6><c7>1967</c7><c8>511</c8><c9>511</c9></row>
+  <row><c1>225</c1><c2>14</c2><c3>0012</c3><c4>Brannmannskap sentrum 1967</c4><c6>1966</c6><c7>1967</c7><c8>511.22</c8><c9>511.2</c9></row>
+  <row><c1>226</c1><c2>14</c2><c3>0013</c3><c4>Opplæring og øvingar</c4><c6>1966</c6><c7>1967</c7><c8>511.2</c8><c9>511.2</c9></row>
+  <row><c1>227</c1><c2>14</c2><c3>0014</c3><c4>Brannmannskap Steinsvik</c4><c6>1966</c6><c7>1967</c7><c8>511.2</c8><c9>511.2</c9></row>
+  <row><c1>228</c1><c2>14</c2><c3>0015</c3><c4>Opplæring og øvingar</c4><c6>1966</c6><c7>1967</c7><c8>511.2</c8><c9>511.2</c9></row>
+  <row><c1>229</c1><c2>14</c2><c3>0016</c3><c4>Utbygging av brannvernet på bygdene</c4><c6>1966</c6><c7>1967</c7><c8>512</c8><c9>512</c9></row>
+  <row><c1>230</c1><c2>14</c2><c3>0017</c3><c4>Mosjon brannmannskap</c4><c6>1966</c6><c7>1967</c7><c8>512</c8><c9>512</c9></row>
+  <row><c1>231</c1><c2>14</c2><c3>0018</c3><c4>Brannstasjon generelt</c4><c6>1966</c6><c7>1967</c7><c8>512</c8><c9>512</c9></row>
+  <row><c1>232</c1><c2>14</c2><c3>0019</c3><c4>Øvelsesrapport for brannmannskap på Dravlaus og i Steinsvik</c4><c6>1966</c6><c7>1967</c7><c8>512.1</c8><c9>512.1</c9></row>
+  <row><c1>233</c1><c2>14</c2><c3>0020</c3><c4>Luftventillatorar på tak</c4><c6>1966</c6><c7>1967</c7><c8>512.1</c8><c9>512.1</c9></row>
+  <row><c1>234</c1><c2>14</c2><c3>0021</c3><c4>Brannvarsling</c4><c6>1966</c6><c7>1967</c7><c8>512.4</c8><c9>512.4</c9></row>
+  <row><c1>235</c1><c2>14</c2><c3>0022</c3><c4>Brannvern Folkestad og Lauvstad</c4><c6>1966</c6><c7>1967</c7><c8>513</c8><c9>513</c9></row>
+  <row><c1>236</c1><c2>14</c2><c3>0023</c3><c4>Brannslokkingsapparat - påfylling</c4><c6>1966</c6><c7>1967</c7><c8>513</c8><c9>513</c9></row>
+  <row><c1>237</c1><c2>14</c2><c3>0024</c3><c4>Brannmatriell</c4><c6>1966</c6><c7>1967</c7><c8>513</c8><c9>513</c9></row>
+  <row><c1>238</c1><c2>14</c2><c3>0025</c3><c4>Statens bilsakkyndig</c4><c6>1966</c6><c7>1967</c7><c8>513</c8><c9>513</c9></row>
+  <row><c1>239</c1><c2>14</c2><c3>0026</c3><c4>Kjøp av brannbil - finansiering</c4><c6>1966</c6><c7>1967</c7><c8>513.1</c8><c9>513.1</c9></row>
+  <row><c1>240</c1><c2>14</c2><c3>0027</c3><c4>Sal av gamal motorsprøyte</c4><c6>1966</c6><c7>1967</c7><c8>513.2</c8><c9>513.2</c9></row>
+  <row><c1>241</c1><c2>14</c2><c3>0028</c3><c4>Fria Skuteng A/S - brannmatriell kopling for skip</c4><c6>1966</c6><c7>1967</c7><c8>513.6</c8><c9>513.6</c9></row>
+  <row><c1>242</c1><c2>14</c2><c3>0029</c3><c4>Framlegg til arbeid i vinterhalvåret</c4><c6>1966</c6><c7>1967</c7><c8>514</c8><c9>514</c9></row>
+  <row><c1>243</c1><c2>14</c2><c3>0030</c3><c4>Bensindamp i diverse hus i Volda</c4><c6>1966</c6><c7>1967</c7><c8>514.1</c8><c9>514.1</c9></row>
+  <row><c1>244</c1><c2>14</c2><c3>0031</c3><c4>Forbundsheimen, brannstyrepålegg</c4><c6>1966</c6><c7>1967</c7><c8>514.1</c8><c9>514.1</c9></row>
+  <row><c1>245</c1><c2>14</c2><c3>0032</c3><c4>Pålegg frå brannsyn søknad om fritak</c4><c6>1966</c6><c7>1967</c7><c8>514.1</c8><c9>514.1</c9></row>
+  <row><c1>246</c1><c2>14</c2><c3>0033</c3><c4>Brannsyn</c4><c6>1966</c6><c7>1967</c7><c8>514.2</c8><c9>514.2</c9></row>
+  <row><c1>247</c1><c2>14</c2><c3>0034</c3><c4>Brannsyn div eldre saker</c4><c6>1966</c6><c7>1967</c7><c8>514.2</c8><c9>514.2</c9></row>
+  <row><c1>248</c1><c2>14</c2><c3>0035</c3><c4>Brannsyn</c4><c6>1966</c6><c7>1967</c7><c8>514.2</c8><c9>514.2</c9></row>
+  <row><c1>249</c1><c2>14</c2><c3>0036</c3><c4>Brann gong-gong - Protector A/S</c4><c6>1966</c6><c7>1967</c7><c8>514.3</c8><c9>514.3</c9></row>
+  <row><c1>250</c1><c2>14</c2><c3>0037</c3><c4>Oljekamin</c4><c6>1966</c6><c7>1967</c7><c8>515.2</c8><c9>515.2</c9></row>
+  <row><c1>251</c1><c2>14</c2><c3>0038</c3><c4>Motering av oljekamin</c4><c6>1966</c6><c7>1967</c7><c8>515.2</c8><c9>515.2</c9></row>
+  <row><c1>252</c1><c2>14</c2><c3>0039</c3><c4>Autorisasjon for innstallasjon av oljekamin</c4><c6>1966</c6><c7>1967</c7><c8>515.2</c8><c9>515.2</c9></row>
+  <row><c1>253</c1><c2>14</c2><c3>0040</c3><c4>Firma</c4><c6>1966</c6><c7>1967</c7><c8>515.2</c8><c9>515.2</c9></row>
+  <row><c1>254</c1><c2>14</c2><c3>0041</c3><c4>Brændes Rørleggerforretning montering av oljekamin</c4><c6>1966</c6><c7>1967</c7><c8>515.2</c8><c9>515.2</c9></row>
+  <row><c1>255</c1><c2>14</c2><c3>0042</c3><c4>Trygdingstariffar, brannbil</c4><c6>1966</c6><c7>1967</c7><c8>516</c8><c9>516</c9></row>
+  <row><c1>256</c1><c2>14</c2><c3>0043</c3><c4>Ulykkesforsikring KS, brannvern</c4><c6>1966</c6><c7>1967</c7><c8>516</c8><c9>516</c9></row>
+  <row><c1>257</c1><c2>14</c2><c3>0044</c3><c4>Melding om branntekniske forhold</c4><c6>1966</c6><c7>1967</c7><c8>518</c8><c9>518</c9></row>
+  <row><c1>258</c1><c2>14</c2><c3>0045</c3><c4>Brannrapport frå 1966/67</c4><c6>1966</c6><c7>1967</c7><c8>518</c8><c9>518</c9></row>
+  <row><c1>259</c1><c2>14</c2><c3>0002</c3><c4>Branngarasje på Straumshamn</c4><c6>1966</c6><c7>1967</c7><c8>510</c8><c9>510</c9></row>
+  <row><c1>260</c1><c2>15</c2><c3>0001</c3><c4>Kran på Kaia</c4><c6>1966</c6><c7>1967</c7><c8>521</c8><c9>521</c9></row>
+  <row><c1>261</c1><c2>15</c2><c3>0048</c3><c4>Grusrapportar</c4><c6>1966</c6><c7>1967</c7><c8>562.7</c8><c9>562.7</c9></row>
+  <row><c1>262</c1><c2>15</c2><c3>0003</c3><c4>Fendring av almenningskaia</c4><c6>1966</c6><c7>1967</c7><c8>521.4</c8><c9>521.4</c9></row>
+  <row><c1>263</c1><c2>15</c2><c3>0004</c3><c4>Vedlikehald av anlegg og materiell</c4><c6>1966</c6><c7>1967</c7><c8>521.7</c8><c9>521.7</c9></row>
+  <row><c1>264</c1><c2>15</c2><c3>0005</c3><c4>Private kaier</c4><c6>1966</c6><c7>1967</c7><c8>521.8</c8><c9>521.8</c9></row>
+  <row><c1>265</c1><c2>15</c2><c3>0006</c3><c4>Planlegging av området rundt Rådhuset</c4><c6>1966</c6><c7>1967</c7><c8>530.1</c8><c9>530.1</c9></row>
+  <row><c1>266</c1><c2>15</c2><c3>0007</c3><c4>Leikeplass</c4><c6>1966</c6><c7>1967</c7><c8>531</c8><c9>531</c9></row>
+  <row><c1>267</c1><c2>15</c2><c3>0008</c3><c4>Leikeplass i Røyslida</c4><c6>1966</c6><c7>1967</c7><c8>532</c8><c9>532</c9></row>
+  <row><c1>268</c1><c2>15</c2><c3>0009</c3><c4>Oversikt over leikeplassar</c4><c6>1966</c6><c7>1967</c7><c8>532</c8><c9>532</c9></row>
+  <row><c1>269</c1><c2>15</c2><c3>0010</c3><c4>Rundskriv og føresegner</c4><c6>1966</c6><c7>1967</c7><c8>540</c8><c9>540</c9></row>
+  <row><c1>270</c1><c2>15</c2><c3>0011</c3><c4>N.K.F. Skade på avløpsrør</c4><c6>1966</c6><c7>1967</c7><c8>540</c8><c9>540</c9></row>
+  <row><c1>271</c1><c2>15</c2><c3>0012</c3><c4>Vatn- og kloakkreglement. Bruk av plastrør m.m.</c4><c6>1966</c6><c7>1967</c7><c8>540</c8><c9>540</c9></row>
+  <row><c1>272</c1><c2>15</c2><c3>0013</c3><c4>Klage over kloakk i bekk</c4><c6>1966</c6><c7>1967</c7><c8>541</c8><c9>541</c9></row>
+  <row><c1>273</c1><c2>15</c2><c3>0014</c3><c4>Planar og anlegg</c4><c6>1966</c6><c7>1967</c7><c8>541</c8><c9>541</c9></row>
+  <row><c1>274</c1><c2>15</c2><c3>0015</c3><c4>Ny vassleidning til bygg i Strandgata</c4><c6>1966</c6><c7>1967</c7><c8>541</c8><c9>541</c9></row>
+  <row><c1>275</c1><c2>15</c2><c3>0016</c3><c4>Matriell for vassverk m.v.</c4><c6>1966</c6><c7>1967</c7><c8>541</c8><c9>541</c9></row>
+  <row><c1>276</c1><c2>15</c2><c3>0017</c3><c4>Tilkopling kloakk - Synnøve Fremmelid</c4><c6>1966</c6><c7>1967</c7><c8>541.1</c8><c9>541.1</c9></row>
+  <row><c1>277</c1><c2>15</c2><c3>0018</c3><c4>Vatn og kloakk</c4><c6>1966</c6><c7>1967</c7><c8>541.2</c8><c9>541.2</c9></row>
+  <row><c1>278</c1><c2>15</c2><c3>0019</c3><c4>Søknad om legging av vatn og kloakk</c4><c6>1966</c6><c7>1967</c7><c8>541.2</c8><c9>541.2</c9></row>
+  <row><c1>279</c1><c2>15</c2><c3>0020</c3><c4>Kloakktilhøve på Nedre Klepp</c4><c6>1966</c6><c7>1967</c7><c8>541.2</c8><c9>541.2</c9></row>
+  <row><c1>280</c1><c2>15</c2><c3>0021</c3><c4>Materiell for vassverk</c4><c6>1966</c6><c7>1967</c7><c8>541.3</c8><c9>541.3</c9></row>
+  <row><c1>281</c1><c2>15</c2><c3>0022</c3><c4>Montering av klosett</c4><c6>1966</c6><c7>1967</c7><c8>541.15</c8><c9>541.15</c9></row>
+  <row><c1>282</c1><c2>15</c2><c3>0023</c3><c4>Kloakk Mork og Egset</c4><c6>1966</c6><c7>1967</c7><c8>541.1</c8><c9>541.1</c9></row>
+  <row><c1>283</c1><c2>15</c2><c3>0024</c3><c4>Kloakk for Indre Egset v/ Egsetsvingen</c4><c6>1966</c6><c7>1967</c7><c8>541.1</c8><c9>541.1</c9></row>
+  <row><c1>284</c1><c2>15</c2><c3>0025</c3><c4>Skade på hovudvassleidning 1966</c4><c6>1966</c6><c7>1967</c7><c8>543.1</c8><c9>543.1</c9></row>
+  <row><c1>285</c1><c2>15</c2><c3>0026</c3><c4>Tining av private vassleidningar</c4><c6>1966</c6><c7>1967</c7><c8>543.1</c8><c9>543.1</c9></row>
+  <row><c1>286</c1><c2>15</c2><c3>0027</c3><c4>Diverse vedk. vassverket</c4><c6>1966</c6><c7>1967</c7><c8>543.1</c8><c9>543.1</c9></row>
+  <row><c1>287</c1><c2>15</c2><c3>0028</c3><c4>Vatn- og kloakkavgifter: regelment - generelle spørsmål</c4><c6>1966</c6><c7>1967</c7><c8>545</c8><c9>545</c9></row>
+  <row><c1>288</c1><c2>15</c2><c3>0029</c3><c4>Opparbeiding av kloakk</c4><c6>1966</c6><c7>1967</c7><c8>545</c8><c9>545</c9></row>
+  <row><c1>289</c1><c2>15</c2><c3>0030</c3><c4>Vassavgifter. Restanse 1963 og seinare</c4><c6>1966</c6><c7>1967</c7><c8>545.3</c8><c9>545.3</c9></row>
+  <row><c1>290</c1><c2>15</c2><c3>0031</c3><c4>Vestlandske Salslag - Vassavgift</c4><c6>1966</c6><c7>1967</c7><c8>545.3</c8><c9>545.3</c9></row>
+  <row><c1>291</c1><c2>15</c2><c3>0032</c3><c4>Møre konfeksjonsfabrikk. Vassavgift m.m.</c4><c6>1966</c6><c7>1967</c7><c8>545.3</c8><c9>545.3</c9></row>
+  <row><c1>292</c1><c2>15</c2><c3>0033</c3><c4>Rotset vassverk - liste over eigarar</c4><c6>1966</c6><c7>1967</c7><c8>546</c8><c9>546</c9></row>
+  <row><c1>293</c1><c2>15</c2><c3>0034</c3><c4>Folkestadbygd</c4><c6>1966</c6><c7>1967</c7><c8>546.1</c8><c9>546.1</c9></row>
+  <row><c1>294</c1><c2>15</c2><c3>0035</c3><c4>Kloakk på Indre Rotset</c4><c6>1966</c6><c7>1967</c7><c8>546.3</c8><c9>546.3</c9></row>
+  <row><c1>295</c1><c2>15</c2><c3>0036</c3><c4>Klage på private kloakkar</c4><c6>1966</c6><c7>1967</c7><c8>546.3</c8><c9>546.3</c9></row>
+  <row><c1>296</c1><c2>15</c2><c3>0037</c3><c4>Ferdige forbyggningsanlegg i Volda kommune</c4><c6>1966</c6><c7>1967</c7><c8>552</c8><c9>552</c9></row>
+  <row><c1>297</c1><c2>15</c2><c3>0038</c3><c4>Vegar - gater</c4><c6>1966</c6><c7>1967</c7><c8>560</c8><c9>560</c9></row>
+  <row><c1>298</c1><c2>15</c2><c3>0039</c3><c4>Reglar for avkøyrsle. Møre og Romsdal vegkontor</c4><c6>1966</c6><c7>1967</c7><c8>560</c8><c9>560</c9></row>
+  <row><c1>299</c1><c2>15</c2><c3>0040</c3><c4>Naust mellom Møre Skofabrikk og Vaulestranda</c4><c6>1966</c6><c7>1967</c7><c8>561</c8><c9>561</c9></row>
+  <row><c1>300</c1><c2>15</c2><c3>0041</c3><c4>Rydding av plassen v/Gamle Øyra skule</c4><c6>1966</c6><c7>1967</c7><c8>561</c8><c9>561</c9></row>
+  <row><c1>301</c1><c2>15</c2><c3>0042</c3><c4>Gangveg mellom Klokkargarden og Klepp</c4><c6>1966</c6><c7>1967</c7><c8>561.2</c8><c9>561.2</c9></row>
+  <row><c1>302</c1><c2>15</c2><c3>0043</c3><c4>Stikkrenne</c4><c6>1966</c6><c7>1967</c7><c8>561.6</c8><c9>561.6</c9></row>
+  <row><c1>303</c1><c2>15</c2><c3>0044</c3><c4>Kjøp av tineomn</c4><c6>1966</c6><c7>1967</c7><c8>562.3</c8><c9>562.3</c9></row>
+  <row><c1>304</c1><c2>15</c2><c3>0045</c3><c4>Overtaking av kommunal plog</c4><c6>1966</c6><c7>1967</c7><c8>562.3</c8><c9>562.3</c9></row>
+  <row><c1>305</c1><c2>15</c2><c3>0046</c3><c4>Grustak</c4><c6>1966</c6><c7>1967</c7><c8>562.7</c8><c9>562.7</c9></row>
+  <row><c1>306</c1><c2>15</c2><c3>0047</c3><c4>Tilbod på grus</c4><c6>1966</c6><c7>1967</c7><c8>562.7</c8><c9>562.7</c9></row>
+  <row><c1>307</c1><c2>15</c2><c3>0002</c3><c4>Kai ved enden v/enden av Storgata</c4><c6>1966</c6><c7>1967</c7><c8>521.4</c8><c9>521.4</c9></row>
+  <row><c1>308</c1><c2>16</c2><c3>0001</c3><c4>Vegar - vedlikehald diverse papir</c4><c6>1966</c6><c7>1967</c7><c8>563</c8><c9>563</c9></row>
+  <row><c1>309</c1><c2>16</c2><c3>0021</c3><c4>Oversikt kommunal brøyting av private vegar</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>310</c1><c2>16</c2><c3>0003</c3><c4>Kufeller, vedlikehald</c4><c6>1966</c6><c7>1967</c7><c8>563</c8><c9>563</c9></row>
+  <row><c1>311</c1><c2>16</c2><c3>0004</c3><c4>Klorkalcium</c4><c6>1966</c6><c7>1967</c7><c8>563</c8><c9>563</c9></row>
+  <row><c1>312</c1><c2>16</c2><c3>0005</c3><c4>Brøyting av kommunale vegar 1965/1968</c4><c6>1966</c6><c7>1967</c7><c8>563</c8><c9>563</c9></row>
+  <row><c1>313</c1><c2>16</c2><c3>0006</c3><c4>Vedlikehald av fylkesvegar, refusjon</c4><c6>1966</c6><c7>1967</c7><c8>563.1</c8><c9>563.1</c9></row>
+  <row><c1>314</c1><c2>16</c2><c3>0007</c3><c4>Sandstrøing private vegar</c4><c6>1966</c6><c7>1967</c7><c8>563.2</c8><c9>563.2</c9></row>
+  <row><c1>315</c1><c2>16</c2><c3>0008</c3><c4>Oljegrus/asfalt</c4><c6>1966</c6><c7>1967</c7><c8>563.2</c8><c9>563.2</c9></row>
+  <row><c1>316</c1><c2>16</c2><c3>0009</c3><c4>Levert grus frå steinknusaranlegget</c4><c6>1966</c6><c7>1967</c7><c8>563.2</c8><c9>563.2</c9></row>
+  <row><c1>317</c1><c2>16</c2><c3>0010</c3><c4>Grustaket på Rotset</c4><c6>1966</c6><c7>1967</c7><c8>563.2</c8><c9>563.2</c9></row>
+  <row><c1>318</c1><c2>16</c2><c3>0011</c3><c4>Vedlikehald av offentlege plassar</c4><c6>1966</c6><c7>1967</c7><c8>563.3</c8><c9>563.3</c9></row>
+  <row><c1>319</c1><c2>16</c2><c3>0012</c3><c4>Gate og veglys</c4><c6>1966</c6><c7>1967</c7><c8>564</c8><c9>564</c9></row>
+  <row><c1>320</c1><c2>16</c2><c3>0013</c3><c4>Søknad om tilskot til private vegar 1966</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>321</c1><c2>16</c2><c3>0014</c3><c4>Søknad om grusing av veg</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>322</c1><c2>16</c2><c3>0015</c3><c4>Veg</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>323</c1><c2>16</c2><c3>0016</c3><c4>Brøyting av private vegar</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>324</c1><c2>16</c2><c3>0017</c3><c4>Tilskot til private vegar</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>325</c1><c2>16</c2><c3>0018</c3><c4>Private vegar generelt</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>326</c1><c2>16</c2><c3>0019</c3><c4>Private vegar, vegnemnda 1967</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>327</c1><c2>16</c2><c3>0020</c3><c4>Søknader brøytetilskot 1969</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>328</c1><c2>16</c2><c3>0002</c3><c4>Nye vegar med kommunalt sommarvedlikehald</c4><c6>1966</c6><c7>1967</c7><c8>563</c8><c9>563</c9></row>
+  <row><c1>329</c1><c2>17</c2><c3>0001</c3><c4>Brøyting av private vegar 1967/68</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>330</c1><c2>17</c2><c3>0040</c3><c4>Ulykkesforsikring KS, brannvern</c4><c6>1966</c6><c7>1967</c7><c8>872</c8><c9>872</c9></row>
+  <row><c1>331</c1><c2>17</c2><c3>0003</c3><c4>Brøyting av private vegar 1969</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>332</c1><c2>17</c2><c3>0004</c3><c4>Søknad om kufelle</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>333</c1><c2>17</c2><c3>0005</c3><c4>Søknad om snøbrøyting</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>334</c1><c2>17</c2><c3>0006</c3><c4>Ref. rekning</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>335</c1><c2>17</c2><c3>0007</c3><c4>Veg</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>336</c1><c2>17</c2><c3>0008</c3><c4>Tilskot til gardsveg</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>337</c1><c2>17</c2><c3>0009</c3><c4>Veg til Krikane, bru over Lisseelva,</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>338</c1><c2>17</c2><c3>0010</c3><c4>Tilskot til gardsveg</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>339</c1><c2>17</c2><c3>0011</c3><c4>Brøyting av privat veg</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>340</c1><c2>17</c2><c3>0012</c3><c4>Tilskot til anlegg og vedlikehald private vegar</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>341</c1><c2>17</c2><c3>0013</c3><c4>Tilskot til gardsveg</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>342</c1><c2>17</c2><c3>0014</c3><c4>Tilskot til gardsveg</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>343</c1><c2>17</c2><c3>0015</c3><c4>Gardsveg</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>344</c1><c2>17</c2><c3>0016</c3><c4>Gardsveg</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>345</c1><c2>17</c2><c3>0017</c3><c4>Veg</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>346</c1><c2>17</c2><c3>0018</c3><c4>Jordbruksveg på Lid</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>347</c1><c2>17</c2><c3>0019</c3><c4>Brøyting private vegar</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+  <row><c1>348</c1><c2>17</c2><c3>0020</c3><c4>Trafikkregulerande skilt</c4><c6>1966</c6><c7>1967</c7><c8>567</c8><c9>567</c9></row>
+  <row><c1>349</c1><c2>17</c2><c3>0021</c3><c4>Renovasjon -pris,mål</c4><c6>1966</c6><c7>1967</c7><c8>57</c8><c9>570</c9></row>
+  <row><c1>350</c1><c2>17</c2><c3>0022</c3><c4>Tvungen renovasjon frå Klippa til og med Eikrem</c4><c6>1966</c6><c7>1967</c7><c8>570</c8><c9>570</c9></row>
+  <row><c1>351</c1><c2>17</c2><c3>0023</c3><c4>Renovasjon diverse</c4><c6>1966</c6><c7>1967</c7><c8>571</c8><c9>571</c9></row>
+  <row><c1>352</c1><c2>17</c2><c3>0024</c3><c4>Renovasjonsstyret</c4><c6>1966</c6><c7>1967</c7><c8>573</c8><c9>573</c9></row>
+  <row><c1>353</c1><c2>17</c2><c3>0025</c3><c4>Gbr 17/56-57-58-59, tøming av bos</c4><c6>1966</c6><c7>1967</c7><c8>573</c8><c9>573</c9></row>
+  <row><c1>354</c1><c2>17</c2><c3>0026</c3><c4>Renovasjon. Avtale om ikkje brennbart avfall</c4><c6>1966</c6><c7>1967</c7><c8>573.1</c8><c9>573.1</c9></row>
+  <row><c1>355</c1><c2>17</c2><c3>0027</c3><c4>Betaling for bosstativ</c4><c6>1966</c6><c7>1967</c7><c8>573.2</c8><c9>573.2</c9></row>
+  <row><c1>356</c1><c2>17</c2><c3>0028</c3><c4>Årsmelding for teknisk etat 1966</c4><c6>1966</c6><c7>1967</c7><c8>590</c8><c9>590</c9></row>
+  <row><c1>357</c1><c2>17</c2><c3>0029</c3><c4>Handverk og industri</c4><c6>1966</c6><c7>1967</c7><c8>620</c8><c9>620</c9></row>
+  <row><c1>358</c1><c2>17</c2><c3>0030</c3><c4>Olivin i Høydalen</c4><c6>1966</c6><c7>1967</c7><c8>656.0</c8><c9>656.0</c9></row>
+  <row><c1>359</c1><c2>17</c2><c3>0031</c3><c4>Budsjett - rekneskap</c4><c6>1966</c6><c7>1967</c7><c8>800</c8><c9>800</c9></row>
+  <row><c1>360</c1><c2>17</c2><c3>0032</c3><c4>Utviding av byggefelt på Langvatn</c4><c6>1966</c6><c7>1967</c7><c8>831</c8><c9>831</c9></row>
+  <row><c1>361</c1><c2>17</c2><c3>0033</c3><c4>Byggefelt Øvre Engeset</c4><c6>1966</c6><c7>1967</c7><c8>831.1</c8><c9>831.1</c9></row>
+  <row><c1>362</c1><c2>17</c2><c3>0034</c3><c4>Eigedomar planar og anlegg</c4><c6>1966</c6><c7>1967</c7><c8>831</c8><c9>831</c9></row>
+  <row><c1>363</c1><c2>17</c2><c3>0035</c3><c4>Eigedomar planar og anlegg</c4><c6>1966</c6><c7>1967</c7><c8>831</c8><c9>831</c9></row>
+  <row><c1>364</c1><c2>17</c2><c3>0036</c3><c4>Refusjon kloakk</c4><c6>1966</c6><c7>1967</c7><c8>831</c8><c9>831</c9></row>
+  <row><c1>365</c1><c2>17</c2><c3>0037</c3><c4>Eventuelt kjøp av tomt</c4><c6>1966</c6><c7>1967</c7><c8>831</c8><c9>831</c9></row>
+  <row><c1>366</c1><c2>17</c2><c3>0038</c3><c4>L.T.</c4><c6>1966</c6><c7>1967</c7><c8>831</c8><c9>831</c9></row>
+  <row><c1>367</c1><c2>17</c2><c3>0039</c3><c4>Folkeregister</c4><c6>1966</c6><c7>1967</c7><c8>850</c8><c9>850</c9></row>
+  <row><c1>368</c1><c2>17</c2><c3>0002</c3><c4>Brøyting av private vegar 1966/67</c4><c6>1966</c6><c7>1967</c7><c8>565</c8><c9>565</c9></row>
+</table>

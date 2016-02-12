@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table
+  xmlns="http://www.admin.ch/xmlns/siard/1.0/schema0/table1.xsd"
+  xsi:schemaLocation="http://www.admin.ch/xmlns/siard/1.0/schema0/table1.xsd table1.xsd"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row><c1>1</c1><c2>1</c2><c3>Dokument 1</c3><c4>Rådet for trygg trafikk</c4><c5>Merknad dokument 1</c5><c6>objekt</c6><c7>Vedlikehold av Noark 5.txt</c7><c8>TXT</c8><c9>TXT-dokument</c9></row>
+  <row><c1>2</c1><c2>2</c2><c3>Dokument 2</c3><c5>Merknad dokument 2</c5><c6>objekt</c6><c7>utvalg_k2000v01_addml_7.3.XML</c7><c8>XML</c8><c9>XML-dokument</c9></row>
+  <row><c1>3</c1><c2>3</c2><c3>Dokument 3</c3><c4>Brannstyret</c4><c5>Merknad dokument 3</c5><c6>objekt</c6><c7>1.pdf</c7><c8>PDF</c8><c9>PDF-dokument</c9></row>
+  <row><c1>4</c1><c2>4</c2><c3>Dokument 4</c3><c4>Teknisk utval</c4><c5>Merknad dokument 4</c5><c6>objekt</c6><c7>2.pdf</c7><c8>PDF</c8><c9>PDF-dokument</c9></row>
+  <row><c1>5</c1><c2>5</c2><c3>Dokument 5</c3><c4>Møter i vassforyningsnemnda</c4><c5>Merknad dokument 5</c5><c6>objekt</c6><c7>5.pdf</c7><c8>PDF</c8><c9>PDF-dokument</c9></row>
+  <row><c1>6</c1><c2>214</c2><c3>Dokument\u0020</c3><c4>Oppføring av braanngarasje på Fyrde Austefjorden</c4><c5>Merknad dokument 6</c5><c6>objekt</c6><c7>Noark 5v3.1 a5 Eks Arkivuttrekk xml.docx</c7><c8>DOCX</c8><c9>Word 2003-dokument</c9></row>
+  <row><c1>7</c1><c2>259</c2><c3>Dokument\u0020</c3><c4>Branngarasje på Straumshamn</c4><c5>Merknad dokument 7</c5><c6>objekt</c6><c7>Noark-5v3.1_a2_Metadatakatalog _objektsortert.doc</c7><c8>DOC</c8><c9>Word-dokument</c9></row>
+  <row><c1>8</c1><c2>308</c2><c3>Dokument\u0020</c3><c4>Vegar - vedlikehald diverse papir</c4><c5>Merknad dokument 8</c5><c6>objekt</c6><c7>Noark-5v3.1_a4_Eks_Virksomhetsspesifikke_metadata.</c7><c8>DOCX</c8><c9>Word-dokument</c9></row>
+  <row><c1>9</c1><c2>328</c2><c3>Dokument\u0020</c3><c4>Nye vegar med kommunalt sommarvedlikehald</c4><c5>Merknad dokument 9</c5><c6>objekt</c6><c7>Samlet oversikt over krav i Noark5_egenerklæring_3</c7><c8>XLSX</c8><c9>Word-dokument</c9></row>
+</table>

@@ -14,8 +14,8 @@ GRANT USAGE ON *.* TO 'user01'@'localhost';
 DROP USER 'user01'@'localhost';
 
 # Remove (if exist) existing global user
-GRANT USAGE ON *.* TO 'user01';
-DROP USER 'user01';
+GRANT USAGE ON *.* TO 'user01'@'%';
+DROP USER 'user01'@'%';
 
 # localhost with masked password
 CREATE USER 'user01'@'localhost' IDENTIFIED BY PASSWORD '*94BDCEBE19083CE2A1F959FD02F964C7AF4CFC29';
@@ -24,10 +24,10 @@ CREATE USER 'user01'@'localhost' IDENTIFIED BY PASSWORD '*94BDCEBE19083CE2A1F959
 # CREATE USER 'user01'@'localhost' IDENTIFIED BY 'test';
 
 # global with masked password
-CREATE USER 'user01' IDENTIFIED BY PASSWORD '*94BDCEBE19083CE2A1F959FD02F964C7AF4CFC29';
+CREATE USER 'user01'@'%' IDENTIFIED BY PASSWORD '*94BDCEBE19083CE2A1F959FD02F964C7AF4CFC29';
 
 # global with plain password
-# CREATE USER 'user01' IDENTIFIED BY 'test';
+# CREATE USER 'user01'@'%' IDENTIFIED BY 'test';
 
 
 ### Create database ###
@@ -39,7 +39,7 @@ CREATE DATABASE testdb01;
 GRANT ALL PRIVILEGES ON testdb01.* TO 'user01'@'localhost' WITH GRANT OPTION;
 
 # global grant priveleges for user to created database
-GRANT ALL PRIVILEGES ON testdb01.* TO 'user01' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON testdb01.* TO 'user01'@'%' WITH GRANT OPTION;
 
 USE testdb01;
 

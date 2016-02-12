@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="metadata.xsl"?><siardArchive xmlns="http://www.bar.admin.ch/xmlns/siard/1.0/metadata.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://www.bar.admin.ch/xmlns/siard/1.0/metadata.xsd metadata.xsd">
+  <dbname>testdb02_mysql_2016-02-11</dbname>
+  <description>
+    Test Database 02\u000A
+    \u0020Kataloginformasjon fra 2 kommunale arkiv.\u000A
+    6 Tabeller: arkivskaper, arkiv, serie, stykke, mappe, objekt (tom)
+  </description>
+  <archiver>Per Person</archiver>
+  <archiverContact>per.person@test.kommune.no</archiverContact>
+  <dataOwner>Test kommune</dataOwner>
+  <dataOriginTimespan>01.01.1963-31.12.1967</dataOriginTimespan>
+  <producerApplication>SiardEdit 1.78 Swiss Federal Archives, Berne, Switzerland, 2007-2015</producerApplication>
+  <archivalDate>2016-02-11</archivalDate>
+  <messageDigest>MD5D864DF1D991262DB9872D2CEB033E8AD</messageDigest>
+  <clientMachine>IKAMR-B20.ikamr2.local</clientMachine>
+  <databaseProduct>
+    MySQL 5.6.28
+  </databaseProduct>
+  <connection>jdbc:mysql://localhost:3306/testdb02</connection>
+  <databaseUser>user02</databaseUser>
+  <schemas>
+    <schema>
+      <name>testdb02</name>
+      <folder>schema0</folder>
+      <description>
+        Test Database testdb02 schema description.
+      </description>
+      <tables>
+        <table>
+          <name>arkiv</name>
+          <folder>table3</folder>
+          <description>
+            Table arkiv in Test Database testdb02.
+          </description>
+          <columns>
+            <column>
+              <name>arkivID</name>
+              <type>INTEGER</type>
+              <typeOriginal>INT</typeOriginal>
+              <defaultValue>0</defaultValue>
+              <nullable>false</nullable>
+            </column>
+            <column>
+              <name>arkivskaperID</name>
+              <type>INTEGER</type>
+              <typeOriginal>INT</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>depinstID</name>
+              <type>CHARACTER VARYING(4)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>identifikator</name>
+              <type>CHARACTER VARYING(15)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>navn</name>
+              <type>CHARACTER VARYING(255)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>false</nullable>
+              <description>
+                Arkivets navn.
+              </description>
+            </column>
+            <column>
+              <name>innhold</name>
+              <type>CHARACTER VARYING(4000)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>startdato</name>
+              <type>CHARACTER VARYING(8)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>sluttdato</name>
+              <type>CHARACTER VARYING(8)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>arkivkodefra</name>
+              <type>CHARACTER VARYING(12)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>arkivkodetil</name>
+              <type>CHARACTER VARYING(12)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>merknad</name>
+              <type>CHARACTER VARYING(4000)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+          </columns>
+          <primaryKey>
+            <name>PRIMARY</name>
+            <description>
+              arkivID er primærnøkkel.
+            </description>
+            <column>arkivID</column>
+          </primaryKey>
+          <foreignKeys>
+            <foreignKey>
+              <name>arkiv_ibfk_1</name>
+              <referencedSchema>testdb02</referencedSchema>
+              <referencedTable>arkivskaper</referencedTable>
+              <reference>
+                <column>arkivskaperID</column>
+                <referenced>arkivskaperID</referenced>
+              </reference>
+              <description>
+                Foreign keys description here.
+              </description>
+            </foreignKey>
+          </foreignKeys>
+          <candidateKeys>
+            <candidateKey>
+              <name>arkiv</name>
+              <description>
+                Candidate kays columns described here.
+              </description>
+              <column>identifikator</column>
+              <column>depinstID</column>
+            </candidateKey>
+          </candidateKeys>
+          <rows>2</rows>
+        </table>
+        <table>
+          <name>arkivskaper</name>
+          <folder>table4</folder>
+          <description>
+            Table arkivskaper in Test Database testdb02.
+          </description>
+          <columns>
+            <column>
+              <name>arkivskaperID</name>
+              <type>INTEGER</type>
+              <typeOriginal>INT</typeOriginal>
+              <defaultValue>0</defaultValue>
+              <nullable>false</nullable>
+            </column>
+            <column>
+              <name>identifikator</name>
+              <type>CHARACTER VARYING(15)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>navn</name>
+              <type>CHARACTER VARYING(255)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>false</nullable>
+            </column>
+            <column>
+              <name>innhold</name>
+              <type>CHARACTER VARYING(4000)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>merknad</name>
+              <type>CHARACTER VARYING(4000)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+          </columns>
+          <primaryKey>
+            <name>PRIMARY0</name>
+            <column>arkivskaperID</column>
+          </primaryKey>
+          <candidateKeys>
+            <candidateKey>
+              <name>arkivskaper</name>
+              <column>identifikator</column>
+            </candidateKey>
+          </candidateKeys>
+          <rows>2</rows>
+        </table>
+        <table>
+          <name>mappe</name>
+          <folder>table5</folder>
+          <description>
+            Table mappe in Test Database testdb02.
+          </description>
+          <columns>
+            <column>
+              <name>mappeID</name>
+              <type>INTEGER</type>
+              <typeOriginal>INT</typeOriginal>
+              <defaultValue>0</defaultValue>
+              <nullable>false</nullable>
+            </column>
+            <column>
+              <name>stykkeID</name>
+              <type>INTEGER</type>
+              <typeOriginal>INT</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>identifikator</name>
+              <type>CHARACTER VARYING(15)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>navn</name>
+              <type>CHARACTER VARYING(255)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>false</nullable>
+            </column>
+            <column>
+              <name>innhold</name>
+              <type>CHARACTER VARYING(4000)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>startdato</name>
+              <type>CHARACTER VARYING(8)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>sluttdato</name>
+              <type>CHARACTER VARYING(8)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>arkivkodefra</name>
+              <type>CHARACTER VARYING(12)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>arkivkodetil</name>
+              <type>CHARACTER VARYING(12)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>merknad</name>
+              <type>CHARACTER VARYING(4000)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+          </columns>
+          <primaryKey>
+            <name>PRIMARY1</name>
+            <column>mappeID</column>
+          </primaryKey>
+          <foreignKeys>
+            <foreignKey>
+              <name>mappe_ibfk_1</name>
+              <referencedSchema>testdb02</referencedSchema>
+              <referencedTable>stykke</referencedTable>
+              <reference>
+                <column>stykkeID</column>
+                <referenced>stykkeID</referenced>
+              </reference>
+            </foreignKey>
+          </foreignKeys>
+          <candidateKeys>
+            <candidateKey>
+              <name>mappe</name>
+              <column>identifikator</column>
+              <column>mappeID</column>
+            </candidateKey>
+          </candidateKeys>
+          <rows>368</rows>
+        </table>
+        <table>
+          <name>objekt</name>
+          <folder>table1</folder>
+          <description>
+            Table objekt in Test Database testdb02.
+          </description>
+          <columns>
+            <column>
+              <name>objektID</name>
+              <type>INTEGER</type>
+              <typeOriginal>INT</typeOriginal>
+              <defaultValue>0</defaultValue>
+              <nullable>false</nullable>
+            </column>
+            <column>
+              <name>mappeID</name>
+              <type>INTEGER</type>
+              <typeOriginal>INT</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>navn</name>
+              <type>CHARACTER VARYING(255)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>false</nullable>
+            </column>
+            <column>
+              <name>innhold</name>
+              <type>CHARACTER VARYING(4000)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>merknad</name>
+              <type>CHARACTER VARYING(4000)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>filKatalog</name>
+              <type>CHARACTER VARYING(255)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>filNavn</name>
+              <type>CHARACTER VARYING(50)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>filtypeExtention</name>
+              <type>CHARACTER VARYING(12)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>filtypeNavn</name>
+              <type>CHARACTER VARYING(30)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+          </columns>
+          <primaryKey>
+            <name>PRIMARY2</name>
+            <column>objektID</column>
+          </primaryKey>
+          <foreignKeys>
+            <foreignKey>
+              <name>objekt_ibfk_1</name>
+              <referencedSchema>testdb02</referencedSchema>
+              <referencedTable>mappe</referencedTable>
+              <reference>
+                <column>mappeID</column>
+                <referenced>mappeID</referenced>
+              </reference>
+            </foreignKey>
+          </foreignKeys>
+          <rows>0</rows>
+        </table>
+        <table>
+          <name>serie</name>
+          <folder>table2</folder>
+          <description>
+            Table serie in Test Database testdb02.
+          </description>
+          <columns>
+            <column>
+              <name>serieID</name>
+              <type>INTEGER</type>
+              <typeOriginal>INT</typeOriginal>
+              <defaultValue>0</defaultValue>
+              <nullable>false</nullable>
+            </column>
+            <column>
+              <name>arkivID</name>
+              <type>INTEGER</type>
+              <typeOriginal>INT</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>identifikator</name>
+              <type>CHARACTER VARYING(15)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>navn</name>
+              <type>CHARACTER VARYING(255)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>false</nullable>
+            </column>
+            <column>
+              <name>innhold</name>
+              <type>CHARACTER VARYING(4000)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>startdato</name>
+              <type>CHARACTER VARYING(8)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>sluttdato</name>
+              <type>CHARACTER VARYING(8)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>arkivkodefra</name>
+              <type>CHARACTER VARYING(12)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>arkivkodetil</name>
+              <type>CHARACTER VARYING(12)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>merknad</name>
+              <type>CHARACTER VARYING(4000)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+          </columns>
+          <primaryKey>
+            <name>PRIMARY3</name>
+            <column>serieID</column>
+          </primaryKey>
+          <foreignKeys>
+            <foreignKey>
+              <name>serie_ibfk_1</name>
+              <referencedSchema>testdb02</referencedSchema>
+              <referencedTable>arkiv</referencedTable>
+              <reference>
+                <column>arkivID</column>
+                <referenced>arkivID</referenced>
+              </reference>
+            </foreignKey>
+          </foreignKeys>
+          <candidateKeys>
+            <candidateKey>
+              <name>serie</name>
+              <column>identifikator</column>
+              <column>serieID</column>
+            </candidateKey>
+          </candidateKeys>
+          <rows>6</rows>
+        </table>
+        <table>
+          <name>stykke</name>
+          <folder>table0</folder>
+          <description>
+            Table stykke in Test Database testdb02.
+          </description>
+          <columns>
+            <column>
+              <name>stykkeID</name>
+              <type>INTEGER</type>
+              <typeOriginal>INT</typeOriginal>
+              <defaultValue>0</defaultValue>
+              <nullable>false</nullable>
+            </column>
+            <column>
+              <name>serieID</name>
+              <type>INTEGER</type>
+              <typeOriginal>INT</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>identifikator</name>
+              <type>CHARACTER VARYING(15)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>navn</name>
+              <type>CHARACTER VARYING(255)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>false</nullable>
+            </column>
+            <column>
+              <name>innhold</name>
+              <type>CHARACTER VARYING(4000)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>startdato</name>
+              <type>CHARACTER VARYING(8)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>sluttdato</name>
+              <type>CHARACTER VARYING(8)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>arkivkodefra</name>
+              <type>CHARACTER VARYING(12)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>arkivkodetil</name>
+              <type>CHARACTER VARYING(12)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>merknad</name>
+              <type>CHARACTER VARYING(4000)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+          </columns>
+          <primaryKey>
+            <name>PRIMARY4</name>
+            <column>stykkeID</column>
+          </primaryKey>
+          <foreignKeys>
+            <foreignKey>
+              <name>stykke_ibfk_1</name>
+              <referencedSchema>testdb02</referencedSchema>
+              <referencedTable>serie</referencedTable>
+              <reference>
+                <column>serieID</column>
+                <referenced>serieID</referenced>
+              </reference>
+            </foreignKey>
+          </foreignKeys>
+          <candidateKeys>
+            <candidateKey>
+              <name>stykke</name>
+              <column>identifikator</column>
+              <column>stykkeID</column>
+            </candidateKey>
+          </candidateKeys>
+          <rows>127</rows>
+        </table>
+      </tables>
+    </schema>
+  </schemas>
+  <users>
+    <user>
+      <name>USER02</name>
+      <description>
+        user02 from Test Database testdb02.
+      </description>
+    </user>
+  </users>
+</siardArchive>

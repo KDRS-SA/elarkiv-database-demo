@@ -1,0 +1,32 @@
+Noark 4
+
+http://arkivverket.no/arkivverket/Offentleg-forvalting/Noark/Noark-4
+
+Hva er Noark-4
+Noark-4 var gjeldende kravspesifikasjon for elektroniske arkivsystemer i offentlig forvaltning fra juni 1999 fram til Noark 5 ble publisert 4. juli 2008.
+
+Spesifikasjonen angir krav til:
+
+informasjonsinnhold (hvilke opplysninger som skal kunne registreres og gjenfinnes)
+
+datastruktur (utformingen av de enkelte dataelementer og forholdet mellom dem)
+
+funksjonalitet (hvilke funksjoner systemene skal ivareta).
+
+Unntaksvis stilles det også krav til brukergrensesnitt (hvordan systemene skal kommunisere med brukerne), men dette er i all hovedsak overlatt til den enkelte systemutvikler/leverandør. Spesifikasjonen stiller heller ikke krav til hvordan datastrukturen skal implementeres eller til den tekniske systemutforming forøvrig. Dette overlates til dem som skal utvikle systemene.
+
+Et fullstendig elektronisk arkivsystem
+
+Samlet sett spesifiserer Noark-4 et fullstendig elektronisk arkivsystem som kan integreres med elektronisk post og elektronisk saksbehandling. Dette representerer en meget betydelig utvidelse i forhold til tidligere utgaver av Noark-standarden. Men ikke alle virksomheter trenger de mest avanserte funksjonene. De fleste virksomheter vil også trenge tid på å innføre elektroniske funksjoner på områder hvor man i dag bruker papirbasert arkiv og manuelle rutiner.
+
+Noark-4 spesifiserer derfor krav på flere nivåer. Man kan starte på et nivå som er en mindre utvidelse i forhold til eksisterende systemer, og bygge seg gradvis ut til utvidet og eventuelt full funksjonalitet. Dette er relevant både for leverandørenes systemutvikling og for den enkelte virksomhets innføring og bruk av Noark-systemer.
+
+Arkivforskriften legger det juridiske grunnlag for en kontrollert overgang til elektronisk arkiv i den offentlige forvaltning. Noark-4 har gitt nødvendige redskaper for å gjennomføre en slik overgang på en måte som tilfredsstiller funksjonelle og arkivfaglige krav.
+
+Noark-4 er beskrevet som spesifikasjon av et system.
+
+Kravspesifikasjonen har m.a.o. gitt grunnlag for å utvikle selvstendige systemer som ivaretar arkivfunksjonene i offentlige organer. Dersom man har ønsket å integrere arkivsystemet i en større sammenheng, har Noark-4 også kunnet implementeres som et sett av funksjoner eller en modul i dette systemet. Det har imidlertid vært en forutsetning at Noark-funksjonene i slike systemer kan identifiseres entydig, og de spesifiserte kravene har samme gyldighet innenfor rammen av et større system.
+
+Veiledning til Noark-4
+
+Statskonsult ga i 1998 ut en veiledning til Statens generelle kravspesifikasjon og Noark-4 kalt "Innføring av elektronisk saksbehandling."

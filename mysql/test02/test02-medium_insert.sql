@@ -1,4 +1,4 @@
-# test02_insert_small.sql
+# test02-medium_insert.sql
 #
 # MySQL query for inserting content into existing database tables
 # 

@@ -1,0 +1,23 @@
+Forord til internettversjon av Noark-3
+
+http://arkivverket.no/arkivverket/Offentleg-forvalting/Noark/Tidligere-versjoner/Noark-3/Standarden
+
+Avleveringsuttrekk fra Noark-3-systemer
+Enkelte mindre justeringer i avleveringsuttrekket fra Noark-3-systemer er senere fastsatt i Avleveringsbestemmelsene - kapittel VIII i Riksarkivarens forskrift.
+
+Gjeldende bestemmelser for Noark-3-systemer er fastsatt i avleveringsbestemmelsenes vedlegg 2. Justeringene og presiseringene i forhold til spesifikasjonene i Noark-3 er følgende:
+
+1. Uttrekk skal foretas i henhold til spesifikasjonene i Noark-3, kapittel 15.5.1, alternativ 1. Alternativ 2 er ikke lenger gyldig.
+
+2. Mediet ved deponering eller avlevering skal være CD-R, ikke magnetbånd.
+
+3. To rapporter skal avleveres eller deponeres sammen med tabelluttrekket i elektronisk form: Endelig saksordnet utskrift (jf. Noark-3, kapittel 14.3.4) og Endelig kronologisk journalutskrift (jf. Noark-3, kapittel 14.3.1). Etter den siste revisjonen av Riksarkivarens avleveringsbestemmelser skal rapportene overføres i dokumentformat, enten som ren tekst (ISO 8859), som PDF-dokumenter eller som XML-dokumenter med vedlagt DTD.
+
+4. Noark-3-spesifikasjonene fra 1994 krever ikke at journalsystemets arkivnøkkel skal inngå i avleveringsuttrekket, men dette er likevel sterkt ønskelig. Arkivnøkkeltabellen bør da ha følgende format: Arkivkode på fast 16 posisjoner og Gruppetekst (kodeteksten) på fast 255 posisjoner. Det skal ikke brukes postskille.
+
+5. Avleveringsliste (jf. Noark-3, kapittel 14.3.2) skal tas ut i elektronisk form når en arkivperiode er avsluttet, og følge det papirbaserte arkivet når dette avleveres på ordinær måte. Avleveringsliste skal overføres i dokumentformat etter formatkravene i avleveringsbestemmelsene § 5-3 eller i XML-format med vedlagt DTD.
+
+Bruk av konsulentbistand ved fremstilling av Noark-3-uttrekk
+Uttrekk fra Noark-3-systemer som er mottatt av Riksarkivet for deponering, har hyppig inneholdt formateringsfeil, og gjort det nødvendig å kreve ny fremstilling av uttrekk. Test av prøve på avleveringsuttrekk som ledd i (type)godkjenningen av Noark-systemer ble først innført av Riksarkivaren med Noark-4 i 1999. Også avleveringsformatet for Noark-3-systemer er imidlertid tilstrekkelig presist definert til å unngå feil. Men Noark-3-systemene mangler i større eller mindre grad ferdig tilrettelagte funksjoner for produksjon av avleveringsuttrekk. Forvaltningsorganene bruker gjennomgående innleide konsulenter for å fremstille slike uttrekk på individuell basis. En medvirkende årsak til feil har vist seg å være at konsulenter fra samme Noark-leverandør utfører dette arbeidet på ulike måter.
+
+Riksarkivaren vil på denne bakgrunn anbefale at avtaler om slik konsulentbistand inngås med klausul om reklamasjon når uttrekket er feilformatert iht. spesifikasjonene i Noark-3 og avleveringsbestemmelsene.

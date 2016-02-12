@@ -8,4 +8,4 @@
 USE testdb01;
 UPDATE testtabell
 SET beskrivelse = CONCAT(tittel, ' ', arkivkodefra, '-', arkivkodetil)
-WHERE ID < 200;
+WHERE ID < 5;

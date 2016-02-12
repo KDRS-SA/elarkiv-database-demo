@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="metadata.xsl"?><siardArchive xmlns="http://www.bar.admin.ch/xmlns/siard/1.0/metadata.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://www.bar.admin.ch/xmlns/siard/1.0/metadata.xsd metadata.xsd">
+  <dbname>testdb01_mysql_2016-02-11_no-extra-metadata</dbname>
+  <description>
+    Test Database 01\u000A
+    1 single table: testtabell\u000A
+    No metadata added to the database element except this first opening
+    \u0020page including metadata fields for this field only:\u000A
+    "Database description".
+  </description>
+  <dataOwner>(...)</dataOwner>
+  <dataOriginTimespan>(...)</dataOriginTimespan>
+  <producerApplication>SiardEdit 1.82 Swiss Federal Archives, Berne, Switzerland, 2007-2015</producerApplication>
+  <archivalDate>2016-02-11</archivalDate>
+  <messageDigest>MD5DB0B43B234044E688BE7F7B4B78509C2</messageDigest>
+  <clientMachine>IKAMR-B20.ikamr2.local</clientMachine>
+  <databaseProduct>
+    MySQL 5.6.28
+  </databaseProduct>
+  <connection>jdbc:mysql://localhost/testdb01</connection>
+  <databaseUser>user01</databaseUser>
+  <schemas>
+    <schema>
+      <name>testdb01</name>
+      <folder>schema0</folder>
+      <tables>
+        <table>
+          <name>testtabell</name>
+          <folder>table0</folder>
+          <description/>
+          <columns>
+            <column>
+              <name>id</name>
+              <type>INTEGER</type>
+              <typeOriginal>INT</typeOriginal>
+              <defaultValue>0</defaultValue>
+              <nullable>false</nullable>
+            </column>
+            <column>
+              <name>tittel</name>
+              <type>CHARACTER VARYING(100)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>false</nullable>
+            </column>
+            <column>
+              <name>beskrivelse</name>
+              <type>CHARACTER VARYING(255)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>arkivkodefra</name>
+              <type>CHARACTER VARYING(20)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+            <column>
+              <name>arkivkodetil</name>
+              <type>CHARACTER VARYING(20)</type>
+              <typeOriginal>VARCHAR</typeOriginal>
+              <nullable>true</nullable>
+            </column>
+          </columns>
+          <primaryKey>
+            <name>PRIMARY</name>
+            <column>id</column>
+          </primaryKey>
+          <rows>6</rows>
+        </table>
+      </tables>
+    </schema>
+  </schemas>
+  <users>
+    <user>
+      <name>USER01</name>
+    </user>
+  </users>
+</siardArchive>
